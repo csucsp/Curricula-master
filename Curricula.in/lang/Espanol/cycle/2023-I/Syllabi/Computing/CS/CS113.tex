@@ -1,0 +1,149 @@
+\begin{syllabus}
+
+\course{CS1103. Programación Orientada a Objetos II}{Obligatorio}{CS1103}
+% Source file: ../Curricula.in/lang/Espanol/cycle/2020-I/Syllabi/Computing/CS/CS113.tex
+
+\begin{justification}
+Este es el tercer curso en la secuencia de los cursos introductorios a la informática. En este curso se pretende cubrir los
+conceptos señalados por la Computing Curricula IEEE(c)-ACM 2001, bajo el enfoque functional-first.
+El paradigma orientado a objetos nos permite combatir la complejidad haciendo modelos a partir de abstracciones
+de los elementos del problema y utilizando técnicas como encapsulamiento, modularidad, polimorfismo y herencia. El
+dominio de estos temas permitirá que los participantes puedan dar soluciones computacionales a problemas de diseño
+sencillos del mundo real.
+\end{justification}
+
+\begin{goals}
+\item Introducir al alumno a los fundamentos del paradigma de orientación a objetos, permitiendo asimilar los conceptos necesarios para desarrollar un sistema de información
+\end{goals}
+
+
+
+\begin{unit}{Introducción a Punteros en C/C++}{}{Nakariakov2013, stroustrup2013 , Reese2013, Toppo2013}{5}{a,b,1}
+\begin{topics}
+	\item Declaración de punteros.
+	\item Trabajo con punteros:
+	\subitem Referenciación.
+	\subitem Desreferenciación.
+	\item Punteros tipados, aritmética de punteros, punteros void.
+	\item Punteros a punteros.
+	\item Punteros como argumentos de una función-llamada por referencia.
+\end{topics}
+
+\begin{learningoutcomes}
+	\item Introducir en el manejo de punteros, sus operadores y su interacción en la memoria.[\Usage]
+	\item Demostrar mediante ejemplos los diferentes usos de los operadores con punteros.[\Usage]
+	\item Demostrar mediante ejemplos el uso de aritmética de punteros. [\Usage]
+	\item Demostrar mediante ejemplos, las diferentes llamadas a funciones y el uso de punteros. [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\PLObjectOrientedProgramming}{}{stroustrup13}{7}{a,b}
+\begin{topics}
+	\item \PLObjectOrientedProgrammingTopicObject
+	\item \PLObjectOrientedProgrammingTopicDefinition
+	\item \PLObjectOrientedProgrammingTopicSubclasses
+	\item \PLObjectOrientedProgrammingTopicDynamic
+	\item \PLObjectOrientedProgrammingTopicSubtyping
+	\item \PLObjectOrientedProgrammingTopicObjectOriented
+	\item \PLObjectOrientedProgrammingTopicUsing
+\end{topics}
+
+\begin{learningoutcomes}
+	\item \PLObjectOrientedProgrammingLODesignAndClass [\Usage]
+	\item \PLObjectOrientedProgrammingLOUseSubclassing [\Usage]
+	\item \PLObjectOrientedProgrammingLOCorrectly [\Usage]
+	\item \PLObjectOrientedProgrammingLOCompareAndThe [\Usage]
+	\item \PLObjectOrientedProgrammingLOExplainTheObject [\Usage] 
+	\item \PLObjectOrientedProgrammingLOUseObject [\Usage]
+	\item \PLObjectOrientedProgrammingLODefineAndAnd [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Manejo de Punteros con arrays}{}{Nakariakov2013, stroustrup2013 , Reese2013, Toppo2013 }{5}{a,b,d,1,3}
+\begin{topics}
+	\item Arrays como argumentos de una función.
+	\item Arrays de caracteres y punteros.
+	\item Punteros y Arrays de 2 dimensiones.
+	\item Punteros y arrays multidimensionales.
+\end{topics}
+
+\begin{learningoutcomes}
+	\item Demostrar el uso de punteros con diferentes tipos de Arrays. [\Usage]
+	\item Demostrar la disposición de un array en la memoria y como se manipula punteros dentro de esos espacios de memoria. [\Usage]
+	\item Demostrar el uso de aritmética de punteros y arrays.[\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Punteros y memoria dinámica}{}{Nakariakov2013, stroustrup2013 , Reese2013, Toppo2013}{3}{a,b,1}
+\begin{topics}
+	\item Punteros y memoria dinámica - stack vs heap.
+	\item Alocación de memoria dinámica en C - malloc, calloc, realloc, free.
+	\item Punteros como retorno de una función en C/C++.
+	\item Punteros a funciones en C/C++.
+	\item Punteros a funciones y callback.
+	\item Memory leak en C/C++.
+\end{topics}
+
+\begin{learningoutcomes}
+	\item Mostrar la estructura de la memoria dentro de un programa y comprender como es que el compilador dispone elementos en el stack y en el heap.[\Usage]
+	\item Demostrar el uso de las funciones y operadores de asignación de desasignación de memoria dinámica.[\Usage]
+	\item Comprender las implicancias de retornar punteros desde funciones. [\Usage]
+	\item Utilizar punteros a funciones como parámetros. [\Usage]
+	\item Comprender la implicancia de uso de memoria dinámica y el memory leak. [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Punteros y clases}{}{Nakariakov2013, stroustrup2013 , Reese2013, Toppo2013}{5}{a,b,1}
+\begin{topics}
+	\item Punteros a miembros clase - atributos.
+	\item Punteros a miembros clase - métodos y llamadas a punteros a métodos.
+	\item Punteros a miembros clase - métodos static y llamadas a punteros a métodos static.
+	\item Punteros a clases - ejemplo con manejo de lista enlazada.
+\end{topics}
+
+\begin{learningoutcomes}
+	\item Comprender el uso de punteros a diferentes elementos de una clase. [\Usage]
+	\item Comprender el uso de punteros a miembros estáticos de una clase. [\Usage]
+	\item Introducir en la estructura nodo y su uso en una estructura de datos simple. [\Usage]
+	\item Introducir a las estructura de datos, mostrando una implementación simple de listas enlazadas.[\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Functores}{}{Nakariakov2013, stroustrup2013 , Reese2013, Toppo2013}{3}{a,b,d,1,3}
+\begin{topics}
+	\item Definición de functores.
+	\item Functores y templates.
+	\item Paso de functores a funciones usando parámetros.
+	\item Paso de functores a funciones usando templates.
+	\item Paso de functores a clases usando parámetros.
+	\item Paso de functores a clases usando templates.
+	\item Ejemplos y aplicaciones.
+\end{topics}
+
+\begin{learningoutcomes}
+	
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\PLEventDrivenandReactiveProgramming}{}{stroustrup2013,Williams11}{2}{a,b}
+\begin{topics}
+	\item \PLEventDrivenandReactiveProgrammingTopicEvents
+	\item \PLEventDrivenandReactiveProgrammingTopicCanonical
+	\item \PLEventDrivenandReactiveProgrammingTopicUsingA
+	\item \PLEventDrivenandReactiveProgrammingTopicExternally
+	\item \PLEventDrivenandReactiveProgrammingTopicSeparation
+\end{topics}\item Introducción a los functores. [\Usage] 
+	
+\begin{learningoutcomes}
+	\item Uso de functores como parámetros a funciones y clases.  [\Usage]
+	\item Uso de functores en funciones y clases a través de templates. [\Usage]
+
+\end{learningoutcomes}
+\end{unit}
+
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS113}
+\end{coursebibliography}
+
+\end{syllabus}

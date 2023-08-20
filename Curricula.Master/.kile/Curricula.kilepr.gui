@@ -1,0 +1,734 @@
+[General]
+kile_livePreviewEnabled=false
+kile_livePreviewStatusUserSpecified=true
+kile_livePreviewTool=LivePreview-PDFLaTeX
+lastDocument=compile1institucion.sh
+
+[document-settings,item:../Curricula.in/All.tex/preamble.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:../Curricula.in/config/all.config]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Logtalk
+Indentation Mode=normal
+Mode=Logtalk
+
+[document-settings,item:../Curricula.in/config/colors.config]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Logtalk
+Indentation Mode=normal
+Mode=Logtalk
+
+[document-settings,item:../Curricula.in/country/Peru/Computing/CS/CS.tex/Main.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:../Curricula.in/country/Peru/Computing/CS/UCSP/cycle/2015-1/Plan2010/distribution.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=normal
+Mode=
+
+[document-settings,item:../Curricula.in/country/Peru/Computing/CS/UCSP/cycle/2015-1/faculty.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=normal
+Mode=
+
+[document-settings,item:../Curricula.in/country/Peru/Computing/CS/UCSP/institution-info.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.in/country/Peru/country.config]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Logtalk
+Indentation Mode=normal
+Mode=Logtalk
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.config/CS-All.config]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Logtalk
+Indentation Mode=normal
+Mode=Logtalk
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.config/CS.config]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Logtalk
+Indentation Mode=normal
+Mode=Logtalk
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.sty/bok-macros-V0.sty]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.sty/bok-macros.sty]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.tex/BodyOfKnowledge.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.tex/CS2016-dependencies.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.tex/GeneralInfo.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:../Curricula.in/lang/Espanol/CS.tex/chap-introduction.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.in/lang/Espanol/Computing.config/Computing.config]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Logtalk
+Indentation Mode=normal
+Mode=Logtalk
+
+[document-settings,item:../Curricula.in/lang/Espanol/Computing.tex/Computing-poster.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.in/lang/Espanol/dictionary.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
+[document-settings,item:../Curricula.out/Peru/CS-UCSP/cycle/2016-1/Plan2016/tex/BodyOfKnowledge-Body.tex]
+Bookmarks=
+Encoding=ISO-8859-15
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.out/Peru/CS-UCSP/cycle/2016-1/Plan2016/tex/equivalences.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:../Curricula.out/tex/current-institution.tex]
+Bookmarks=
+Encoding=ISO-8859-15
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:Documentacion/packages needed to run.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
+[document-settings,item:compile1institucion.sh]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=Bash
+Mode Set By User=false
+
+[document-settings,item:curricula-main.tex]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+ReadWrite=true
+
+[document-settings,item:p.sh]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+
+[document-settings,item:scripts/Lib/Common.pm]
+Bookmarks=1876,2952
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=
+Mode=Perl
+Mode Set By User=false
+ReadWrite=true
+
+[document-settings,item:scripts/Lib/GenSyllabi.pm]
+Bookmarks=356,968,498,88
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Perl
+Mode Set By User=false
+ReadWrite=true
+
+[document-settings,item:scripts/Lib/GeneralInfo.pm]
+Bookmarks=1001,2139,877,199
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Perl
+Mode Set By User=false
+ReadWrite=true
+
+[document-settings,item:scripts/Lib/Util.pm]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Perl
+Mode Set By User=false
+
+[document-settings,item:scripts/clean.sh]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Indentation Mode=normal
+Mode=Bash
+
+[document-settings,item:scripts/gen-faculty-info.pl]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Perl
+Indentation Mode=normal
+Mode=Perl
+
+[document-settings,item:scripts/gen-html-main.pl]
+Bookmarks=49,85,138
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Perl
+Mode Set By User=false
+ReadWrite=true
+
+[document-settings,item:scripts/gen-scripts.pl]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Perl
+Mode Set By User=false
+
+[document-settings,item:scripts/process-bok.pl]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Perl
+Indentation Mode=normal
+Mode=Perl
+
+[document-settings,item:scripts/process-curricula.pl]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=Perl
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Perl
+Mode Set By User=false
+ReadWrite=true
+
+[document-settings,item:scripts/update-analytic-info.pl]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Perl
+Indentation Mode=normal
+Mode=Perl
+
+[document-settings,item:todo.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=normal
+Mode=
+
+[document-settings,item:unified-curricula-main.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[item:../Curricula.in/All.tex/preamble.tex]
+open=false
+order=12
+
+[item:../Curricula.in/config/all.config]
+open=false
+order=13
+
+[item:../Curricula.in/config/colors.config]
+open=false
+order=12
+
+[item:../Curricula.in/country/Peru/Computing/CS/CS.tex/Main.tex]
+open=true
+order=6
+
+[item:../Curricula.in/country/Peru/Computing/CS/UCSP/cycle/2015-1/Plan2010/distribution.txt]
+open=false
+order=0
+
+[item:../Curricula.in/country/Peru/Computing/CS/UCSP/cycle/2015-1/faculty.txt]
+open=false
+order=5
+
+[item:../Curricula.in/country/Peru/Computing/CS/UCSP/institution-info.tex]
+open=false
+order=1
+
+[item:../Curricula.in/country/Peru/country.config]
+open=false
+order=18
+
+[item:../Curricula.in/lang/Espanol/CS.config/CS-All.config]
+open=false
+order=13
+
+[item:../Curricula.in/lang/Espanol/CS.config/CS.config]
+open=false
+order=10
+
+[item:../Curricula.in/lang/Espanol/CS.sty/bok-macros-V0.sty]
+open=false
+order=5
+
+[item:../Curricula.in/lang/Espanol/CS.sty/bok-macros.sty]
+open=false
+order=9
+
+[item:../Curricula.in/lang/Espanol/CS.tex/BodyOfKnowledge.tex]
+open=false
+order=9
+
+[item:../Curricula.in/lang/Espanol/CS.tex/CS2016-dependencies.tex]
+open=true
+order=12
+
+[item:../Curricula.in/lang/Espanol/CS.tex/GeneralInfo.tex]
+open=true
+order=7
+
+[item:../Curricula.in/lang/Espanol/CS.tex/chap-introduction.tex]
+open=false
+order=9
+
+[item:../Curricula.in/lang/Espanol/Computing.config/Computing.config]
+open=false
+order=16
+
+[item:../Curricula.in/lang/Espanol/Computing.tex/Computing-poster.tex]
+open=false
+order=4
+
+[item:../Curricula.in/lang/Espanol/dictionary.txt]
+open=false
+order=1
+
+[item:../Curricula.out/Peru/CS-UCSP/cycle/2016-1/Plan2016/tex/BodyOfKnowledge-Body.tex]
+open=false
+order=8
+
+[item:../Curricula.out/Peru/CS-UCSP/cycle/2016-1/Plan2016/tex/equivalences.tex]
+open=false
+order=1
+
+[item:../Curricula.out/tex/current-institution.tex]
+open=false
+order=12
+
+[item:Documentacion/packages needed to run.txt]
+open=true
+order=11
+
+[item:compile1institucion.sh]
+open=true
+order=10
+
+[item:curricula-main.tex]
+open=true
+order=8
+
+[item:p.sh]
+open=false
+order=2
+
+[item:scripts/Lib/Common.pm]
+open=true
+order=3
+
+[item:scripts/Lib/GenSyllabi.pm]
+open=true
+order=2
+
+[item:scripts/Lib/GeneralInfo.pm]
+open=true
+order=1
+
+[item:scripts/Lib/Util.pm]
+open=true
+order=9
+
+[item:scripts/clean.sh]
+open=false
+order=6
+
+[item:scripts/gen-faculty-info.pl]
+open=false
+order=3
+
+[item:scripts/gen-html-main.pl]
+open=true
+order=4
+
+[item:scripts/gen-scripts.pl]
+open=true
+order=0
+
+[item:scripts/process-bok.pl]
+open=false
+order=10
+
+[item:scripts/process-curricula.pl]
+open=true
+order=5
+
+[item:scripts/update-analytic-info.pl]
+open=false
+order=-1
+
+[item:todo.txt]
+open=false
+order=5
+
+[item:unified-curricula-main.tex]
+open=false
+order=6
+
+[view-settings,view=0,item:../Curricula.in/All.tex/preamble.tex]
+CursorColumn=25
+CursorLine=3
+JumpList=
+TextFolding=[]
+ViMarks=.,3,30,[,3,31,],3,30
+
+[view-settings,view=0,item:../Curricula.in/config/all.config]
+CursorColumn=8
+CursorLine=26
+JumpList=
+ViMarks=.,26,9,[,26,9,],26,9
+
+[view-settings,view=0,item:../Curricula.in/config/colors.config]
+CursorColumn=17
+CursorLine=35
+JumpList=
+ViMarks=.,35,17,[,35,17,],35,17
+
+[view-settings,view=0,item:../Curricula.in/country/Peru/Computing/CS/CS.tex/Main.tex]
+CursorColumn=21
+CursorLine=42
+JumpList=
+TextFolding=[]
+ViMarks=.,44,38,[,44,38,],44,38
+
+[view-settings,view=0,item:../Curricula.in/country/Peru/Computing/CS/UCSP/cycle/2015-1/Plan2010/distribution.txt]
+CursorColumn=5
+CursorLine=5
+JumpList=
+ViMarks=.,0,0,[,1,0,],-1,-1
+
+[view-settings,view=0,item:../Curricula.in/country/Peru/Computing/CS/UCSP/cycle/2015-1/faculty.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1
+
+[view-settings,view=0,item:../Curricula.in/country/Peru/Computing/CS/UCSP/institution-info.tex]
+CursorColumn=23
+CursorLine=16
+JumpList=
+ViMarks=.,42,17,[,42,17,],42,17
+
+[view-settings,view=0,item:../Curricula.in/country/Peru/country.config]
+CursorColumn=114
+CursorLine=0
+JumpList=
+ViMarks=.,0,114,[,0,114,],0,114
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.config/CS-All.config]
+CursorColumn=48
+CursorLine=0
+JumpList=
+ViMarks=.,0,47,[,0,45,],0,47
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.config/CS.config]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.sty/bok-macros-V0.sty]
+CursorColumn=177
+CursorLine=612
+JumpList=
+ViMarks=.,612,97,[,612,97,],612,176
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.sty/bok-macros.sty]
+CursorColumn=0
+CursorLine=445
+JumpList=
+ViMarks=.,0,0,[,0,0,],-1,-1,a,-1,-1
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.tex/BodyOfKnowledge.tex]
+CursorColumn=20
+CursorLine=2
+JumpList=
+ViMarks=.,2,19,[,2,19,],2,19
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.tex/CS2016-dependencies.tex]
+CursorColumn=126
+CursorLine=273
+JumpList=
+TextFolding=[]
+ViMarks=.,273,0,[,273,0,],273,0,a,273,126
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.tex/GeneralInfo.tex]
+CursorColumn=24
+CursorLine=4
+JumpList=
+TextFolding=[]
+ViMarks=.,39,0,[,39,0,],39,0
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/CS.tex/chap-introduction.tex]
+CursorColumn=19
+CursorLine=0
+JumpList=
+ViMarks=.,1,9,[,1,9,],1,9
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/Computing.config/Computing.config]
+CursorColumn=54
+CursorLine=1
+JumpList=
+ViMarks=.,1,53,[,1,51,],1,53
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/Computing.tex/Computing-poster.tex]
+CursorColumn=33
+CursorLine=85
+JumpList=
+ViMarks=.,85,32,[,85,22,],85,32
+
+[view-settings,view=0,item:../Curricula.in/lang/Espanol/dictionary.txt]
+CursorColumn=24
+CursorLine=61
+JumpList=
+TextFolding=[]
+ViMarks=.,240,14,[,240,3,],240,14
+
+[view-settings,view=0,item:../Curricula.out/Peru/CS-UCSP/cycle/2016-1/Plan2016/tex/BodyOfKnowledge-Body.tex]
+CursorColumn=70
+CursorLine=12
+JumpList=
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1
+
+[view-settings,view=0,item:../Curricula.out/Peru/CS-UCSP/cycle/2016-1/Plan2016/tex/equivalences.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1
+
+[view-settings,view=0,item:../Curricula.out/tex/current-institution.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:Documentacion/packages needed to run.txt]
+CursorColumn=0
+CursorLine=24
+JumpList=
+TextFolding=[]
+ViMarks=.,11,0,[,11,0,],11,0
+
+[view-settings,view=0,item:compile1institucion.sh]
+CursorColumn=76
+CursorLine=131
+JumpList=
+TextFolding=[]
+ViMarks=.,142,0,[,142,0,],142,0
+
+[view-settings,view=0,item:curricula-main.tex]
+CursorColumn=0
+CursorLine=3
+JumpList=
+TextFolding=[]
+ViMarks=.,9,0,[,9,0,],9,0
+
+[view-settings,view=0,item:p.sh]
+CursorColumn=0
+CursorLine=60
+JumpList=
+TextFolding=[]
+ViMarks=.,74,24,[,74,24,],74,24
+
+[view-settings,view=0,item:scripts/Lib/Common.pm]
+CursorColumn=48
+CursorLine=2980
+JumpList=
+TextFolding=[]
+ViMarks=.,2980,48,[,2980,48,],2980,48,a,-1,-1,b,-1,-1,c,-1,-1,d,-1,-1,e,-1,-1,f,-1,-1,g,-1,-1,h,-1,-1,i,2952,0,l,1876,0
+
+[view-settings,view=0,item:scripts/Lib/GenSyllabi.pm]
+CursorColumn=82
+CursorLine=891
+JumpList=
+TextFolding=[]
+ViMarks=.,891,62,[,891,56,],891,62,a,498,0,b,88,0,c,968,0,d,356,8
+
+[view-settings,view=0,item:scripts/Lib/GeneralInfo.pm]
+CursorColumn=39
+CursorLine=1037
+JumpList=
+TextFolding=[]
+ViMarks=.,774,0,[,774,0,],774,1,a,-1,-1,b,-1,-1,c,877,0,d,1001,0,e,2139,26,f,199,0
+
+[view-settings,view=0,item:scripts/Lib/Util.pm]
+CursorColumn=25
+CursorLine=146
+JumpList=
+TextFolding=[]
+ViMarks=.,4,0,[,4,0,],4,1
+
+[view-settings,view=0,item:scripts/clean.sh]
+CursorColumn=0
+CursorLine=4
+JumpList=
+ViMarks=.,3,0,[,3,0,],-1,-1
+
+[view-settings,view=0,item:scripts/gen-faculty-info.pl]
+CursorColumn=25
+CursorLine=312
+JumpList=
+ViMarks=.,300,0,[,300,0,],300,0
+
+[view-settings,view=0,item:scripts/gen-html-main.pl]
+CursorColumn=18
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=.,0,18,[,0,18,],0,18,a,49,0,b,49,27,c,138,0,d,85,0
+
+[view-settings,view=0,item:scripts/gen-scripts.pl]
+CursorColumn=18
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=.,0,18,[,0,18,],0,18
+
+[view-settings,view=0,item:scripts/process-bok.pl]
+CursorColumn=1
+CursorLine=15
+JumpList=
+ViMarks=.,11,18,[,11,18,],11,18,a,6,90,b,6,90,c,6,90,d,7,0,e,7,0
+
+[view-settings,view=0,item:scripts/process-curricula.pl]
+CursorColumn=49
+CursorLine=52
+JumpList=
+TextFolding=[]
+ViMarks=.,54,47,[,54,47,],54,51
+
+[view-settings,view=0,item:scripts/update-analytic-info.pl]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:todo.txt]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:unified-curricula-main.tex]
+CursorColumn=18
+CursorLine=2011
+JumpList=
+ViMarks=.,0,0,[,0,0,],-1,-1

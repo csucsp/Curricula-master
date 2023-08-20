@@ -1,0 +1,160 @@
+\begin{syllabus}
+
+\course{CS3P3. Internet de las Cosas}{Obligatorio}{CS3P3}
+
+\begin{justification}
+The last decade has an explosive growth in multiprocessor computing, including multi-core processors and distributed data centers. As a result, parallel and distributed computing has evolved from a broadly elective subject to be one of the major components in mesh studies in undergraduate computer science.
+Both parallel computing and distribution involve the simultaneous execution of multiple processes on different devices that change position.
+\end{justification}
+
+\begin{goals}
+\item That the student is able to create parallel applications of medium complexity by efficiently taking advantage of different mobile devices.
+% \item That the student is able to use sequential and parallel applications.
+% \item That the student is able to convert, when the situation warrants, sequential applications to parallel efficiently
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{a}{2} 
+    \item \ShowOutcome{b}{2} %Analyze problems and identify and define the appropriate computational requirements for their solution
+    \item \ShowOutcome{i}{2} % Use current techniques and tools necessary for the practice of computing.
+    \item \ShowOutcome{j}{2} % Apply the mathematical basis, principles of algorithms and the theory of Computer Science in the modeling and design of computational systems in such a way as to demonstrate understanding of the equilibrium points involved in the chosen option.
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C2}{a} % Ability to have a critical and creative perspective to identify and solve problems using computational thinking
+    \item \ShowCompetence{C4}{b}
+    \item \ShowCompetence{C16}{i} % Ability to identify advanced computing topics and understanding the boundaries of the discipline.
+    \item \ShowCompetence{CS2}{i} % Identify and analyze the criteria and specifications appropriate to the specific problems, and plan strategies for their solution.
+    \item \ShowCompetence{CS3}{j} % Analyze the degree to which a computer-based system complies with he defined criteria for its current and future development.
+  \item \ShowCompetence{CS6}{j} % Evaluate the systems in terms of quality attributes in general and the possible advantages and disadvantages that arise in the given problem.
+\end{competences}
+
+\begin{unit}{\PDParallelismFundamentals}{}{peterpacheco,matloff,quinn}{18}{C2}
+\begin{topics}%
+    \item \PDParallelismFundamentalsTopicMultiple
+    \item \PDParallelismFundamentalsTopicGoals
+    \item \PDParallelismFundamentalsTopicParallelism
+    \item \PDParallelismFundamentalsTopicProgramming
+\end{topics}    
+\begin{learningoutcomes}%
+    \item \PDParallelismFundamentalsLODistinguishUsing~[\Familiarity] %
+    \item \PDParallelismFundamentalsLODistinguishMultiple~[\Familiarity] %
+    \item \PDParallelismFundamentalsLODistinguishData~[\Familiarity] %
+\end{learningoutcomes}%
+\end{unit}
+
+\begin{unit}{\PDParallelArchitecture}{}{peterpacheco,wenmei,sanders}{12}{C4}
+\begin{topics}%
+    \item \PDParallelArchitectureTopicMulticore
+    \item \PDParallelArchitectureTopicShared
+    \item \PDParallelArchitectureTopicSymmetric
+    \item \PDParallelArchitectureTopicSimd
+    \item \PDParallelArchitectureTopicGpu
+    \item \PDParallelArchitectureTopicFlynns
+    \item \PDParallelArchitectureTopicInstruction
+    \item \PDParallelArchitectureTopicMemory
+    \item \PDParallelArchitectureTopicTopologies
+\end{topics}
+\begin{learningoutcomes}%
+    \item \PDParallelArchitectureLOExplainTheShared~[\Assessment] %
+    \item \PDParallelArchitectureLODescribeTheAndKey~[\Assessment] %
+    \item \PDParallelArchitectureLOCharacterizeTheTasks~[\Usage] %
+    \item \PDParallelArchitectureLODescribeTheLimitationsVs~[\Usage] %
+    \item \PDParallelArchitectureLOExplainTheEach~[\Usage] %
+    \item \PDParallelArchitectureLODescribeTheMaintaining~[\Familiarity] %
+    \item \PDParallelArchitectureLODescribeTheChallenges~[\Familiarity] %
+\end{learningoutcomes}%
+\end{unit}
+
+\begin{unit}{\PDParallelDecomposition}{}{peterpacheco,matloff,quinn}{18}{C16}
+\begin{topics}%
+    \item \PDParallelDecompositionTopicNeed
+    \item \PDParallelDecompositionTopicIndependence
+    \item \PDParallelDecompositionTopicBasic
+    \item \PDParallelDecompositionTopicTask
+    \item \PDParallelDecompositionTopicData
+    \item \PDParallelDecompositionTopicActors
+\end{topics}
+\begin{learningoutcomes}%
+    \item \PDParallelDecompositionLOExplainWhyNecessary~[\Usage] %
+    \item \PDParallelDecompositionLOIdentifyOpportunities~[\Familiarity] %
+    \item \PDParallelDecompositionLOWriteAScalable~[\Usage] %
+    \item \PDParallelDecompositionLOParallelize~[\Usage] %
+    \item \PDParallelDecompositionLOParallelizeAn~[\Usage] %
+    \item \PDParallelDecompositionLOWriteAActors~[\Usage] %
+\end{learningoutcomes}%
+\end{unit}
+
+\begin{unit}{\PDCommunicationandCoordination}{}{peterpacheco,matloff,quinn}{18}{C16}
+\begin{topics}%
+    \item \PDCommunicationandCoordinationTopicShared
+    \item \PDCommunicationandCoordinationTopicConsistency
+    \item \PDCommunicationandCoordinationTopicMessage
+    \item \PDCommunicationandCoordinationTopicAtomicity
+    \item \PDCommunicationandCoordinationTopicConsensus
+    \item \PDCommunicationandCoordinationTopicConditional
+\end{topics}
+\begin{learningoutcomes}%
+    \item \PDCommunicationandCoordinationLOUseMutual~[\Usage] %
+    \item \PDCommunicationandCoordinationLOGiveAn~[\Familiarity] %
+    \item \PDCommunicationandCoordinationLOGiveAnA~[\Usage] %
+    \item \PDCommunicationandCoordinationLOExplainWhenMulticast~[\Familiarity] %
+    \item \PDCommunicationandCoordinationLOWriteACorrectly~[\Usage] %
+    \item \PDCommunicationandCoordinationLOGiveAnAWhich~[\Familiarity] %
+    \item \PDCommunicationandCoordinationLOUseSemaphores~[\Usage] %
+\end{learningoutcomes}%
+\end{unit}
+
+\begin{unit}{\PDParallelAlgorithmsAnalysisandProgramming}{}{matloff,quinn}{18}{CS2}
+\begin{topics}%
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicCritical
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicSpeed
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicNaturally
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicParallel
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicParallelGraph
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicParallelMatrix
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicProducer
+    \item \PDParallelAlgorithmsAnalysisandProgrammingTopicExamples
+\end{topics}
+\begin{learningoutcomes}%
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLODefineCritical~[\Familiarity] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOComputeTheSpan~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLODefineSpeed~[\Familiarity] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOIdentifyIndependent~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOCharacterizeFeatures~[\Familiarity] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOImplementAAnd~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLODecompose~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOProvideAn~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOGiveExamplesWhere~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOImplementAAlgorithm~[\Usage] %
+        \item \PDParallelAlgorithmsAnalysisandProgrammingLOIdentifyIssuesIn~[\Usage] %
+\end{learningoutcomes}%
+\end{unit}
+
+\begin{unit}{\PDParallelPerformance}{}{peterpacheco,matloff,wenmei,sanders}{18}{CS3}
+\begin{topics}%
+    \item \PDParallelPerformanceTopicLoad
+    \item \PDParallelPerformanceTopicPerformance
+    \item \PDParallelPerformanceTopicScheduling
+    \item \PDParallelPerformanceTopicEvaluating
+    \item \PDParallelPerformanceTopicData
+    \item \PDParallelPerformanceTopicPower
+\end{topics}
+\begin{learningoutcomes}%
+    \item \PDParallelPerformanceLODetect~[\Usage] %
+    \item \PDParallelPerformanceLOCalculateThe~[\Usage] %
+    \item \PDParallelPerformanceLODescribeHowLayout~[\Familiarity] %
+    \item \PDParallelPerformanceLODetectAnd~[\Usage] %
+    \item \PDParallelPerformanceLOExplainTheScheduling~[\Familiarity] %
+    \item \PDParallelPerformanceLOExplainPerformance~[\Familiarity] %
+    \item \PDParallelPerformanceLOExplainTheTrade~[\Familiarity] %
+\end{learningoutcomes}%
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS3P1}
+\end{coursebibliography}
+
+\end{syllabus}

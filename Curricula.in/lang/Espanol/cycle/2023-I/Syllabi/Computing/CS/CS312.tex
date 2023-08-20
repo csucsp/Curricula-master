@@ -1,0 +1,132 @@
+\begin{syllabus}
+
+\course{CS3102. Estructuras de Datos Avanzadas}{Obligatorio}{CS3102}
+% Source file: ../Curricula.in/lang/Espanol/cycle/2020-I/Syllabi/Computing/CS/CS312.tex
+
+\begin{justification}
+Los algoritmos y estructuras de datos son una parte fundamental de la ciencia de la computación que nos 
+permiten organizar la información de una manera más eficiente, por lo que es importante para todo 
+profesional del área tener una sólida formación en este aspecto.
+
+En el curso de estructuras de datos avanzadas nuestro objetivo es que el alumno conozca y analize 
+estructuras complejas, como los Métodos de Acceso Multidimensional, 
+Métodos de Acceso Espacio-Temporal y Métodos de Acceso Métrico, etc.
+\end{justification}
+
+\begin{goals}
+\item Que el alumno entienda, diseñe, implemente, aplique y
+proponga estructuras de datos innovadoras para solucionar
+problemas relacionados al tratamiento de datos multidimensionales,
+recuperación de información por similitud, motores de búsqueda y
+otros problemas computacionales.
+\end{goals}
+
+
+
+\begin{unit}{Multidimensional Data}{}{Cuadros2004Implementing,Knuth2007TAOCP-V-I,Knuth2007TAOCP-V-II,Gamma94}{16}{a,b,c,1,2}
+   \begin{topics}
+         \item Introducción al curso.
+         \item Introducción a datos multidimensionales. 
+         \item Maldición de la dimensionalidad.
+         
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Introducir la transcendencia de la representación multidimensional de datos. [\Usage]
+         \item Entender la complejidad de lidiar con datos multidimensional y de alta dimensión.[\Usage]
+         \item Entender la maldición de la dimensionalidad, y su impacto en el indizado de grandes volúmenes de datos.[\Usage]
+         \item Presentar y discutir aplicaciones reales de datos multidimensionales en motores de búsqueda.[\Usage]
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Multidimensional Acces Data Structures}{}{Cuadros2004Implementing,Knuth2007TAOCP-V-I,Knuth2007TAOCP-V-II,Gamma94}{16}{a,b,c,1,2}
+   \begin{topics}
+         \item Introducción a estructuras de datos espaciales.
+         \item Estructuras espaciales, Quadtree,Octree y visualización.
+         \item Kd-Tree.
+         \item Introducción a R-Tress.
+         \item R tree (Guttman).
+         \item R+ tree.
+         \item R* tree.
+         \item Variación R*-tree y relación con paginación y tamaño de bloques.
+         \item X-tree.
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Introducir los fundamentos teóricos de estructuras de datos espaciales.
+         \item Entender los beneficios y limitaciones deestructuras de datos espaciales basadas en árbol.
+         \item Implementar diferentes estructuras de datos para el indizado de grandes volumenes de datos.
+         \item Entender los fundamentos e implementar estrategias de búsqueda como vecinos mas próximos y búsquedas por rango.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Approximate Access Methods}{}{Cuadros2004Implementing,Knuth2007TAOCP-V-I,Knuth2007TAOCP-V-II,Gamma94}{20}{a,b,c,1,2}
+   \begin{topics}
+         \item Métodos de Acceso Métrico para distancias discretas
+         \item Métodos de Acceso Métrico para distancias continuas
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Que el alumno entienda conozca e implemente algunos métodos de acceso métrico[\Usage]
+         \item Que el alumno entienda la importancia de estos Métodos de Acceso para la Recuperación de Información por Similitud[\Usage]
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Métodos de Acceso Aproximados}{}{Samet2004SAM-MAM,Indyk06,Zezula07}{20}{a,b,c,1,2}
+   \begin{topics}
+         \item Space Filling Curves: Hilbert curve y Z-order
+         \item Proyecciones y complejidad.
+         \item Locally sensitive hashing (LSH)
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Entender, conocer e implementar algunos métodos de acceso aproximados.
+         \item Entender la importancia de estos métodos de Acceso para la recuperación de información por similitud en entornos donde la escalabilidad sea una factor muy importante.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Clustering}{}{Cuadros2004Implementing,Knuth2007TAOCP-V-I,Knuth2007TAOCP-V-II,Gamma94}{8}{a,b,c,1,2}
+	\begin{topics}
+         \item Introducción a Clustering.
+         \item Kmeans y DBScan.
+         \item Clustering Applications.
+         \item Clustering Ensemble.
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Introducir los fundamentos teóricos para el clustering de datos multidimensionales.
+         \item Implementar diferentes estrategias para el clustering de datos multidimensionales, como basados en partición, en jerarquía o en densidad.
+         \item Entender los fundamentos, aplicaciones e implementar ensambles de métodos de clustering.
+         \item Implementar ensambles de métodos de clustering con datos reales.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Temporal Data Structures}{}{Cuadros2004Implementing,Knuth2007TAOCP-V-I,Knuth2007TAOCP-V-II,Gamma94}{8}{a,b,c,1,2}
+   \begin{topics}\
+         \item Introducción a Estructuras de datos temporales.
+         \item Versionando la estructura de Datos.
+         \item Persistencia
+         \item Retroactividad
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Introducir los fundamentos teóricos de estructuras de datos temporales.
+         \item Entender, discutir e implementar Persistencia y sus tipos.
+         \item Entender, discutir e implementar Retroactividad y sus tipos.
+         \item Entender y discutir los beneficios y  limitaciones entre persistencia y retroactividad.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Final Talks}{}{SCuadros2004Implementing,Knuth2007TAOCP-V-I,Knuth2007TAOCP-V-II,Gamma94}{8}{a,b,c,1,2}
+	\begin{topics}
+         \item Seminarios de trabajo de investigación.
+   \end{topics}
+   \begin{learningoutcomes}
+         \item Investigar sobre nuevos métodos para el indizado de grandes volumenes de datos complejos.
+         \item Presentar y dirigir la discusión sobre métodos para indizados de Big Data investigado.
+   \end{learningoutcomes}
+\end{unit}
+
+
+
+
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS312}
+\end{coursebibliography}
+
+\end{syllabus}

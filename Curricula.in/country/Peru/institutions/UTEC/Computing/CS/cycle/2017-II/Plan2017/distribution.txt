@@ -1,0 +1,52 @@
+
+% Semester #1 .
+% CS1D1(CS1D01). Estructuras Discretas I (Obligatorio)
+CS1D1->jfiestas@utec.edu.pe,jrenom@utec.edu.pe
+% CS111(CS1100). Introducción a la Ciencia de la Computación (Obligatorio)
+CS111->jrenom@utec.edu.pe,jfiestas@utec.edu.pe,kcanepa@utec.edu.pe,ecuadros@utec.edu.pe,jbueno@utec.edu.pe,jdiazl@utec.edu.pe,pmorriberon@utec.edu.pe,ibringas@utec.edu.pe,jalvarador@utec.edu.pe,tchambilla@utec.edu.pe,jfarfan@utec.edu.pe,mmelgarz@utec.edu.pe,mbermejo@utec.edu.pe,rrivas@utec.edu.pe,rmelgarejo@utec.edu.pe
+% CQ121(QI0027). Química General (Obligatorio)
+CQ121->aratti@utec.edu.pe,mfernandez@utec.edu.pe,rhoyos@utec.edu.pe,czagarra@utec.edu.pe,mgusukuma@utec.edu.pe,mcarlos@utec.edu.pe,mbarrera@utec.edu.pe,apinedo@utec.edu.pe
+% GH1005(GH0005). Laboratorio de Comunicación I (Obligatorio)
+GH1005->ttijero@utec.edu.pe,mzorrilla@utec.edu.pe,lrubio@utec.edu.pe,jpizarro@utec.edu.pe,gcarrillo@utec.edu.pe,gramirez@utec.edu.pe,ovidal@utec.edu.pe
+% EG1003(EG0003). Matemática I (Obligatorio)
+EG1003->cantonini@utec.edu.pe,arios@utec.edu.pe,cnavarro@utec.edu.pe,jbarraza@utec.edu.pe,sescalante@utec.edu.pe,etapia@utec.edu.pe,rjabo@utec.edu.pe,jbroncano@utec.edu.pe,dpalomino@utec.edu.pe
+% FG101D(EG0004). Desafíos Globales (Obligatorio)
+FG101D->mcornejo@utec.edu.pe,jdelaguila@utec.edu.pe,gdiazm@utec.edu.pe,gpella@utec.edu.pe,eroncal@utec.edu.pe,gespinoza@utec.edu.pe,sdesperes@utec.edu.pe,aroldan@utec.edu.pe,icaycho@utec.edu.pe,emayorga@utec.edu.pe,mibanez@utec.edu.pe,clucho@utec.edu.pe,lcamacho@utec.edu.pe
+
+
+% Semester #2 .
+% CS112(CS1102). Programación Orientada a Objetos I (Obligatorio)
+CS112->jfiestas@utec.edu.pe,ecuadros@utec.edu.pe,tchambilla@utec.edu.pe,jalvarador@utec.edu.pe,cmalpartida@utec.edu.pe
+% CS1D2(CS1D02). Estructuras Discretas II (Obligatorio)
+CS1D2->jrenom@utec.edu.pe
+% CF141(ME0019). Física I (Obligatorio)
+CF141->mllosa@utec.edu.pe,apena@utec.edu.pe
+% GH1006(GH0006). Laboratorio de Comunicación II (Obligatorio)
+GH1006->mzorrilla@utec.edu.pe,lrubio@utec.edu.pe,jpizarro@utec.edu.pe,gcarrillo@utec.edu.pe,gramirez@utec.edu.pe,ovidal@utec.edu.pe
+% MA101(EG0005). Matemática II (Obligatorio)
+MA101->etapia@utec.edu.pe,jbarraza@utec.edu.pe,jbroncano@utec.edu.pe,rperez@utec.edu.pe
+
+
+% Semester #3 .
+
+
+% Semester #4 .
+
+
+% Semester #5 .
+
+
+% Semester #6 .
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+

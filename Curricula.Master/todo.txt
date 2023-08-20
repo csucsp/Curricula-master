@@ -1,0 +1,8 @@
+Separate Institution and Program (pending) See: process_institution_info 
+
+
+
+verificar los jpg  que se estan creando en el in de UCSP
+
+CS-UTEC (cuando se corre esta linea(./scripts/process-curricula.pl CS-UTEC) se regenera el 
+distribution(/home/ecuadros/Articles/Curricula/Curricula.in/country/Peru/Computing/CS/UTEC/cycle/2019-II/Plan2018/distribution.txt)  

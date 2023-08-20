@@ -1,0 +1,45 @@
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{xspace}
+\usepackage{paralist}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{html}
+\usepackage{multicol}
+\usepackage{multirow}
+% \usepackage{multibib}
+\usepackage[top=15mm,bottom=2cm,left=15mm,right=15mm]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+%%%%%%%%%%%%%%% For colors add these 3 commands %%%%%%%%%%%%%%%%%%
+\usepackage{pstricks} 
+\input{\InDir/colors/custom-colors}
+\input{\InDir/colors/custom-define-colors}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{\OutputTexDir/macros-only}
+
+\input{\InCountryDir/institutions/\currentinstitution/\currentinstitution}
+\input{\InProgramDir/program-info}
+
+\newcounter{SyllabiUnitCount}
+\addtocounter{SyllabiUnitCount}{0}
+\newcounter{SyllabiSectionCount}
+\setcounter{SyllabiSectionCount}{0}
+
+\newenvironment{learningoutcomes}%
+{ \begin{itemize} }%
+{ \end{itemize}   }
+
+\newenvironment{topics}%
+{ \begin{itemize} }%
+{ \end{itemize}   }
+
+\newenvironment{subtopics}%
+{ \begin{itemize} }%
+{ \end{itemize}   }
+
+\newenvironment{evaluation}%
+{\begin{description}}%
+{\end{description}}

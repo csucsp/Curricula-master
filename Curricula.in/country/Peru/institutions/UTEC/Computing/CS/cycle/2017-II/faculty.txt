@@ -1,0 +1,3270 @@
+--BEGIN-PROFESSOR--
+\email{ecuadros@utec.edu.pe}
+\prefix{Dr.}
+\name{Ernesto Cuadros-Vargas}
+\begin{titles}
+     \Doctor{Computing}{Ciencia de la Computación}{Recuperación de Información}{ICMC-USP}{Brasil}{2004}
+     \Master{Computing}{Ciencia de la Computación}{Redes Neuronales}{ICMC-USP}{Brasil}{1998}
+\end{titles}
+\Category{Principal}
+\webpage{http://socios.spc.org.pe/ecuadros}
+\Office{Computer Science Program, 2rd floor, UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-958.339.127}
+\facebook{https://www.facebook.com/pages/Ernesto-Cuadros-Vargas-Public-Figure/136184539813774}
+\Twitter{@ecuadrosv}
+\Blog{https://ecuadros.blogspot.com}
+\Research{Information Retrieval, Data Structures, Programming, Education in CS}
+\courses{CS111,CS402,CS403,CS404}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ggdelgado@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Gustavo Delgado Ugarte}
+\begin{titles}
+\Master{Computing}{Ingeniería del Software}{}{Escuela Universitaria de Ingeniería Industrial, Informática y Sistemas - UTA}{Chile}{2009}
+\Degree{Computing}{Ingeniero de Sistemas}{}{UCSM}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{ }
+\Phone{+51-54-}
+\Mobile{+51-959370481}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Software Engineering}
+\courses{}
+--END-PROFESSOR--
+|	
+
+--BEGIN-PROFESSOR--
+\email{mleguen@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Marc-Antoine Le Guen}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{Computación Gráfica}{Universiti Aix-Marseille}{Francia}{2013}
+\Degree{Computing}{Ciencia de la Computación}{Computación Gráfica}{IUT Arles}{Francia}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{}
+\Mobile{+51-930185816}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Computer Graphics}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ydyari@ucsp.edu.pe} 
+\prefix{Mg.}
+\name{Yessenia Deysi Yari Ramos}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{UFRGS}{Brasil}{2011}
+\Degree{Computing}{Ingeniera de Sistemas}{}{UNSA}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-984445118}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Imágenes, Visión Computacional, Inteligencia Artificial}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{aocsam@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Alexander Victor Ocsa Mamani}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2011}
+\Degree{Computing}{Ingeniera de Sistemas}{}{UNSA}{Perú}{2009}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-945302065}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Estructuras de Datos y Algoritmos, Base de Datos, Computación Paralela,  Procesamiento de Imágenes,  Inteligencia Artificial}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jacevedo@ucsp.edu.pe} 
+\prefix{Mg.}
+\name{Jessica Elizabeth Acevedo Flores}
+\begin{titles}
+\Master{Computing}{Computer engineering}{}{Universidad Nacional de Ciencias y Tecnología de Taiwán}{China}{2007}
+\Degree{Computing}{Ingeniería Electrónica}{}{Universidad Católica Santa María}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-948489040}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{wbardales@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Wilfredo Bardales Roncalla}
+\begin{titles}
+\Master{Computing}{Informática}{Optimización y Razonamiento Automático}{Pontificia Universidad Católica de Rio de Janeiro}{Brasil}{2013}
+\Degree{Computing}{Ingeniero Informático}{}{Universidad Católica San Pablo}{Perú}{2007}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-346765}
+\Mobile{+51-941085298}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Algoritmos, Optimización y Razonamiento Automático}
+\courses{CS210T}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{bjjuarez@ucsp.edu.pe} 
+\prefix{Prof.}
+\name{Bruno Juárez Valdivia}
+\begin{titles}
+\Degree{Computing}{Ingeniero de Sistemas}{}{UCSM}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{}
+\Mobile{+51-958951725}
+\facebook{}
+\Twitter{@bjjuarezsoft}
+\Blog{}
+\Research{software engineering}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{darias@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Diego Fabián Arias Padilla}
+\begin{titles}
+\Master{Humanities}{Gestión y Responsabilidad Social de la empresa}{}{Pontificia Universidad Santo Tomás de Aquino en Roma}{Italia}{2008}
+\Master{Humanities}{Doctrina Social de la Iglesia}{}{Pontificia Universidas Lateranense de Roma}{Italia}{2008}
+\Degree{Humanities}{Administración de negocios}{}{Universidad Católica San Pablo}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-605630 ext 563}
+\Mobile{+51-958335079}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{dbarrios@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Dennis Barrios Aranibar}
+\begin{titles}
+\Doctor{Computing}{Ingeniería Eléctrica y de Computación}{}{Robótica}{UFRN}{Brasil}{2009}
+\Master{Computing}{Ingeniería Eléctrica y de Computación}{}{Robótica}{UFRN}{Brasil}{2005}
+\Degree{Computing}{Ingeniero de Sistemas}{}{UNSA}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Taller de robótica (Campus de Salaverry)}
+\Phone{+51-54-}
+\Mobile{+51-959462462}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Robótica}
+\courses{}
+--END-PROFESSOR--
+--BEGIN-PROFESSOR--
+\email{rpatino@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Raquel Patiño Escarcina}
+\begin{titles}
+\Doctor{Computing}{Ingeniería Eléctrica y de Computación}{}{Universidade Federal do Rio Grande do Norte}{Brasil}{2009}
+\Master{Computing}{Ingeniería Eléctrica y de Computación}{}{Universidade Federal do Rio Grande do Norte}{Brasil}{2004}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Nacional San Agustín}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959449409}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Reconocimiento de Patrones}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mberrios@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Miriam Berrios Garaycochea}
+\begin{titles}
+\Degree{Humanities}{Ingeniera de Industria Alimentarias}{}{Universidad Católica Santa María}{Perú}{1997}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-947031233}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gcalderon@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Guillermo Enrique Calderón Ruiz}
+\begin{titles}
+\Doctor{Computing}{Ciencias de la Ingeniería}{}{Pontificia Universidad Católica de Chile}{Chile}{2011}
+\Master{Computing}{Ingeniería}{}{Pontificia Universidad Católica de Chile}{Chile}{2010}
+\Master{Computing}{Ingeniería de Sistemas}{}{Universidad Católica Santa María}{Perú}{2009}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Católica Santa María}{Perú}{1998}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-973587519}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Ingeniería de Software}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{igor.calizaya@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Igor Fernando Calizaya Catacora}
+\begin{titles}
+\Master{Computing}{Information Systems Management}{ISO27001}{University of Greenwich}{Inglaterra}{2012}
+\Degree{Computing}{Ingeniero Informático}{Biometría}{Universidad Católica San Pablo}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-988699066}
+\facebook{}
+\Twitter{@igorfcc}
+\Blog{}
+\Research{Sistemas de Información}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jcano@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Jhon Humberto Cano Chávez}
+\begin{titles}
+\Degree{Computing}{Ingeniería de Sistemas}{}{Universidad Católica Santa María}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-957864253}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ccastelo@ucsp.edu.pe}
+\prefix{Mg.}
+\name{César Christian Castelo Fernández}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{Universidad Estadual de Campinas-Unicamp}{Brasil}{2011}
+\Degree{Computing}{Ingeniería de Sistemas}{}{Universidad Católica Santa María}{Perú}{2009}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-973241607}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Imágenes}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{r.castro@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Rodolfo José Castro Salinas}
+\begin{titles}
+\Master{Humanities}{Ciencias del Matrimonio y la Familia}{}{Pontificio Instituto Juan Pablo II}{Italia}{2008}
+\Degree{Humanities}{Administración de negocios}{}{Universidad Católica San Pablo}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958911703}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{edward.cayllahua@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Edward Jorge Yuri Cayllahua Cahuina}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{Universidade Federal de Ouro Preto}{Brasil}{2013}
+\Degree{Computing}{Bachelor en Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2007}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-940184819}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Vídeos}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{achavezc@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Angel Evaristo Chávez Contreras}
+\begin{titles}
+\Master{Humanities}{Asesoramiento educativo familiar}{}{Centro universitario Villanueva Adscrito a la Complutense de Madrid España}{España}{2004}
+\Degree{Humanities}{Bachelor en Educación}{}{Universidad Nacional de San Agustín}{Perú}{2002}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959626381}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jvcondori@ucsp.edu.pe}
+\prefix{Prof.}
+\name{José Victor Condori Condori}
+\begin{titles}
+\Degree{Humanities}{Licenciado en Historia}{}{Universidad Nacional de San Agustín}{Perú}{2001}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-999044350}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+--BEGIN-PROFESSOR--
+\email{jcruzt@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Judith Hayde Cruz Torres}
+\begin{titles}
+\Doctor{Mathematics}{Matemáticas}{}{ICMC-USP}{Brasil}{2007}
+\Master{Mathematics}{Matemáticas}{}{Universidad Católica del Norte}{Chile}{2003}
+\Degree{Mathematics}{Bachelor en Matemática}{}{Universidad Nacional de San Agustín}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Matemática}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ana.maria.cuadros@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Ana María Cuadros Valdivia}
+\begin{titles}
+\DoctorPT{Computing}{Ciencia de la Computación}{}{Universidad Nacional San Agustín}{Perú}{2013}
+\Master{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2007}
+\Degree{Computing}{Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958808756}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Visualización Científica}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{acuadros@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Alex JesúsCuadros Vargas}
+\begin{titles}
+\PosDoc{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2009}.
+\Doctor{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2007}.
+\Master{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2001}.
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-605600 ext 311}
+\Mobile{}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Computación Gráfica, Geometría Computacional, Generación de mallas, Visualización Científica y Médica, Reconstrucción Tridimensional, Estructuras de datos, Programación genérica, Programación paralela.}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cjdelgado@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Christian Jorge Delgado Polar}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{DCC-UFMG}{Brasil}{2007}
+\Degree{Computing}{Bachelor en Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-992045088}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Agentes Inteligentes}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ldiaz@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Luis Fernando Díaz Basurco}
+\begin{titles}
+\Master{Mathematics}{Matemática}{}{Pontificia Universidad Católica del Perú}{Perú}{1990}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959313139}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Matemática}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{agarciacalderon@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Adriana Maria Irene García Calderón Barreda}
+\begin{titles}
+\Degree{Humanities}{}{}{}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959599055}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{egordillo@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Enrique Gordillo Cisneros}
+\begin{titles}
+\Degree{Humanities}{Licenciado en Educación Secundaria con especialidad en Lengua y Literatura}{}{PUCP}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-985094596}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jcgutierrezc@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Juan Carlos Gutiérrez Cáceres}
+\begin{titles}
+\Doctor{Computing}{Ciencia de la Computación}{}{Universidad Nacional de San Agustín}{Perú}{2013}
+\Master{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2003}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Nacional de San Agustín}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959686072}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Inteligencia Artificial, Imágenes}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ahmamani@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Alvaro Henry Mamani Aliaga}
+\begin{titles}
+\Degree{Computing}{Bachelor Ingeniería de Sistemas}{}{UNSA}{Perú}{2006}
+\Master{Computing}{Ciencia de la Computación}{Sistemas Distribuídos}{IME-USP}{Brasil}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-268783}
+\Mobile{+51-959529733}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mjordan@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Mónica Milagros Jordán Franco}
+\begin{titles}
+\Degree{Computing}{Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959277079}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rlinares@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Rubel Dorjin Linares Málaga}
+\begin{titles}
+\Degree{Mathematics}{Licenciado en Física}{}{Universidad Nacional de San Agustín}{Perú}{2002}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958696496}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{glovon@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Gina Lovon Alvarado}
+\begin{titles}
+\Master{Computing}{Ingeniería de Software}{}{Universidad de Tarapacá}{Chile}{2012}
+\Degree{Computing}{Ingeniera de Sistemas}{}{Universidad Nacional de San Agustín}{Perú}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959611813}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{gmaldonado@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Gonzalo Omar Maldonado Chauca}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959302019}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{agmamanic@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Anita Genoveva Mamani Champi}
+\begin{titles}
+\Master{Mathematics}{Matemática}{}{UFF}{Brasil}{2005}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959978407}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rmarroquin@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Renato Javier Marroquin Mogrovejo}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{Pontificia Universidad de Rio de Janeiro}{Brasil}{2011}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Católica Santa María}{Perú}{2007}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-956639939}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Programación Cloud}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rfmattosp@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Rolando Fabián Mattos Pino}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959611456}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{s.matuk@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Silvia Matuk Kervaye}
+\begin{titles}
+\Doctor{Humanities}{Ciencias Humanas}{}{Universidad Católica Santa María}{Perú}{1995}
+\Master{Humanities}{Ciencias Humanas}{}{Universidad Católica Santa María}{Perú}{1992}
+\Degree{Humanities}{Ciencias Humanas}{}{Pontificia Universidad Católica del Perú}{Perú}{1966}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959650489}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{dmayori@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Deisy Virginia Mayorí Velásquez}
+\begin{titles}
+\Degree{Mathematics}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959178308}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gmedina@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Gonzalo Pablo Medina Bravo}
+\begin{titles}
+\Master{Humanities}{Derecho}{Política Jurisdiccional}{PUCP}{Perú}{2009}
+\Degree{Humanidades}{Humanidades}{Historia}{UCSP}{Perú}{2011}
+\Degree{Humanidades}{Humanidades}{Docencia Universitaria Católica}{UCSP}{Perú}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{tmedina@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Tatiana Beatriz Medina Sanchez}
+\begin{titles}
+\Master{Humanities}{Artes}{}{Universidad Nacional de San Agustín}{Perú}{}
+\Degree{Humanities}{Arquitecta}{}{Universidad Nacional de San Agustín}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959970581}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rmedina@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Renzo Hernán Medina Zeballos}
+\begin{titles}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Católica Santa María}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958795919}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gmezal@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Graciela Lecireth Meza Lovón}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{UFMS-MS}{Brasil}{2007}
+\Degree{Computing}{Bachiller en Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-986271224}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Inteligencia Artificial, Imágenes}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{rensso.mora@ucsp.edu.pe}
+\prefix{}
+\name{Rensso Victor Hugo Mora Colque}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{Universidade Federal de Ouro Preto}{Brasil}{2012}
+\Degree{Computing}{Ingeniero Informático}{}{Universidad Católica San Pablo}{Perú}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-992277848}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Vídeos}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{hernan.alvarez@ucsp.edu.pe}
+\prefix{Bach.}
+\name{Hernán Humberto Álvarez Valera}
+\begin{titles}
+\Bachelor{Computing}{Bachiller de Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958281397}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{hjneyra@ucsp.edu.pe}
+\prefix{Bach.}
+\name{Jorge Homero Neyra Araoz}
+\begin{titles}
+\Bachelor{Computing}{Bachiller de Ingeniería de Sistemas}{}{Universidad Nacional San Agustín}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-952610034}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{dnina@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Dugán Paúl Nina Ortiz}
+\begin{titles}
+    \Doctor{Mathematics}{Matemáticas}{}{Universidade Federal do Rio de Janeiro}{Brasil}{2011}
+    \Master{Mathematics}{Matemáticas}{}{Universidade Federal do Rio de Janeiro}{Brasil}{2007}
+    \Degree{Mathematics}{Matemáticas}{}{Universidad Nacional San Agustín}{Perú}{2003}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959847339}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{lmramos@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Luz Marina Ramos Quispe}
+\begin{titles}
+    \Master{Mathematics}{Matemáticas}{Estadística}{Universidade Estadual de Campinas}{Brasil}{2015}
+    \Degree{Mathematics}{Matemáticas}{}{Universidad Nacional San Agustín}{Perú}{2009}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-990549447}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{pnunezp@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Paloma Moreika Nuñez Portugal}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-987790280}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jeochoa@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Jose Eduardo Ochoa Luna}
+\begin{titles}
+\Doctor{Computing}{Ciencia de la Computación}{}{Universidade de Sao Paulo}{Brasil}{2011}
+\Master{Computing}{Ciencia de la Computación}{}{Universidade Federal de Mato Grosso do Sul - UFMS}{Brasil}{2004}
+\Degree{Computing}{Bachiller en Ingeniería de Sistemas}{}{Universidad Nacional San Agustín}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-988807200}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Inteligencia Artificial, Optimización}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cortiz@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Christian PaúlOrtiz Martinez}
+\begin{titles}
+\Degree{Mathematics}{Matemática}{}{Universidad Nacional de San Agustín}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958193893}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{maria.elena.ortiz@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Maria Elena Ortiz Ramirez}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959183496}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{lpachecoa@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Luis Alberto Pacheco Abarca}
+\begin{titles}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Católica Santa María}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959691301}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{fpacheco@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Flor de María Pacheco Tejada}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959526679}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{lparedesv@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Libertad Alejandra Paredes Valdivia}
+\begin{titles}
+\Master{Humanities}{Educación Superior}{}{Universidad Católica Santa María}{Perú}{1990}
+\Degree{Humanities}{Licenciada en Lengua Literatura y Filosofía}{}{Universidad Católica Santa María}{Perú}{1975}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959857104}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{efalvarez@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Edwing Fausto Álvarez Fernández}
+\begin{titles}
+\Degree{Humanities}{Licenciado en Educación}{}{Universidad Nacional de San Agustín}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959684900}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{susana.chaina@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Susana Giovanna Chaiña Mamani}
+\begin{titles}
+Master{Humanities}{Educación Superior}{}{Universidad Católica Santa María}{Perú}{1990}
+\Degree{Humanities}{Licenciada en Psicología}{}{Universidad Nacional de San Agustín}{Perú}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{glinares@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Gail Mar Linares Pomareda De Bocchio}
+\begin{titles}
+\Degree{Humanities}{Licenciada en Enfermería}{}{Universidad Peruana Cayetano Heredia}{Perú}{1999}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959308526}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{apaz@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Alfredo Paz Valderrama}
+\begin{titles}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Católica Santa María}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958916622}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jpenarrieta@ucsp.edu.pe}
+\prefix{Prof.}
+\name{José Alonso Peñarrieta Escobedo}
+\begin{titles}
+\Degree{Computing}{Ingeniero Informático}{}{Universidad Católica San Pablo}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-953760501}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{guillermo.laures@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Guillermo Laures García}
+\begin{titles}
+\Degree{Computing}{Bachiller en Ciencia de la Computación}{}{Universidad Católica San Pablo}{Perú}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959131399}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{mquirozz@ucsp.edu.pe}
+\prefix{Prof.}
+\name{Maribel Marianela Quiroz Zegarra}
+\begin{titles}
+\Degree{Mathematics}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-987844317}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{hramoss@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Hugo Mario Ramos Salinas}
+\begin{titles}
+\Master{Humanities}{Artes}{}{Universidad Nacional San Agustín}{Perú}{}
+\Degree{Humanities}{Bachiller en Arquitectura}{}{Universidad Nacional San Agustín}{Perú}{1992}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959284673}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mrodriguez@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Jose Manuel Rodriguez Canales}
+\begin{titles}
+    \Doctor{Humanities}{Ciencias Sociales}{}{Universidad Católica de Santa María}{Perú}{}
+    \Master{Humanities}{Teología}{}{Facultad de Teología Pontificia y Civil de Lima}{Perú}{}
+    \Degree{Humanities}{Teología}{}{Facultad de Teología Pontificia y Civil de Lima}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-505630 }
+\Extension{477}
+\Mobile{+51-}
+\facebook{}
+\Twitter{}
+\Blog{roncuaz.blogspot.com}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mlrodriguez@ucsp.edu.pe}
+\prefix{Prof.}
+\name{María Lourdes Rodríguez Manrique}
+\begin{titles}
+\Degree{Humanities}{Lic.en Educación}{}{Universidad Nacional San Agustín}{Perú}{2000}
+\Degree{Humanities}{Lic.en Antropología­a}{}{Universidad Nacional San Agustín}{Perú}{1990}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959085874}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{frizzi.sanroman@ucsp.edu.pe}
+\prefix{	Mg.}
+\name{Frizzi Alejandra San Roman Salazar}
+\begin{titles}
+    \Master{Computing}{Ciencia de la Computación}{}{Universidade de Sao Paulo}{Brasil}{2012}
+    \Degree{Computing}{Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-950301710}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Visualización Científica}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jsantisteban@ucsp.edu.pe}
+\prefix{}
+\name{Julio Omar Santisteban Pablo}
+\begin{titles}
+\Degree{}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-505630}
+\Extension{477}
+\Mobile{+51-}
+\facebook{}
+\Twitter{}
+\Blog{roncuaz.blogspot.com}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mlrodriguez@ucsp.edu.pe}
+\prefix{Prof.}
+\name{María Lourdes Rodríguez  Manrique}
+\begin{titles}
+\Degree{Humanities}{Lic.en Educación}{}{Universidad Nacional San Agustín}{Perú}{2000}
+\Degree{Humanities}{Lic.en Antropología}{}{Universidad Nacional San Agustín}{Perú}{1990}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959085874}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{frizzi.sanroman@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Frizzi Alejandra San Roman Salazar}
+\begin{titles}
+    \Master{Computing}{Ciencia de la Computación}{}{Universidade de Sao Paulo}{Brasil}{2012}
+    \Degree{Computing}{Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-950301710}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Visualizaciónn Científica}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jsantisteban@ucsp.edu.pe}
+\prefix{}
+\name{Julio Omar Santisteban Pablo}
+\begin{titles}
+     \Doctor{}{}{}{}{}{}
+     \Master{}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{lcamacho@utec.edu.pe}
+\prefix{Bach.}
+\name{Leonardo Camacho Carhuaz}
+\begin{titles}
+     \Bachelor{Computing}{Ingeniería Electrónica}{}{PUCP}{Perú}{2005}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-987725102}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mibanez@utec.edu.pe}
+\prefix{Bach.}
+\name{Marita Ibañez Sandoval}
+\begin{titles}
+     \Bachelor{Humanities}{Arte}{}{PUCP}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-958804164.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR-
+
+--BEGIN-PROFESSOR--
+\email{icaycho@utec.edu.pe}
+\prefix{Bach.}
+\name{Iris Vanesa Caycho}
+\begin{titles}
+     \Bachelor{Humanities}{Arquitectura}{}{UNFV}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-994331530.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{clucho@utec.edu.pe}
+\prefix{Bach.}
+\name{Cesar Lucho Lingan}
+\begin{titles}
+     \Bachelor{Humanities}{Arte}{}{PUCP}{Perú}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-969541405.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mcornejo@utec.edu.pe}
+\prefix{Dr.}
+\name{Melanie Cornejo Germer}
+\begin{titles}
+     \Doctor{Humanities}{Filosofia}{}{HARVARD}{EEUU}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Directory, 10th floor, UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{emayorga@utec.edu.pe}
+\prefix{Bach.}
+\name{Enrique Mayorga}
+\begin{titles}
+     \Bachelor{Computing}{Ingeniería Electrónica}{}{PUCP}{Perú}{2007}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{UTEC Garage,1st floor,UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jdelaguila@utec.edu.pe}
+\prefix{Mg.}
+\name{Juan Del Aguila Bartra}
+\begin{titles}
+     \Master{Humanities}{Diseño e Innovación}{}{ELISAVA}{España}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-967972826.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gpella@utec.edu.pe}
+\prefix{Mg.}
+\name{Gabriela Pella Fernández}
+\begin{titles}
+     \Master{Humanities}{Desarrollo Sostenible y Responsabilidad Social}{}{EOI}{España}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-999369855.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gdiazm@utec.edu.pe}
+\prefix{Mg.}
+\name{Gilda Díaz Martínez}
+\begin{titles}
+     \Master{Humanities}{Diseño e Innovación}{}{ELISAVA}{España}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-999465434.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{aroldan@utec.edu.pe}
+\prefix{Prof.}
+\name{Alexandra Roldán Gatjens}
+\begin{titles}
+     \Degree{Enterpreneurship}{Diseño Textil y Indumentaria}{}{UP}{Argentina}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-959624886.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{sdesperes@utec.edu.pe}
+\prefix{Prof.}
+\name{Santiago Desperes}
+\begin{titles}
+     \Degree{Enterpreneurship}{Diseño Industrial}{}{UNLP}{Argentina}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{eroncal@utec.edu.pe}
+\prefix{Bach.}
+\name{Eduardo Roncal Pereira}
+\begin{titles}
+     \Master{Humanities}{Diseño Gráfico}{}{PUCP}{Perú}{2015}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{evillicana@utec.edu.pe}
+\prefix{Dr.}
+\name{Eunice Villicaña Ortiz}
+\begin{titles}
+     \Doctor{Humanities}{Tecnología, Diversificación, Calidad y Ahorro Energético}{}{UNIOVI}{España}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Office 514, 5th floor, UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-920246628.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gespinoza@utec.edu.pe}
+\prefix{Bach.}
+\name{Gonzalo Espinoza}
+\begin{titles}
+     \Master{Humanities}{Diseño Gráfico}{}{PUCP}{Perú}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-968356561.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{lvolodina@utec.edu.pe}
+\prefix{Mg.}
+\name{Ludmila Volodina}
+\begin{titles}
+     \Master{Computing}{Administración de Negocios}{}{ULIMA}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997923317}
+\facebook{Ludmila Volodina}
+\Twitter{@ludavolo}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{xcastro@utec.edu.pe}
+\prefix{Mg.}
+\name{Ximena Castro Bernardini}
+\begin{titles}
+     \Master{Humanities}{Estudios de Paz, Conflictos y Desarrollo}{}{UJI}{España}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-991315688.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{amillan@utec.edu.pe}
+\prefix{Mg.}
+\name{Armando Millán Falconi}
+\begin{titles}
+     \Master{Humanities}{Docencia para la Educación Superior}{}{UNAB}{Chile}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997916090.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{rpoce@utec.edu.pe}
+\prefix{Mg.}
+\name{Ramón Ponce Testino}
+\begin{titles}
+     \Master{Humanities}{Ética Aplicada}{}{UU}{Países Bajos}{2007}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997441154.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{gcarrillo@utec.edu.pe}
+\prefix{Mg.}
+\name{Giuliana Carrillo}
+\begin{titles}
+     \Master{Humanities}{Arte peruano y latinoamericano}{}{UNMSM}{Perú}{2017}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997937241.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jpizarro@utec.edu.pe}
+\prefix{Mg.}
+\name{Javier Pizarro}
+\begin{titles}
+     \Master{Humanities}{Estudios Culturales}{}{PUCP}{Perú}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-966654525.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{gramirez@utec.edu.pe}
+\prefix{Prof.}
+\name{Gonzalo Ramírez}
+\begin{titles}
+     \Degree{Humanities}{Lingüística y Literatura}{}{PUCP}{Perú}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ovidal@utec.edu.pe}
+\prefix{Prof.}
+\name{Oriana Vidal}
+\begin{titles}
+     \Degree{Humanities}{Literatura Hispánica}{}{PUCP}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-962363665.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{lrubio@utec.edu.pe}
+\prefix{Mg.}
+\name{Luis Fernando Rubio}
+\begin{titles}
+     \Master{Humanities}{Estudios Hispánicos Superiores}{}{US}{España}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992721402.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mzorrilla@utec.edu.pe}
+\prefix{Mg.}
+\name{Marcelo Zorrilla}
+\begin{titles}
+     \Master{Humanities}{Business Administration}{}{Georgetown}{EEUU}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997919958.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{nhanashiro@utec.edu.pe}
+\prefix{Prof.}
+\name{Nae Hanashiro}
+\begin{titles}
+     \Degree{Humanities}{Lingüística y Literatura}{Literatura Hispánica}{PUCP}{Perú}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-4412679}
+\Mobile{+51-997188782.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{ttijero@utec.edu.pe}
+\prefix{Dr.}
+\name{Talía Tijero}
+\begin{titles}
+     \Doctor{Humanities}{Lingüística}{}{PUCV}{Chile}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Office 309, 3rd floor, UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-956320879.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ddelcastillo@utec.edu.pe}
+\prefix{Mg.}
+\name{David Del Castillo}
+\begin{titles}
+     \Master{Humanities}{Marketing y Gestión Comercial}{}{ESIC}{España}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-956320879.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{mburriel@utec.edu.pe}
+\prefix{Mg.}
+\name{Miguel Burriel}
+\begin{titles}
+     \Master{Computing}{Domótica}{}{UPM}{España}{2005}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-989799422}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jveliz@utec.edu.pe}
+\prefix{Mg.}
+\name{Jessica Velíz}
+\begin{titles}
+     \Master{Humanities}{Financial Management}{}{Tilburg University}{Países Bajos}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-986633297}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{dmacera@utec.edu.pe}
+\prefix{Mg.}
+\name{Diego Macera}
+\begin{titles}
+     \Master{Humanities}{Políticas Públicas}{}{UCHICAGO}{EEUU}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-955969727}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{mbazan@utec.edu.pe}
+\prefix{Mg.}
+\name{Mario Bazán}
+\begin{titles}
+     \Master{Humanities}{Desarrollo Ambiental}{}{PUCP}{Perú}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-995952596}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jsaavedra@utec.edu.pe}
+\prefix{Mg.}
+\name{José Carlos Saavedra}
+\begin{titles}
+     \Master{Humanities}{Economía}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{eciliotta@utec.edu.pe}
+\prefix{Bach.}
+\name{Estefania Ciliotta}
+\begin{titles}
+     \Bachelor{Humanities}{Administración}{}{ULIMA}{Perú}{2009}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Carrear Service Office 1002, 1st floor, UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{lkleiner@utec.edu.pe}
+\prefix{Mg.}
+\name{Laura Kleiner}
+\begin{titles}
+     \Master{Humanities}{MBA}{}{UTDT}{Argentina}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Office 1002, 10th floor, UTEC. Barranco Lima}
+\Phone{+51-1-}
+\Mobile{+51-970029747}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{adelaflor@utec.edu.pe}
+\prefix{Bach.}
+\name{Antuané De la Flor Basterrechea}
+\begin{titles}
+     \Bachelor{Humanities}{Sociología}{}{PUCP}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992982917}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{kcanepa@utec.edu.pe}
+\prefix{Dr.}
+\name{Katia Cánepa}
+\begin{titles}
+     \Doctor{Computing}{Informática}{}{PUCP-RIO}{Brasil}{2015}
+     \Master{Computing}{Informática}{}{PUCP-RIO}{Brasil}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{P-201}
+\Phone{+51-1-2305020}
+\Extension{4283}
+\Mobile{+51-922568756}
+\facebook{beautytechie}
+\Twitter{@kfcito}
+\Blog{}
+\Research{Human Computer Interaction, Ubiquitous Computing, Wearables, Beauty Technology}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{dhauser@utec.edu.pe}
+\prefix{Mg.}
+\name{Hauser , Deon Lynn}
+\begin{titles}
+     \Master{Humanities}{Arte}{}{MISSOURI}{EEUU}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997529205}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{pbarnes@utec.edu.pe}
+\prefix{Bach.}
+\name{Barnes , Phillip John}
+\begin{titles}
+     \Bachelor{Humanities}{Spanish Language and Literature}{}{BIRMINGHAM}{Inglaterra}{1981}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-979090833}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{alaos@utec.edu.pe}
+\prefix{Mg.}
+\name{Laos Solari, Aldo}
+\begin{titles}
+     \Master{Humanities}{MBA}{}{UP}{Perú}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-999431046}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{cmalbran@utec.edu.pe}
+\prefix{Prof.}
+\name{Carolina Malbrán}
+\begin{titles}
+     \Degree{Humanities}{Inglés}{}{INSTITUTO SANTA TRINIDAD}{Argentina}{2009}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-964194949}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jalecock@utec.edu.pe}
+\prefix{Bach.}
+\name{Alecock, Jason Rober}
+\begin{titles}
+     \Doctor{}{}{}{}{}{}
+     \Master{}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-996376282}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{ccox@utec.edu.pe}
+\prefix{Mg.}
+\name{Cox, Cristopher Creighton}
+\begin{titles}
+     \Master{Humanities}{Business Administration}{}{MSSTATE}{EEUU}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-969541405}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{smontoya@utec.edu.pe}
+\prefix{Bach.}
+\name{Montoya Alarcon De Hamoir, Sheyla Rosa}
+\begin{titles}
+     \Bachelor{Humanities}{Psicología}{}{URP}{EEUU}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-954775054}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ssabina@utec.edu.pe}
+\prefix{Bach.}
+\name{Sabina Rehman, Sara}
+\begin{titles}
+     \Bachelor{Humanities}{Biología}{}{CSU}{UK}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992874814}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{jvaldivia@utec.edu.pe}
+\prefix{Dr.}
+\name{Valdivia Silva, Julio Ernesto}
+\begin{titles}
+     \Doctor{Mathematics}{Ciencias}{}{UNAM}{México}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-954124550}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{kannis80@utec.edu.pe}
+\prefix{Bach.}
+\name{Annis, Keith}
+\begin{titles}
+     \Bachelor{Mathematics}{Ciencias}{}{CSU}{EEUU}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{acuba@utec.edu.pe}
+\prefix{Bach.}
+\name{Cuba Medina, Armando}
+\begin{titles}
+     \Bachelor{Humanities}{Lingüística}{}{UNMSM}{Perú}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-991182408}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{mvos@utec.edu.pe}
+\prefix{Mg.}
+\name{Vos Maatje}
+\begin{titles}
+     \Master{Humanities}{Organización y Gestión}{}{VU}{Paises Bajos}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{dlopez@utec.edu.pe}
+\prefix{Mg.}
+\name{Diego López Francia}
+\begin{titles}
+     \Master{Humanities}{Filosofía}{}{PUCP}{Perú}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-951324746}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{lnaters@utec.edu.pe}
+\prefix{Mg.}
+\name{Luis Naters Lanegra}
+\begin{titles}
+     \Master{Humanities}{Lingüística y Literatura}{}{PUCP}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992273103}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{@utec.edu.pe}
+\prefix{Dr.}
+\name{Jessica Velíz}
+\begin{titles}
+     \Doctor{Humanities}{Lingüística hispánica}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-980536484}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ttorres@utec.edu.pe}
+\prefix{Dr.}
+\name{Teresa Torres Bustamante}
+\begin{titles}
+     \Doctor{Humanities}{Lingüística}{}{RUTGERS}{EEUU}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997420550}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{lseiner@utec.edu.pe}
+\prefix{Dr.}
+\name{Lizardo Seiner Lizárraga}
+\begin{titles}
+     \Doctor{Humanities}{Historia}{}{GRENOBLE-ALPES}{Francia}{2013}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-​99​5072151}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jvillanueva@utec.edu.pe}
+\prefix{Mg.}
+\name{Jaime Villanueva Barreto}
+\begin{titles}
+     \Master{Humanities}{Filosofía}{}{PUCP}{Perú}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-983636986}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{crodriguez@utec.edu.pe}
+\prefix{Mg.}
+\name{Celia Rodriguez Olaya}
+\begin{titles}
+     \Master{Humanities}{Arte}{Arte peruano y latinoamericano}{UNMSM}{Perú}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-950906599}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{cviana@utec.edu.pe}
+\prefix{Mg.}
+\name{Carlos Viaña Rubio}
+\begin{titles}
+     \Master{Humanities}{Filosofía}{Historia de la Filosofía}{UNMSM}{Perú}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-951756916}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{ogarcia@utec.edu.pe}
+\prefix{}
+\name{Omar García Serra}
+\begin{titles}
+     \Doctor{}{}{}{}{}{}
+     \Master{}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-993486662}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{drodriguez@utec.edu.pe}
+\prefix{Mg.}
+\name{Donita Rodriguez}
+\begin{titles}
+     \Master{Humanities}{Ciencias Económicas}{}{LSE}{UK}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-988042961}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{esanchez@utec.edu.pe}
+\prefix{Mg.}
+\name{Elmer Sánchez}
+\begin{titles}
+     \Master{Humanities}{Economía y Finanzas}{}{UIMP}{España}{2015}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-941332659}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+
+
+%C.COMPUTACIÓN 
+
+--BEGIN-PROFESSOR--
+\email{jalvarador@utec.edu.pe}
+\prefix{Mg.}
+\name{Jorge Luis Alvarado Revata}
+\begin{titles}
+     \Master{Computing}{Gestión de la Investigación}{Desarrollo e Innovación}{UNIA}{España}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992792980}
+\facebook{}
+\Twitter{@jorgeinnovation}
+\Blog{whcoin.wordpress.com}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{mbermejo@utec.edu.pe}
+\prefix{Mg.}
+\name{Maria Hilda Bermejo  Rios}
+\begin{titles}
+     \Master{Computing}{Informática}{}{PUCP}{Perú}{2014}
+     \Master{Computing}{Educación}{Docencia Universitaria}{UNAB}{Chile}{2012}
+     \Master{Computing}{Administració}{Administración y Gestión de Empresas}{UPC}{España}{2015}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992751554}
+\facebook{Maria Hilda Bermejo}
+\Twitter{}
+\Blog{}
+\Research{Game based Learning}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{ibringas@utec.edu.pe}
+\prefix{Mg.}
+\name{Issac Ernesto Bringas Masgo}
+\begin{titles}
+     \Master{Computing}{Ciencias}{Ingeniería de Sistemas}{UNI}{Perú}{2001}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Extension{}
+\Mobile{+51-979316482}
+\facebook{Ernesto Bringas Masgo}
+\Twitter{}
+\Blog{}
+\Research{Simulación de Fluidos}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{tchambilla@utec.edu.pe}
+\prefix{Mg.}
+\name{Teófilo Chambilla Aquino}
+\begin{titles}
+     \Master{Computing}{Ciencias}{Computación}{UCHILE}{Chile}{2015}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-945770106}
+\facebook{}
+\Twitter{}
+\Blog{http://tchambil.blogspot.pe}
+\Research{Semantic Web-Linked open Data }
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jfiestas@utec.edu.pe}
+\prefix{Dr.}
+\name{Jose Antonio Fiestas Iquira}
+\begin{titles}
+     \Doctor{Computing}{Ciencias  Naturales}{}{UNIHEIDELBERG}{Alemania}{2006}
+     \Master{Mathematics}{Física}{}{UNIHEIDELBERG}{Alemania}{2002}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-945749804}
+\facebook{Jose Fiestas}
+\Twitter{}
+\Blog{}
+\Research{Super Computación }
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cmalpartida@utec.edu.pe}
+\prefix{Prof.}
+\name{Carlo Christian Malpartida Anton}
+\begin{titles}
+     \Degree{Computing}{Ingeniería Eléctrica}{}{PUCP}{Peŕu}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-986651714}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mmelgarz@utec.edu.pe}
+\prefix{Mg.}
+\name{Mariano David Melgar Zavala}
+\begin{titles}
+     \Master{Enterpreneurship}{Gestión de Proyectos}{}{UPC}{Perú}{2017}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-944097236}
+\facebook{Mariano Melgar Zavala}
+\Twitter{marianomelgarz}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rmelgarejo@utec.edu.pe}
+\prefix{Bach.}
+\name{Randiel Javier Melgarejo Diaz}
+\begin{titles}
+     \Bachelor{Computing}{Ingeniería de Sistemas}{}{UNI}{Perú}{2017}
+\end{titles}
+\Category{}
+\webpage{randielmelgarejo.wordpress.com}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-999910953}
+\facebook{randiel.melgarejo.37}
+\Twitter{@_blackprince}
+\Blog{}
+\Research{Integración de Plataformas en Telecomunicaciones}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{pmorriberon@utec.edu.pe}
+\prefix{Mg.}
+\name{Patricio Morriberón Cornejo}
+\begin{titles}
+     \Master{Computing}{MBA}{}{ITESM}{México}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-959173435}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Innovación}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{jrenom@utec.edu.pe}
+\prefix{Dr.}
+\name{Jose Miguel Renom Andara}
+\begin{titles}
+     \Doctor{Mathematics}{Matemáticas}{}{USB}{Venezuela}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-9.}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{rrivas@utec.edu.pe}
+\prefix{Prof.}
+\name{Rubén Demetrio Rivas Medina}
+\begin{titles}
+     \Degree{Computing}{Ingeniería Agrícola}{Estadística e Informática}{UNALM}{Perú}{1990}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-981536664}
+\facebook{}
+\Twitter{@rude4000}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+ 
+ 
+--BEGIN-PROFESSOR--
+\email{jbroncano@utec.edu.pe}
+\prefix{Mg.}
+\name{Juan Carlos Broncano Torres}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Matemática Aplicada}{UNI}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997327502}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jbarraza@utec.edu.pe}
+\prefix{Mg.}
+\name{Julio Cesar Barraza Bernaola}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Matemática Aplicada}{UNI}{Perú}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997085753}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cantonini@utec.edu.pe}
+\prefix{Dr.}
+\name{Claudia Fausta Maura Antonini Bova}
+\begin{titles}
+     \Doctor{Mathematics}{Ingeniería Industrial y Sistemas}{}{GATECH}{EEUU}{2005}
+     \Master{Mathematics}{Matemática Aplicada}{}{GATECH}{EEUU}{2000}
+     \Master{Mathematics}{Matemática Pura}{}{USB}{Venezuela}{1996}
+     \Master{Mathematics}{Investigación de Operaciones}{}{GATECH}{EEUU}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{P-315}
+\Phone{+51-1-2305020}
+\Extension{4286}
+\Mobile{+51-932766009}
+\facebook{Claudia Antoninii}
+\Twitter{@antclaudia}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{etapia@utec.edu.pe}
+\prefix{Mg.}
+\name{Elmer Alfonso Tapia Berrocal}
+\begin{titles}
+     \Master{Humanities}{Educación}{Docencia Universitaria}{UPEU}{Perú}{2017}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-933057237}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{sescalante@utec.edu.pe}
+\prefix{Mg.}
+\name{Sonia Escalante Huamaní}
+\begin{titles}
+     \Master{Mathematics}{Matemática Pura}{}{PUCP}{Perú}{1995}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-943153009}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cnavarro@utec.edu.pe}
+\prefix{Mg.}
+\name{Cristina Navarro Flores}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Matemática Aplicada}{UNI}{Perú}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-964024985}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{dpalomino@utec.edu.pe}
+\prefix{Prof.}
+\name{David  Ernesto Palomino Alva}
+\begin{titles}
+     \Degree{Humanities}{Educación}{}{USIL}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-991155419}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{arios@utec.edu.pe}
+\prefix{Dr.}
+\name{Alejandro Rios Cuadros}
+\begin{titles}
+     \Doctor{Mathematics}{Ciencias}{Física}{UFMG}{Brasil}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-993440455}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rjabo@utec.edu.pe}
+\prefix{Mg.}
+\name{Rosa Fabiola Jabo Bereche}
+\begin{titles}
+     \Master{Mathematics}{Matemáticas}{}{PUCP}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-961736394}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mcarlos@utec.edu.pe}
+\prefix{Mg.}
+\name{Max  Jorge Carlos Salazar}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Química Orgánica y Biología}{USP}{Brasil}{2015}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-943472550}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{aratti@utec.edu.pe}
+\prefix{Dr.}
+\name{Alejandra Ratti Parandelli}
+\begin{titles}
+     \Doctor{Humanities}{Filosofía}{}{ASTATE}{EEUU}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-940656002}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rhoyos@utec.edu.pe}
+\prefix{Mg.}
+\name{Rocío Giovanna Hoyos Diaz}
+\begin{titles}
+     \Master{Humanities}{Educación}{Docencia e Investigación}{USMP}{Perú}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-992739323}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mbarrera@utec.edu.pe}
+\prefix{Mg.}
+\name{Melissa Barrera Tomas}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Química}{UQAM}{Canadá}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-949636559}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{mfernandez@utec.edu.pe}
+\prefix{Dr.}
+\name{María De Fátima Fernandez Lamarque}
+\begin{titles}
+     \Doctor{Humanities}{Filosofía}{}{LSU}{EEUU}{1996}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-966397967}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{apinedo@utec.edu.pe}
+\prefix{Mg.}
+\name{Angela Pinedo Flores}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Ciencias de los Materiales }{PUCP}{Perú}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-991611002}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{czagarra@utec.edu.pe}
+\prefix{Mg.}
+\name{Carmen Luz Zegarra Urquia}
+\begin{titles}
+     \Master{Mathematics}{Química}{}{PUCP}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-999077806}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mgusukuma@utec.edu.pe}
+\prefix{Mg.}
+\name{Marco Antonio Gusukuma Higa}
+\begin{titles}
+     \Master{Mathematics}{Ingeniería Industrial}{}{UNI}{Perú}{2014}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-997277718}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jbueno@utec.edu.pe}
+\prefix{Mg.}
+\name{Juan Carlos Bueno Villanueva}
+\begin{titles}
+     \Master{Computing}{Tecnologías de Información}{Dirección}{ESAN}{Perú}{2010}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{P-519}
+\Phone{+51-1-2305020}
+\Extension{4214}
+\Mobile{+51-9.}
+\facebook{jbueno@utec.edu.pe}
+\Twitter{}
+\Blog{}
+\Research{Big Data}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jdiazl@utec.edu.pe}
+\prefix{Mg.}
+\name{Jose Alfredo Diaz Leon}
+\begin{titles}
+     \Master{Computing}{Tecnologías de Información y Comunicaciones}{}{ESAN}{Perú}{2012}           
+     \Master{Computing}{Tecnologías de Información y Comunicaciones}{}{URL}{España}{2012}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-998645255}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Dispositivos TICS}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jfarfan@utec.edu.pe}
+\prefix{Mg.}
+\name{Jaime Moshe Farfán Madariaga}
+\begin{titles}
+     \Master{Computing}{Tecnologías de Información}{Dirección}{UDEP}{Perú}{2015}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{Dpto de Informática }
+\Phone{+51-1-3173900}
+\Extension{3230}
+\Mobile{+51-999407034.}
+\facebook{}
+\Twitter{@jaimenfarfan}
+\Blog{}
+\Research{Desarrollo de Start Up}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mllosa@utec.edu.pe}
+\prefix{Mg.}
+\name{Melchor Nicolás Llosa Demartini}
+\begin{titles}
+     \Master{Mathematics}{Ciencia}{Gestión Ambiental}{UNFV}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{P-613}
+\Phone{+51-1-2305020}
+\Extension{4237}
+\Mobile{+51-999011107}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{apena@utec.edu.pe}
+\prefix{}
+\name{Alexander Filadelfo Peña Nevado}
+\begin{titles}
+   
+     \Degree{Mathematics}{Física}{}{UNI}{Perú}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{P-605}
+\Phone{+51-1-2503020}
+\Extension{4230}
+\Mobile{+51-999258615}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rperez@utec.edu.pe}
+\prefix{Mg.}
+\name{Rosulo Perez Cupe}
+\begin{titles}
+     \Master{Mathematics}{Ciencias}{Matemática Aplicada}{UNI}{Perú}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Mobile{+51-995547531}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ahmujica@gmail.com}
+\prefix{Bach.}
+\name{Alonso Mujica}
+\begin{titles}
+     \Bachelor{Computing}{Ingeniería Industrial }{}{ULIMA}{Perú}{2012}
+\end{titles}
+\Category{}
+\webpage{www.silabuz.com}
+\Office{}
+\Phone{+51-1-}
+\Extension{}
+\Mobile{+51-950598880.}
+\facebook{Alonso Mujica}
+\Twitter{@alonsomujica1}
+\Blog{timov.pe}
+\Research{Tecnologías de Educación}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{}
+\prefix{}
+\name{José Carreón Romero}
+\begin{titles}
+     \Doctor{}{}{}{}{}{}
+     \Master{}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-1-}
+\Extension{}
+\Mobile{+51-996605406}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+

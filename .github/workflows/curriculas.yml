@@ -1,0 +1,110 @@
+name: Curriculas
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  UNU-2023:
+    runs-on: ubuntu-latest
+    env:
+      PR_ABSOLUTE_PATH: docs/pull/${{github.event.number}}
+      PR_RELATIVE_PATH: pull/${{github.event.number}}
+    steps:
+      - name: Comment on PR
+        uses: hasura/comment-progress@v2.2.0
+        if: github.ref != 'refs/heads/master'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          number: ${{ github.event.number }}
+          id: deploy-preview
+          message: 'Starting deployment of preview ⏳...'
+
+      - name: Set domain
+        run: echo "DOMAIN=ecuadros.github.io" >> $GITHUB_ENV
+
+      - name: Set production base URL
+        run: echo "BASE_URL=https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/" >> $GITHUB_ENV
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Deletes .gitignore
+        run: find ./ -name ".gitignore" -delete
+
+      - name: Build and Start Curricula Container
+        run: docker compose -p curricula up --detach
+
+      - name: Check container
+        run: docker ps -a
+
+      - name: Logs container
+        run: docker logs curricula-curricula-1
+
+      - name: Run gen scripts with Peru-CS-UNU
+        run: docker exec -i curricula-curricula-1 bash -c "cd /app/Curricula.Master && ./scripts/gen-scripts.pl Peru-CS-UNU"
+
+      - name: Run compile1institucion y y y
+        run: docker exec -i curricula-curricula-1 bash -c "cd /app/Curricula.Master && ./../Curricula.out/Peru/CS-UNU/cycle/2023-I/Plan2023/scripts/compile1institucion.sh y y y"
+
+      - name: Check PDFs created
+        run: ls -l -R Curricula.out/pdfs
+
+      - name: Check HTML created
+        run: ls -l -R Curricula.out/html
+
+      - name: Deploy if this is the `master` branch
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Curricula.out/html
+          destination_dir: docs/master
+
+      - name: Set base URL for preview if PR
+        if: github.ref != 'refs/heads/master'
+        run: echo "BASE_URL=https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/${{ env.PR_RELATIVE_PATH}}/" >> $GITHUB_ENV
+
+      - name: Deploy to PR preview
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref != 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Curricula.out/html
+          destination_dir: ${{ env.PR_ABSOLUTE_PATH }}
+
+      - name: Zip PDFs
+        run: docker exec -i curricula-curricula-1 bash -c "cd /app/Curricula.out/pdfs && zip -r UNU.zip ./*"
+
+      - name: Uploading UNU zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: UNU PDFs
+          path: Curricula.out/pdfs/UNU.zip
+
+      - name: Zip HTML
+        run: docker exec -i curricula-curricula-1 bash -c "cd /app/Curricula.out/html && zip -r UNU.html.zip ./*"
+
+      - name: Uploading UNU HTML zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: UNU HTML
+          path: Curricula.out/html/UNU.html.zip
+
+      - name: Check container
+        run: docker ps -a
+
+      - name: Stop container
+        if: always()
+        run: docker-compose down
+
+      - name: Update comment
+        uses: hasura/comment-progress@v2.2.0
+        if: github.ref != 'refs/heads/master'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          number: ${{ github.event.number }}
+          id: deploy-preview
+          message: "A preview of ${{ github.event.after }} is uploaded and can be seen here:\n\n📖 ${{ env.BASE_URL }}/Peru/CS-UNU/Plan2023 📚\n\nChanges may take a few minutes to propagate. The source is here: https://github.com/${{ github.repository }}/tree/gh-pages/${{ env.PR_ABSOLUTE_PATH }}/"

@@ -1,0 +1,5 @@
+
+% Semester #1 .
+% CS1D1. Estructuras Discretas I (Obligatorio)
+CS1D1->ecuadros@spc.org.pe:T
+

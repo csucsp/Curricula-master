@@ -1,0 +1,49 @@
+{
+   "classes" : [
+      "Chemistry",
+      "Math",
+      "Litreture"
+   ],
+   "name" : "Foo Bar",
+   "address" : {
+      "planet" : "Earth",
+      "city" : "Fooville"
+   },
+   "gender" : null,
+   "email" : "foo.com"
+}
+
+
+
+
+{
+   "name" : "Foo Bar",
+   "date" : {
+      "month" : {
+         "array" : [
+            [
+               10,
+               5,
+               4,
+               7,
+               {
+                  "xyz" : "hi",
+                  "abc" : 5
+               }
+            ]
+         ],
+         "subfield" : 25
+      }
+   },
+   "email" : "foo.com",
+   "gender" : null,
+   "address" : {
+      "planet" : "Earth",
+      "city" : "Fooville"
+   },
+   "classes" : [
+      "Chemistry",
+      "Math",
+      "Litreture"
+   ]
+}

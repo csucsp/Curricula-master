@@ -1,0 +1,18 @@
+{
+   "classes" : [
+      "Chemistry",
+      "Math",
+      "Litreture"
+   ],
+   "name" : "Foo Bar",
+   "address" : {
+      "planet" : "Earth",
+      "city" : "Fooville"
+   },
+   "gender" : null,
+   "email" : "foo.com"
+}
+
+
+
+

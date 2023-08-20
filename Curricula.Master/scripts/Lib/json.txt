@@ -1,0 +1,23 @@
+{
+   "map" : {
+      "GeneralInfo.pm" : {
+         "GenSyllabi.pm" : null,
+         "test3.txt" : null,
+         "Common.pm" : null,
+         "HotKey.pm" : null
+      },
+      "Common.pm" : {
+         "HotKey.pm" : null,
+         "test1.txt" : null,
+         "test2.txt" : null
+      }
+   },
+   "ts" : {
+      "GenSyllabi.pm" : "Sun Oct 30 19:24:55 2022",
+      "test2.txt" : "Mon Oct 24 09:51:22 2022",
+      "test3.txt" : "Mon Oct 24 17:42:36 2022",
+      "test1.txt" : "Mon Oct 24 16:49:30 2022",
+      "Common.pm" : "Sun Oct 30 22:36:26 2022",
+      "HotKey.pm" : "Thu May 13 12:47:48 2021"
+   }
+}

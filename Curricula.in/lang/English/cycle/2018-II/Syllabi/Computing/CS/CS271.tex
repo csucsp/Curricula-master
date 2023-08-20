@@ -1,0 +1,172 @@
+\begin{syllabus}
+
+\course{CS2701. Bases de Datos I}{Obligatorio}{CS2701} % Common.pm
+
+\begin{justification}
+Information management (IM) plays a major role in almost all areas where computers are used. 
+This area includes the capture, digitization, representation, organization, transformation and presentation of information; 
+Algorithms to improve the efficiency and effectiveness of accessing and updating stored information, data modeling and abstraction,
+and physical file storage techniques.It also covers information security, privacy, integrity and protection in a shared environment. 
+Students need to be able to develop conceptual and physical data models, determine which (IM) methods and techniques 
+are appropriate for a given problem, and be able to select and implement an appropriate IM solution 
+that reflects all applicable restrictions, including Scalability and usability.
+\end{justification}
+
+\begin{goals}
+\item That the student learn to represent information in a database prioritizing the efficiency in the recovery of the same.
+\item That the student learn the fundamental concepts of the management of databases. This includes the design of databases, database languages and the realization of databases.
+\item Discuss the database model with the base in relational algebra, relational calculus and the study of SQL statements.
+\end{goals}
+
+\begin{outcomes}{V1}
+    \item \ShowOutcome{b}{2}
+    \item \ShowOutcome{d}{2}
+    \item \ShowOutcome{i}{3}
+    \item \ShowOutcome{j}{3}
+\end{outcomes}
+
+\begin{outcomes}{V2}
+    \item \ShowOutcome{2}{2}
+    \item \ShowOutcome{5}{2}
+    \item \ShowOutcome{6}{2}
+\end{outcomes}
+
+\begin{competences}{V1}
+    \item \ShowCompetence{C1}{b} 
+    \item \ShowCompetence{C2}{d}
+    \item \ShowCompetence{C7}{i}
+    \item \ShowCompetence{CS4}{i}
+    \item \ShowCompetence{CS5}{j}
+\end{competences}
+
+\begin{competences}{V2}
+    \item \ShowCompetence{C1}{2} 
+    \item \ShowCompetence{C2}{5}
+    \item \ShowCompetence{C7}{6}
+    \item \ShowCompetence{CS4}{6}
+    \item \ShowCompetence{CS5}{6}
+\end{competences}
+
+\begin{unit}{\IMDatabaseSystems}{}{rob04,elmasri04,date04,korth02}{14}{C1,C7,CS4,CS5}
+\begin{topics}
+      \item \IMDatabaseSystemsTopicApproaches
+      \item \IMDatabaseSystemsTopicComponents
+      \item \IMDatabaseSystemsTopicDesign
+      \item \IMDatabaseSystemsTopicDatabase
+      \item \IMDatabaseSystemsTopicUse 
+      \item \IMDatabaseSystemsTopicSystems
+      \item \IMDatabaseSystemsTopicApproachesFor
+\end{topics}
+\begin{learningoutcomes}
+    \item \IMDatabaseSystemsLOExplainTheDistinguish [\Usage]
+    \item \IMDatabaseSystemsLODescribeTheDesigns [\Usage]
+    \item \IMDatabaseSystemsLOCite [\Usage]
+    \item \IMDatabaseSystemsLODescribeTheA [\Usage]
+    \item \IMDatabaseSystemsLOIdentifyMajor [\Usage]
+    \item \IMDatabaseSystemsLOExplainTheData [\Usage]
+    \item \IMDatabaseSystemsLOUseALanguage [\Usage]
+    \item \IMDatabaseSystemsLODescribeFacilities [\Usage]
+    \item \IMDatabaseSystemsLODescribeMajor [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\IMDataModeling}{}{simsion04,elmasri04,korth02}{14}{C1,C2,C7,CS4,CS5}
+\begin{topics}
+    \item \IMDataModelingTopicData
+    \item \IMDataModelingTopicConceptual
+    \item \IMDataModelingTopicSpreadsheet
+    \item \IMDataModelingTopicRelational
+    \item \IMDataModelingTopicObject
+    \item \IMDataModelingTopicSemi
+\end{topics}
+\begin{learningoutcomes}
+    \item \IMDataModelingLOCompareAndData [\Usage]  
+    \item \IMDataModelingLODescribeConcepts [\Usage]
+    \item \IMDataModelingLODefineTheUsed [\Usage]
+    \item \IMDataModelingLODescribeTheOfData [\Usage]
+    \item \IMDataModelingLOApplyTheAnd [\Usage]
+    \item \IMDataModelingLODescribeTheOfModel [\Usage]
+    \item \IMDataModelingLODescribeTheRelational [\Usage]
+    \item \IMDataModelingLOGiveAEquivalent [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\IMIndexing}{}{whitehorn01,date04,korth02}{4}{CS4,CS5}
+\begin{topics}
+    \item \IMIndexingTopicThe
+    \item \IMIndexingTopicTheBasic
+    \item \IMIndexingTopicKeeping
+    \item \IMIndexingTopicCreating
+    \item \IMIndexingTopicIndexing
+    \item \IMIndexingTopicIndexingThe
+\end{topics}
+\begin{learningoutcomes}
+    \item \IMIndexingLOGenerateAn [\Usage]
+    \item \IMIndexingLOExplainTheAn [\Usage] 
+    \item \IMIndexingLOExplainHowStop [\Usage]
+    \item \IMIndexingLOIdentifyAppropriate [\Usage]
+    \item \IMIndexingLOEstimate [\Usage]
+    \item \IMIndexingLODescribeKey [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\IMRelationalDatabases}{}{whitehorn01,date04,korth02}{14}{5}
+\begin{topics}%
+    \item \IMRelationalDatabasesTopicMapping
+    \item \IMRelationalDatabasesTopicEntity
+    \item \IMRelationalDatabasesTopicRelational
+    \item \IMRelationalDatabasesTopicRelationalDatabase
+    \item \IMRelationalDatabasesTopicFunctional
+    \item \IMRelationalDatabasesTopicDecomposition
+    \item \IMRelationalDatabasesTopicCandidate
+    \item \IMRelationalDatabasesTopicNormal
+    \item \IMRelationalDatabasesTopicMulti
+    \item \IMRelationalDatabasesTopicJoin
+    \item \IMRelationalDatabasesTopicRepresentation
+\end{topics}
+\begin{learningoutcomes}
+    \item \IMRelationalDatabasesLOPrepare [\Usage]
+    \item \IMRelationalDatabasesLOExplainAndConcepts [\Usage]
+    \item \IMRelationalDatabasesLODemonstrateUse [\Usage]
+    \item \IMRelationalDatabasesLOWriteQueries [\Usage]
+    \item \IMRelationalDatabasesLOWriteQueriesTuple [\Usage]
+    \item \IMRelationalDatabasesLODetermineTheBetween [\Usage]
+    \item \IMRelationalDatabasesLOConnect [\Usage]
+    \item \IMRelationalDatabasesLOComputeTheA [\Usage]
+    \item \IMRelationalDatabasesLODetermineWhether [\Usage]
+    \item \IMRelationalDatabasesLOEvaluateATo [\Usage]
+    \item \IMRelationalDatabasesLODescribeTheBcnf [\Usage]
+    \item \IMRelationalDatabasesLOExplainTheNormalization [\Usage]
+    \item \IMRelationalDatabasesLODescribeWhatMulti [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\IMQueryLanguages}{}{dietrich01,elmasri04,celko05,korth02}{12}{C1,CS4,CS5}
+\begin{topics}%
+    \item \IMQueryLanguagesTopicOverview
+    \item \IMQueryLanguagesTopicSql
+    \item \IMQueryLanguagesTopicSelections
+    \item \IMQueryLanguagesTopicProjections
+    \item \IMQueryLanguagesTopicSelect
+    \item \IMQueryLanguagesTopicAggregates
+    \item \IMQueryLanguagesTopicSubqueries
+    \item \IMQueryLanguagesTopicQbe
+    \item \IMQueryLanguagesTopicDifferent
+    \item \IMQueryLanguagesTopicIntroduction
+    \item \IMQueryLanguagesTopicStored
+\end{topics}
+\begin{learningoutcomes}
+    \item \IMQueryLanguagesLOCreateASchema [\Usage]
+    \item \IMQueryLanguagesLOUseSql [\Usage]
+    \item \IMQueryLanguagesLOEvaluateAQuery [\Usage]
+    \item \IMQueryLanguagesLOCreateAQuery [\Usage]
+    \item \IMQueryLanguagesLOEmbed [\Usage]
+    \item \IMQueryLanguagesLOWriteA [\Usage]
+\end{learningoutcomes}    
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS271}
+\end{coursebibliography}
+
+\end{syllabus}

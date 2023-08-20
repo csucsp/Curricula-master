@@ -1,0 +1,679 @@
+
+\newcommand{\ITBOKArea}{}
+\newcommand{\ITONETopicONExONExONE}{Representación de datos fundamentales: no numéricos, numéricos (enteros, reales, errores, precisión)} %level = 3, prefix[level] = 1.1.1
+\newcommand{\ITONETopicONExONExONExONE}{Representación básica en máquina de datos numéricos} %level = 4, prefix[level] = 1.1.1.1
+\newcommand{\ITONETopicONExONExONExTWO}{Representación básica en máquina de datos no numéricos} %level = 4, prefix[level] = 1.1.1.2
+\newcommand{\ITONETopicONExONExONExTHREE}{Precisión de la representación de números enteros y de punto flotante} %level = 4, prefix[level] = 1.1.1.3
+\newcommand{\ITONETopicONExONExONExFOUR}{Errores en aritmética de computador y asuntos relacionados de portabilidad} %level = 4, prefix[level] = 1.1.1.4
+\newcommand{\ITONETopicONExONExONExFIVE}{Conceptos básicos de arquitectura de computadores} %level = 4, prefix[level] = 1.1.1.5
+\newcommand{\ITONETopicONExONExTWO}{Representación física de información digital: p.e. datos, texto, imágenes, voz, video.} %level = 3, prefix[level] = 1.1.2
+\newcommand{\ITONETopicONExONExTHREE}{Architecturas de CPU: CPU, memoria, registros, modos de direccionamiento, conjuntos de instrucciones.} %level = 3, prefix[level] = 1.1.3
+\newcommand{\ITONETopicONExONExTHREExONE}{Organización básica; von Neumann, diagrama de bloques, bus de datos, bus de control.} %level = 4, prefix[level] = 1.1.3.1
+\newcommand{\ITONETopicONExONExTHREExTWO}{Instrucciones y modos de direccionamiento: conjuntos de instrucciones y tipos.} %level = 4, prefix[level] = 1.1.3.2
+\newcommand{\ITONETopicONExONExTHREExTHREE}{Instrucciones y modos de direccionamiento: lenguaje de máquina.} %level = 4, prefix[level] = 1.1.3.3
+\newcommand{\ITONETopicONExONExTHREExFOUR}{Modos de direccionamiento.} %level = 4, prefix[level] = 1.1.3.4
+\newcommand{\ITONETopicONExONExTHREExFIVE}{Unidad de control; \textit{fetch} y ejecución de instrucciones, \textit{fetch} de operadores.} %level = 4, prefix[level] = 1.1.3.5
+\newcommand{\ITONETopicONExONExTHREExSIX}{CISC, RISC.} %level = 4, prefix[level] = 1.1.3.6
+\newcommand{\ITONETopicONExONExTHREExSEVEN}{Organización del computador.} %level = 4, prefix[level] = 1.1.3.7
+\newcommand{\ITONETopicONExONExTHREExEIGHT}{Sistemas de memoria.} %level = 4, prefix[level] = 1.1.3.8
+\newcommand{\ITONETopicONExONExFOUR}{Componentes de sistemas de computadores: bus, controladores, sistemas de almacenamiento, dispositivos periféricos.} %level = 3, prefix[level] = 1.1.4
+\newcommand{\ITONETopicONExONExFOURxONE}{Periféricos: E/S e interrupciones.} %level = 4, prefix[level] = 1.1.4.1
+\newcommand{\ITONETopicONExONExFOURxTWO}{Periféricos: métodos de control de E/S, interrupciones.} %level = 4, prefix[level] = 1.1.4.2
+\newcommand{\ITONETopicONExONExFOURxTHREE}{Periféricos: almacenamiento externo, organización física y \textit{drives}.} %level = 4, prefix[level] = 1.1.4.3
+\newcommand{\ITONETopicONExONExFOURxFOUR}{Almacenamiento auxiliar, cinta, óptico.} %level = 4, prefix[level] = 1.1.4.4
+\newcommand{\ITONETopicONExONExFOURxFIVE}{Sistemas de almacenamiento, jerarquía.} %level = 4, prefix[level] = 1.1.4.5
+\newcommand{\ITONETopicONExONExFOURxSIX}{Organización principal de la memoria, operaciones de bus, tiempos de ciclo.} %level = 4, prefix[level] = 1.1.4.6
+\newcommand{\ITONETopicONExONExFOURxSEVEN}{Memoria caché, lectura/escritura.} %level = 4, prefix[level] = 1.1.4.7
+\newcommand{\ITONETopicONExONExFOURxEIGHT}{Memoria virtual.} %level = 4, prefix[level] = 1.1.4.8
+\newcommand{\ITONETopicONExONExFOURxNINE}{Interfaces entre computadores y otros dispositivos (sensores, efectuadores, etc.)} %level = 4, prefix[level] = 1.1.4.9
+\newcommand{\ITONETopicONExONExFIVE}{Arquitectura de multiprocesadores} %level = 3, prefix[level] = 1.1.5
+\newcommand{\ITONETopicONExONExFIVExONE}{Arquitecturas de sistemas (multi-procesamiento simple y procesamiento distribuido, pilas)} %level = 4, prefix[level] = 1.1.5.1
+\newcommand{\ITONETopicONExONExFIVExTWO}{Tecnologías cliente-servidor.} %level = 4, prefix[level] = 1.1.5.2
+\newcommand{\ITONETopicONExONExSIX}{Lógica y sistemas discretos.} %level = 3, prefix[level] = 1.1.6
+\newcommand{\ITONETopicONExONExSIXxONE}{Elementos lógicos y teoría de \textit{switching}; conceptos e implementación de minimización.} %level = 4, prefix[level] = 1.1.6.1
+\newcommand{\ITONETopicONExONExSIXxTWO}{Demoras y peligros de propagación.} %level = 4, prefix[level] = 1.1.6.2
+\newcommand{\ITONETopicONExONExSIXxTHREE}{Demultiplexers, multiplexers, decodificadores, codificadores, aditores, substractores.} %level = 4, prefix[level] = 1.1.6.3
+\newcommand{\ITONETopicONExONExSIXxFOUR}{ROM, PROM, EPROM, EAPROM, RAM.} %level = 4, prefix[level] = 1.1.6.4
+\newcommand{\ITONETopicONExONExSIXxFIVE}{Análisis y síntesis de circuitos síncronos, asíncronos vs. síncronos.} %level = 4, prefix[level] = 1.1.6.5
+\newcommand{\ITONETopicONExONExSIXxSIX}{Notación de transferencia de registros, condicional e incondicional.} %level = 4, prefix[level] = 1.1.6.6
+\newcommand{\ITONETopicONExONExSIXxSEVEN}{Máquinas de estado, redes de conducción, señales de transferencia de carga.} %level = 4, prefix[level] = 1.1.6.7
+\newcommand{\ITONETopicONExONExSIXxEIGHT}{Tri-estados y estructuras de bus.} %level = 4, prefix[level] = 1.1.6.8
+\newcommand{\ITONETopicONExONExSIXxNINE}{Diagramas de bloque, diagramas de tiempo, lenguaje de transferencia.} %level = 4, prefix[level] = 1.1.6.9
+\newcommand{\ITTWOTopicONExTWOxONE}{Problemas formales y resolución de problemas.} %level = 3, prefix[level] = 1.2.1
+\newcommand{\ITTWOTopicONExTWOxONExONE}{Estrategias de resolución de problemas usando algoritmos voraces.} %level = 4, prefix[level] = 1.2.1.1
+\newcommand{\ITTWOTopicONExTWOxONExTWO}{Estrategias de resolución de problemas usando algoritmos divide y vencerás.} %level = 4, prefix[level] = 1.2.1.2
+\newcommand{\ITTWOTopicONExTWOxONExTHREE}{Estrategias de resolución de problemas usando algoritmos de \textit{back- tracking}.} %level = 4, prefix[level] = 1.2.1.3
+\newcommand{\ITTWOTopicONExTWOxONExFOUR}{Proceso de diseño de software; desde la especificación a la implementación.} %level = 4, prefix[level] = 1.2.1.4
+\newcommand{\ITTWOTopicONExTWOxONExFIVE}{Establecimiento del problema y determinación algorítmica.} %level = 4, prefix[level] = 1.2.1.5
+\newcommand{\ITTWOTopicONExTWOxONExSIX}{Estrategias de implementación (\textit{top-down}, \textit{bottom-up}; equipo vs. individual).} %level = 4, prefix[level] = 1.2.1.6
+\newcommand{\ITTWOTopicONExTWOxONExSEVEN}{Conceptos de verificación formal.} %level = 4, prefix[level] = 1.2.1.7
+\newcommand{\ITTWOTopicONExTWOxONExEIGHT}{Models de computación formales.} %level = 4, prefix[level] = 1.2.1.8
+\newcommand{\ITTWOTopicONExTWOxTWO}{Estructuras de datos básicas: listas, arreglos, cadenas, registros, conjuntos, listas enlazadas, pilas, colas, árboles.} %level = 3, prefix[level] = 1.2.2
+\newcommand{\ITTWOTopicONExTWOxTHREE}{Estructuras de datos complejas: p.e., de datos, texto, voz, imagen, video, hipermedia.} %level = 3, prefix[level] = 1.2.3
+\newcommand{\ITTWOTopicONExTWOxFOUR}{Tipos abstractos de datos.} %level = 3, prefix[level] = 1.2.4
+\newcommand{\ITTWOTopicONExTWOxFOURxONE}{Propósito e implementación de tipos abstractos de datos.} %level = 4, prefix[level] = 1.2.4.1
+\newcommand{\ITTWOTopicONExTWOxFOURxTWO}{Especificaciones informales.} %level = 4, prefix[level] = 1.2.4.2
+\newcommand{\ITTWOTopicONExTWOxFOURxTHREE}{Especificaciones formales, pre-condiciones y post-condiciones, algebraicas.} %level = 4, prefix[level] = 1.2.4.3
+\newcommand{\ITTWOTopicONExTWOxFOURxFOUR}{Módulos, cohesión, acoplamiento; diagramas de flujo de datos y conversión a jerarquías.} %level = 4, prefix[level] = 1.2.4.4
+\newcommand{\ITTWOTopicONExTWOxFOURxFIVE}{Correctitud, verificación y validación: pre- y post-condiciones, invariantes.} %level = 4, prefix[level] = 1.2.4.5
+\newcommand{\ITTWOTopicONExTWOxFOURxSIX}{Estructuras de control; selección, iteración, recursión; tipos de datos y sus usos.} %level = 4, prefix[level] = 1.2.4.6
+\newcommand{\ITTWOTopicONExTWOxFIVE}{Estructuras de archivos: secuencial, de acceso directo, hashing, indexados.} %level = 3, prefix[level] = 1.2.5
+\newcommand{\ITTWOTopicONExTWOxFIVExONE}{Archivos (estructura, métodos de acceso): distribución de archivos, conceptos de archivos fundamentales.} %level = 4, prefix[level] = 1.2.5.1
+\newcommand{\ITTWOTopicONExTWOxFIVExTWO}{Archivos (estructura, métodos de acceso): contenidos y estructuras de directorios, nombramiento.} %level = 4, prefix[level] = 1.2.5.2
+\newcommand{\ITTWOTopicONExTWOxFIVExTHREE}{Archivos (estructura, métodos de acceso): vista general de seguridad del sistema, métodos de seguridad.} %level = 4, prefix[level] = 1.2.5.3
+\newcommand{\ITTWOTopicONExTWOxSIX}{Estructuras y algoritmos de ordenamiento y búsqueda.} %level = 3, prefix[level] = 1.2.6
+\newcommand{\ITTWOTopicONExTWOxSIXxONE}{Algoritmos de ordenamiento (\textit{shell sort}, \textit{bucket sort}, \textit{radix sort}, \textit{quick sort}), edición.} %level = 4, prefix[level] = 1.2.6.1
+\newcommand{\ITTWOTopicONExTWOxSIXxTWO}{Algoritmos de búsqueda (búsqueda serial, búsqueda binaria y árboles de búsqueda binaria).} %level = 4, prefix[level] = 1.2.6.2
+\newcommand{\ITTWOTopicONExTWOxSIXxTHREE}{Búsqueda, hashing, resolución de colisiones.} %level = 4, prefix[level] = 1.2.6.3
+\newcommand{\ITTWOTopicONExTWOxSEVEN}{Eficiencia de algoritmos, complejidad y métricas.} %level = 3, prefix[level] = 1.2.7
+\newcommand{\ITTWOTopicONExTWOxSEVENxONE}{Análisis asintótico.} %level = 4, prefix[level] = 1.2.7.1
+\newcommand{\ITTWOTopicONExTWOxSEVENxTWO}{Balance entre tiempo y espacio en algoritmos.} %level = 4, prefix[level] = 1.2.7.2
+\newcommand{\ITTWOTopicONExTWOxSEVENxTHREE}{Clases de complejidad P, NP, P-space; problemas tratables e intratables.} %level = 4, prefix[level] = 1.2.7.3
+\newcommand{\ITTWOTopicONExTWOxSEVENxFOUR}{Análisis de límite inferior.} %level = 4, prefix[level] = 1.2.7.4
+\newcommand{\ITTWOTopicONExTWOxSEVENxFIVE}{NP-completitud.} %level = 4, prefix[level] = 1.2.7.5
+\newcommand{\ITTWOTopicONExTWOxSEVENxSIX}{Algoritmos de ordenamiento $O(n^2)$.} %level = 4, prefix[level] = 1.2.7.6
+\newcommand{\ITTWOTopicONExTWOxSEVENxSEVEN}{Algoritmos de ordenamiento $O(n\log n)$.} %level = 4, prefix[level] = 1.2.7.7
+\newcommand{\ITTWOTopicONExTWOxSEVENxEIGHT}{\textit{Backtracking}, \textit{parsing}, simulaciones discretas, etc.} %level = 4, prefix[level] = 1.2.7.8
+\newcommand{\ITTWOTopicONExTWOxSEVENxNINE}{Fundamentos de análisis de algoritmos.} %level = 4, prefix[level] = 1.2.7.9
+\newcommand{\ITTWOTopicONExTWOxEIGHT}{Algoritmos recursivos.} %level = 3, prefix[level] = 1.2.8
+\newcommand{\ITTWOTopicONExTWOxEIGHTxONE}{Conexión de algoritmos recursivos con inducción matemática.} %level = 4, prefix[level] = 1.2.8.1
+\newcommand{\ITTWOTopicONExTWOxEIGHTxTWO}{Comparación de algoritmos iterativos y recursivos.} %level = 4, prefix[level] = 1.2.8.2
+\newcommand{\ITTWOTopicONExTWOxNINE}{Redes neuronales y algoritmos genéticos.} %level = 3, prefix[level] = 1.2.9
+\newcommand{\ITTWOTopicONExTWOxONEOH}{Consideraciones avanzadas.} %level = 3, prefix[level] = 1.2.10
+\newcommand{\ITTWOTopicONExTWOxONEOHxONE}{Funciones computables: modelos de funciones computables de máquinas de Turing.} %level = 4, prefix[level] = 1.2.10.1
+\newcommand{\ITTWOTopicONExTWOxONEOHxTWO}{Problemas de decisión: problemas enumerables recursivos; indecibilidad.} %level = 4, prefix[level] = 1.2.10.2
+\newcommand{\ITTWOTopicONExTWOxONEOHxTHREE}{Modelo de arquitecturas paralelas.} %level = 4, prefix[level] = 1.2.10.3
+\newcommand{\ITTWOTopicONExTWOxONEOHxFOUR}{Algoritmos de arquitecturas paralelas.} %level = 4, prefix[level] = 1.2.10.4
+\newcommand{\ITTWOTopicONExTWOxONEOHxFIVE}{Problemas matemáticos: problemas bien acondicionados y mal acondicionados.} %level = 4, prefix[level] = 1.2.10.5
+\newcommand{\ITTWOTopicONExTWOxONEOHxSIX}{Problemas matemáticos: aproximaciones iterativas a problemas matemáticos.} %level = 4, prefix[level] = 1.2.10.6
+\newcommand{\ITTWOTopicONExTWOxONEOHxSEVEN}{Problemas matemáticos: clasificación de error, computacional, representacional.} %level = 4, prefix[level] = 1.2.10.7
+\newcommand{\ITTWOTopicONExTWOxONEOHxEIGHT}{Problemas matemáticos: aplicaciones de métodos de aproximación interativa.} %level = 4, prefix[level] = 1.2.10.8
+\newcommand{\ITTWOTopicONExTWOxONEOHxNINE}{Límites de computación: computabilidad e intratabilidad algorítmica.} %level = 4, prefix[level] = 1.2.10.9
+\newcommand{\ITTHREETopicONExTHREExONE}{Estructuras de lenguajes de programación fundamentales; comparación de lenguajes y aplicaciones.} %level = 3, prefix[level] = 1.3.1
+\newcommand{\ITTHREETopicONExTHREExTWO}{Lenguajes de nivel de máquina y ensamblador.} %level = 3, prefix[level] = 1.3.2
+\newcommand{\ITTHREETopicONExTHREExTHREE}{Lenguajes procedurales.} %level = 3, prefix[level] = 1.3.3
+\newcommand{\ITTHREETopicONExTHREExTHREExONE}{Ventajas y desventajas de la programación procedural.} %level = 4, prefix[level] = 1.3.3.1
+\newcommand{\ITTHREETopicONExTHREExTHREExTWO}{Declaraciones básicas de tipos; operaciones aritméticas y asignación; condicionales.} %level = 4, prefix[level] = 1.3.3.2
+\newcommand{\ITTHREETopicONExTHREExTHREExTHREE}{Procedimientos, funciones y parámetros; arreglos y registros.} %level = 4, prefix[level] = 1.3.3.3
+\newcommand{\ITTHREETopicONExTHREExFOUR}{Lenguajes no procedurales: lógicos, funcional y basados en eventos.} %level = 3, prefix[level] = 1.3.4
+\newcommand{\ITTHREETopicONExTHREExFIVE}{Lenguajes de cuarta generación.} %level = 3, prefix[level] = 1.3.5
+\newcommand{\ITTHREETopicONExTHREExSIX}{Extensiones orientadas a objetos para lenguajes.} %level = 3, prefix[level] = 1.3.6
+\newcommand{\ITTHREETopicONExTHREExSEVEN}{Lenguajes de programación, diseño, implementación y comparación.} %level = 3, prefix[level] = 1.3.7
+\newcommand{\ITTHREETopicONExTHREExSEVENxONE}{Historia de los primeros lenguajes.} %level = 4, prefix[level] = 1.3.7.1
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWO}{Evolución de los lenguajes procedurales.} %level = 4, prefix[level] = 1.3.7.2
+\newcommand{\ITTHREETopicONExTHREExSEVENxTHREE}{Evolución de los lenguajes no procedurales.} %level = 4, prefix[level] = 1.3.7.3
+\newcommand{\ITTHREETopicONExTHREExSEVENxFOUR}{Computadores virtuales.} %level = 4, prefix[level] = 1.3.7.4
+\newcommand{\ITTHREETopicONExTHREExSEVENxFIVE}{Tipos de datos elementales y estructurados.} %level = 4, prefix[level] = 1.3.7.5
+\newcommand{\ITTHREETopicONExTHREExSEVENxSIX}{Creación y aplicación de tipos de datos definidos por el usuario.} %level = 4, prefix[level] = 1.3.7.6
+\newcommand{\ITTHREETopicONExTHREExSEVENxSEVEN}{Expresiones, orden de evaluación y efectos secundarios.} %level = 4, prefix[level] = 1.3.7.7
+\newcommand{\ITTHREETopicONExTHREExSEVENxEIGHT}{Subproigramas y corutinas como abstracciones de expresiones y declaraciones.} %level = 4, prefix[level] = 1.3.7.8
+\newcommand{\ITTHREETopicONExTHREExSEVENxNINE}{Manejo de excepciones.} %level = 4, prefix[level] = 1.3.7.9
+\newcommand{\ITTHREETopicONExTHREExSEVENxONEOH}{Mecanismos para compartir y restringir el acceso a datos.} %level = 4, prefix[level] = 1.3.7.10
+\newcommand{\ITTHREETopicONExTHREExSEVENxONEONE}{Ámbito estático vs. dinámico, timepo de vida, visibilidad.} %level = 4, prefix[level] = 1.3.7.11
+\newcommand{\ITTHREETopicONExTHREExSEVENxONETWO}{Mecanismos de paso de parámetros; referencia, valor, nombre, resultado, etc.} %level = 4, prefix[level] = 1.3.7.12
+\newcommand{\ITTHREETopicONExTHREExSEVENxONETHREE}{Variedades de disciplinas de prueba de tipos y sus mecanismos.} %level = 4, prefix[level] = 1.3.7.13
+\newcommand{\ITTHREETopicONExTHREExSEVENxONEFOUR}{Aplicación de almacenamiento basado en pilas.} %level = 4, prefix[level] = 1.3.7.14
+\newcommand{\ITTHREETopicONExTHREExSEVENxONEFIVE}{Aplicación de almacenamiento basado en \textit{heaps}.} %level = 4, prefix[level] = 1.3.7.15
+\newcommand{\ITTHREETopicONExTHREExSEVENxONESIX}{Autómatas de estado finito para modelos restringidos de computación.} %level = 4, prefix[level] = 1.3.7.16
+\newcommand{\ITTHREETopicONExTHREExSEVENxONESEVEN}{Aplicación de expresiones regulares al análisis de lenguajes de programación.} %level = 4, prefix[level] = 1.3.7.17
+\newcommand{\ITTHREETopicONExTHREExSEVENxONEEIGHT}{Uso de gramáticas libres de contexto y de autómatas de pila.} %level = 4, prefix[level] = 1.3.7.18
+\newcommand{\ITTHREETopicONExTHREExSEVENxONENINE}{Equivalencia entre gramáticas libres de contexto y autómatas de pila.} %level = 4, prefix[level] = 1.3.7.19
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOOH}{Uso de autómatas de pila en el \textit{parsing} de lenguajes de programación.} %level = 4, prefix[level] = 1.3.7.20
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOONE}{Proceso de traducción de lenguajes, compiladores a interpretadores.} %level = 4, prefix[level] = 1.3.7.21
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOTWO}{Semántica de los lenguajes de programación.} %level = 4, prefix[level] = 1.3.7.22
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOTHREE}{Paradigmas y lenguajes de programación funcional.} %level = 4, prefix[level] = 1.3.7.23
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOFOUR}{Construcciones programación paralela.} %level = 4, prefix[level] = 1.3.7.24
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOFIVE}{Lenguajes procedurales: problemas de implementación; mejora del rendimiento.} %level = 4, prefix[level] = 1.3.7.25
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOSIX}{Compiladores y traductores.} %level = 4, prefix[level] = 1.3.7.26
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOSEVEN}{Lenguajes de muy alto nivel: SQL, lenguajes de cuarta generación.} %level = 4, prefix[level] = 1.3.7.27
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWOEIGHT}{Diseño orientado a objetos, lenguajes y programación.} %level = 4, prefix[level] = 1.3.7.28
+\newcommand{\ITTHREETopicONExTHREExSEVENxTWONINE}{Lenguajes de programación lógica: LISP, PROLOG; programación orientada a lógica.} %level = 4, prefix[level] = 1.3.7.29
+\newcommand{\ITTHREETopicONExTHREExSEVENxTHREEOH}{Generadores de código.} %level = 4, prefix[level] = 1.3.7.30
+\newcommand{\ITTHREETopicONExTHREExSEVENxTHREEONE}{Shells de sistemas expertos.} %level = 4, prefix[level] = 1.3.7.31
+\newcommand{\ITTHREETopicONExTHREExSEVENxTHREETWO}{Lenguajes de diseño de software.} %level = 4, prefix[level] = 1.3.7.32
+\newcommand{\ITFOURTopicONExFOURxONE}{Arquitectura, objetivos y estructura de un sistema operativo; métodos de estructuración, modelos por capas.} %level = 3, prefix[level] = 1.4.1
+\newcommand{\ITFOURTopicONExFOURxTWO}{Interacción del sistema operativo con la arquitectura de hardware.} %level = 3, prefix[level] = 1.4.2
+\newcommand{\ITFOURTopicONExFOURxTHREE}{Administración de procesos: procesos concurrentes, sincronización.} %level = 3, prefix[level] = 1.4.3
+\newcommand{\ITFOURTopicONExFOURxTHREExONE}{Tareas, procesos, interrupciones.} %level = 4, prefix[level] = 1.4.3.1
+\newcommand{\ITFOURTopicONExFOURxTHREExTWO}{Estructuras, listas de espera, bloques de control de procesos.} %level = 4, prefix[level] = 1.4.3.2
+\newcommand{\ITFOURTopicONExFOURxTHREExTHREE}{Ejecución concurrente de procesos.} %level = 4, prefix[level] = 1.4.3.3
+\newcommand{\ITFOURTopicONExFOURxTHREExFOUR}{Acceso compartido, condiciones de ejecución.} %level = 4, prefix[level] = 1.4.3.4
+\newcommand{\ITFOURTopicONExFOURxTHREExFIVE}{\textit{Deadlock}; causas, condiciones, prevención.} %level = 4, prefix[level] = 1.4.3.5
+\newcommand{\ITFOURTopicONExFOURxTHREExSIX}{Modelos y mecanismos (p.e., \textit{busy waiting}, \textit{spin locks}, algoritmo de Deker).} %level = 4, prefix[level] = 1.4.3.6
+\newcommand{\ITFOURTopicONExFOURxTHREExSEVEN}{\textit{Switching} preferente y no preferente.} %level = 4, prefix[level] = 1.4.3.7
+\newcommand{\ITFOURTopicONExFOURxTHREExEIGHT}{\textit{Schedulers} y políticas de \textit{scheduling}.} %level = 4, prefix[level] = 1.4.3.8
+\newcommand{\ITFOURTopicONExFOURxFOUR}{Administración de memoria.} %level = 3, prefix[level] = 1.4.4
+\newcommand{\ITFOURTopicONExFOURxFOURxONE}{Memoria física y registros.} %level = 4, prefix[level] = 1.4.4.1
+\newcommand{\ITFOURTopicONExFOURxFOURxTWO}{\textit{Overlays}, \textit{swapping}, particiones.} %level = 4, prefix[level] = 1.4.4.2
+\newcommand{\ITFOURTopicONExFOURxFOURxTHREE}{Páginas y segmentos.} %level = 4, prefix[level] = 1.4.4.3
+\newcommand{\ITFOURTopicONExFOURxFOURxFOUR}{Política de posicionamiento y reposicionamiento.} %level = 4, prefix[level] = 1.4.4.4
+\newcommand{\ITFOURTopicONExFOURxFOURxFIVE}{\textit{Thrashing}, \textit{working sets}.} %level = 4, prefix[level] = 1.4.4.5
+\newcommand{\ITFOURTopicONExFOURxFOURxSIX}{Listas libres, \textit{layout}; servidores, interrupciones; recuperación de fallos.} %level = 4, prefix[level] = 1.4.4.6
+\newcommand{\ITFOURTopicONExFOURxFOURxSEVEN}{Protección de memoria, administración de la recuperación.} %level = 4, prefix[level] = 1.4.4.7
+\newcommand{\ITFOURTopicONExFOURxFIVE}{Asignación y programación de recursos.} %level = 3, prefix[level] = 1.4.5
+\newcommand{\ITFOURTopicONExFOURxFIVExONE}{\textit{Suites} de protocolos (comuniación y redes); \textit{streams} y datagramas.} %level = 4, prefix[level] = 1.4.5.1
+\newcommand{\ITFOURTopicONExFOURxFIVExTWO}{Internet \textit{working} y \textit{routing}; servidores y servicios.} %level = 4, prefix[level] = 1.4.5.2
+\newcommand{\ITFOURTopicONExFOURxFIVExTHREE}{Tipos de sistemas operativos: de usuario simple, multi-usuario, de red.} %level = 4, prefix[level] = 1.4.5.3
+\newcommand{\ITFOURTopicONExFOURxFIVExFOUR}{Sincronización y temporización en sistemas distribuidos y de tiempo real.} %level = 4, prefix[level] = 1.4.5.4
+\newcommand{\ITFOURTopicONExFOURxFIVExFIVE}{Consideraciones especiales en sistemas de tiempo real; fallas, riesgos y recuperación.} %level = 4, prefix[level] = 1.4.5.5
+\newcommand{\ITFOURTopicONExFOURxFIVExSIX}{Utilidades de sistemas operativos.} %level = 4, prefix[level] = 1.4.5.6
+\newcommand{\ITFOURTopicONExFOURxFIVExSEVEN}{Evolución del hardware; fuerzas y restricciones económicas.} %level = 4, prefix[level] = 1.4.5.7
+\newcommand{\ITFOURTopicONExFOURxFIVExEIGHT}{Arquitectura de los sistemas de tiempo real y sistemas empotrados.} %level = 4, prefix[level] = 1.4.5.8
+\newcommand{\ITFOURTopicONExFOURxFIVExNINE}{Consideraciones especiales en sistemas de tiempo real empotrados: requerimientos \textit{hard-timing}..} %level = 4, prefix[level] = 1.4.5.9
+\newcommand{\ITFOURTopicONExFOURxSIX}{Administración de almacenamiento secundario.} %level = 3, prefix[level] = 1.4.6
+\newcommand{\ITFOURTopicONExFOURxSEVEN}{Sistemas de archivos y de directorios.} %level = 3, prefix[level] = 1.4.7
+\newcommand{\ITFOURTopicONExFOURxEIGHT}{Protección y seguridad.} %level = 3, prefix[level] = 1.4.8
+\newcommand{\ITFOURTopicONExFOURxNINE}{Sistemas operativos distribuidos.} %level = 3, prefix[level] = 1.4.9
+\newcommand{\ITFOURTopicONExFOURxONEOH}{Soporte del sistema operativo para interacción humano-computador: p.e., GUI, video interactivo.} %level = 3, prefix[level] = 1.4.10
+\newcommand{\ITFOURTopicONExFOURxONEONE}{Interoperatividad y compatibilidad de sistemas operativos: p.e., sistemas abiertos.} %level = 3, prefix[level] = 1.4.11
+\newcommand{\ITFOURTopicONExFOURxONETWO}{Utilidades de los sistemas operativos, herramientas, comandos y programación \textit{shell}.} %level = 3, prefix[level] = 1.4.12
+\newcommand{\ITFOURTopicONExFOURxONETHREE}{Administración y gerenciamiento de sistemas.} %level = 3, prefix[level] = 1.4.13
+\newcommand{\ITFOURTopicONExFOURxONETHREExONE}{\textit{Bootstrapping} del sistema/carga inicial de programa.} %level = 4, prefix[level] = 1.4.13.1
+\newcommand{\ITFOURTopicONExFOURxONETHREExTWO}{Generación del sistema.} %level = 4, prefix[level] = 1.4.13.2
+\newcommand{\ITFOURTopicONExFOURxONETHREExTHREE}{Configuración del sistema.} %level = 4, prefix[level] = 1.4.13.3
+\newcommand{\ITFOURTopicONExFOURxONETHREExFOUR}{Análisis, evaluación y monitoreo de rendimiento.} %level = 4, prefix[level] = 1.4.13.4
+\newcommand{\ITFOURTopicONExFOURxONETHREExFIVE}{Optimización y \textit{tuning} del sistema.} %level = 4, prefix[level] = 1.4.13.5
+\newcommand{\ITFOURTopicONExFOURxONETHREExSIX}{Funciones de administración del sistema: copias de seguridad, securidad y protección.} %level = 4, prefix[level] = 1.4.13.6
+\newcommand{\ITFIVETopicONExFIVExONE}{Estándares, modelos y tendencias internacionales en telecomunicaciones.} %level = 3, prefix[level] = 1.5.1
+\newcommand{\ITFIVETopicONExFIVExONExONE}{Redes de computadoras y control: topologías, portadores comunes, equipos.} %level = 4, prefix[level] = 1.5.1.1
+\newcommand{\ITFIVETopicONExFIVExONExTWO}{Diseño y administración de redes: arquitecturas de red (ISO, SNA, DNA).} %level = 4, prefix[level] = 1.5.1.2
+\newcommand{\ITFIVETopicONExFIVExTWO}{Transmisión de datos: media, técnicas de señalización, impedimento de transmisión, codificación, error.} %level = 3, prefix[level] = 1.5.2
+\newcommand{\ITFIVETopicONExFIVExTWOxONE}{Tecnologías de sistemas de comunicaciones: medios de transmisión, analógico-digital.} %level = 4, prefix[level] = 1.5.2.1
+\newcommand{\ITFIVETopicONExFIVExTHREE}{Configuración de línea: control de rror, control de flujo, multiplexado.} %level = 3, prefix[level] = 1.5.3
+\newcommand{\ITFIVETopicONExFIVExFOUR}{Redes de área local.} %level = 3, prefix[level] = 1.5.4
+\newcommand{\ITFIVETopicONExFIVExFOURxONE}{Topologías, control de acceso al medio, multiplexado.} %level = 4, prefix[level] = 1.5.4.1
+\newcommand{\ITFIVETopicONExFIVExFOURxTWO}{Redes de área local y WANs: topología, \textit{gateways}, usos (funciones y oficina).} %level = 4, prefix[level] = 1.5.4.2
+\newcommand{\ITFIVETopicONExFIVExFOURxTHREE}{Determinación de requerimientos, monitoreo y control del rendimiento, aspectos económicos.} %level = 4, prefix[level] = 1.5.4.3
+\newcommand{\ITFIVETopicONExFIVExFOURxFOUR}{Arquitectura de los sistemas distribuidos.} %level = 4, prefix[level] = 1.5.4.4
+\newcommand{\ITFIVETopicONExFIVExFOURxFIVE}{Aspectos de hardware de los sitemas distribuidos.} %level = 4, prefix[level] = 1.5.4.5
+\newcommand{\ITFIVETopicONExFIVExFIVE}{Redes de área amplia: técnicas de \textit{switching}, de \textit{broadcast}, \textit{routing}.} %level = 3, prefix[level] = 1.5.5
+\newcommand{\ITFIVETopicONExFIVExSIX}{Arquitecturas y protocolos de redes.} %level = 3, prefix[level] = 1.5.6
+\newcommand{\ITFIVETopicONExFIVExSEVEN}{\textit{Internetworking}} %level = 3, prefix[level] = 1.5.7
+\newcommand{\ITFIVETopicONExFIVExEIGHT}{Configuración de redes, análisis y monitoreo de rendimiento.} %level = 3, prefix[level] = 1.5.8
+\newcommand{\ITFIVETopicONExFIVExNINE}{Seguridad de redes: encriptación, firmas digitales, autenticación.} %level = 3, prefix[level] = 1.5.9
+\newcommand{\ITFIVETopicONExFIVExONEOH}{Redes de alta velocidad: p.e. ISDN, SMDS, ATM, FDDI de banda ancha.} %level = 3, prefix[level] = 1.5.10
+\newcommand{\ITFIVETopicONExFIVExONEONE}{Tecnologías emergentes: ATM, ISDN, redes de satélites, redes ópticas, etc., voz, datos y videos integrados.} %level = 3, prefix[level] = 1.5.11
+\newcommand{\ITFIVETopicONExFIVExONETWO}{Aplicación: p.e., cliente-servidor, EDI, EFT, redes de teléfonos, e-mail, multimedia, video.} %level = 3, prefix[level] = 1.5.12
+\newcommand{\ITFIVETopicONExFIVExONETWOxONE}{Métodos y transmisión de información gráfica y de video.} %level = 4, prefix[level] = 1.5.12.1
+\newcommand{\ITFIVETopicONExFIVExONETHREE}{Protocolos de sistemas abiertos.} %level = 3, prefix[level] = 1.5.13
+\newcommand{\ITFIVETopicONExFIVExONETHREExONE}{Protocolos de transporte.} %level = 4, prefix[level] = 1.5.13.1
+\newcommand{\ITFIVETopicONExFIVExONETHREExTWO}{Protocolos de soporte de aplicaciones: encriptación; compromiso, concurrencia.} %level = 4, prefix[level] = 1.5.13.2
+\newcommand{\ITFIVETopicONExFIVExONEFOUR}{Distribución de información.} %level = 3, prefix[level] = 1.5.14
+\newcommand{\ITFIVETopicONExFIVExONEFOURxONE}{Structura de redes.} %level = 4, prefix[level] = 1.5.14.1
+\newcommand{\ITFIVETopicONExFIVExONEFOURxTWO}{Tecnología cliente-servidor/cliente-servidor delgada.} %level = 4, prefix[level] = 1.5.14.2
+\newcommand{\ITFIVETopicONExFIVExONEFOURxTHREE}{Redes, \textit{routing}, análisis de desempeño.} %level = 4, prefix[level] = 1.5.14.3
+\newcommand{\ITFIVETopicONExFIVExONEFOURxFOUR}{Sistemas de comunicaciones.} %level = 4, prefix[level] = 1.5.14.4
+\newcommand{\ITSIXTopicONExSIXxONE}{DBMS: características, funciones y arquitectura.} %level = 3, prefix[level] = 1.6.1
+\newcommand{\ITSIXTopicONExSIXxONExONE}{DBMS (características, funciones, arquitectura); componentes de un sistema de bases de datos.} %level = 4, prefix[level] = 1.6.1.1
+\newcommand{\ITSIXTopicONExSIXxONExTWO}{DBMS: vista general de álgebra relacional.} %level = 4, prefix[level] = 1.6.1.2
+\newcommand{\ITSIXTopicONExSIXxONExTHREE}{Diseño lógico (diseño independiente de DBMS): ER, orientado a objetos.} %level = 4, prefix[level] = 1.6.1.3
+\newcommand{\ITSIXTopicONExSIXxTWO}{Modelos de datos: relacional, jerárquico, de red, de objetos, de objetos semánticos.} %level = 3, prefix[level] = 1.6.2
+\newcommand{\ITSIXTopicONExSIXxTWOxONE}{Teminología de modelado de datos relacional.} %level = 4, prefix[level] = 1.6.2.1
+\newcommand{\ITSIXTopicONExSIXxTWOxTWO}{Modelado conceptual (p.e., entidad-relación, orientado a objtos).} %level = 4, prefix[level] = 1.6.2.2
+\newcommand{\ITSIXTopicONExSIXxTWOxTHREE}{Interconversión entre tipos de modelos (p.e. jerárquico a relacional).} %level = 4, prefix[level] = 1.6.2.3
+\newcommand{\ITSIXTopicONExSIXxTHREE}{Normalización} %level = 3, prefix[level] = 1.6.3
+\newcommand{\ITSIXTopicONExSIXxFOUR}{Integridad (referencial, de item de datos, de intra-relaciones): representación de relaciones; de entidad y referencial.} %level = 3, prefix[level] = 1.6.4
+\newcommand{\ITSIXTopicONExSIXxFIVE}{Lenguajes de definición de datos (lenguajes de definición de esquemas, herramientas de desarrollo gráficas).} %level = 3, prefix[level] = 1.6.5
+\newcommand{\ITSIXTopicONExSIXxSIX}{Interfaz de aplicaciones.} %level = 3, prefix[level] = 1.6.6
+\newcommand{\ITSIXTopicONExSIXxSIXxONE}{Función soportada por sistemas de bases de datos típicos; métodos de acceso, seguridad.} %level = 4, prefix[level] = 1.6.6.1
+\newcommand{\ITSIXTopicONExSIXxSIXxTWO}{DML, consulta, QBE, SQL, etc.: lenguaje de consultas de bases de datos; definitción de datos, consulta.} %level = 4, prefix[level] = 1.6.6.2
+\newcommand{\ITSIXTopicONExSIXxSIXxTHREE}{Interfaces de aplicación y de usuario (DML, consulta, QBE, SQL).} %level = 4, prefix[level] = 1.6.6.3
+\newcommand{\ITSIXTopicONExSIXxSIXxFOUR}{Objetos de pantalla basados en eventos (botones, listas, etc.)} %level = 4, prefix[level] = 1.6.6.4
+\newcommand{\ITSIXTopicONExSIXxSIXxFIVE}{Procesamiento físico de transacciones; consideraciones cliente-servidor.} %level = 4, prefix[level] = 1.6.6.5
+\newcommand{\ITSIXTopicONExSIXxSIXxSIX}{Distribución de consideraciones de procesamiento del cliente y del servidor.} %level = 4, prefix[level] = 1.6.6.6
+\newcommand{\ITSIXTopicONExSIXxSEVEN}{Procesadores inteligentes de consultas y organización de consultas, herramientas OLAP.} %level = 3, prefix[level] = 1.6.7
+\newcommand{\ITSIXTopicONExSIXxEIGHT}{Bases de datos distribuidas, repositorios y \textit{warehouses}} %level = 3, prefix[level] = 1.6.8
+\newcommand{\ITSIXTopicONExSIXxNINE}{Productos DBMS: desarrollos recientes en sistemas de bases de datos (p.e., hipertexto, hipermedia, ópticos).} %level = 3, prefix[level] = 1.6.9
+\newcommand{\ITSIXTopicONExSIXxONEOH}{Máquinas y servidores de bases de datos.} %level = 3, prefix[level] = 1.6.10
+\newcommand{\ITSIXTopicONExSIXxONEONE}{Administración de datos y bases de datos.} %level = 3, prefix[level] = 1.6.11
+\newcommand{\ITSIXTopicONExSIXxONEONExONE}{Administración de datos.} %level = 4, prefix[level] = 1.6.11.1
+\newcommand{\ITSIXTopicONExSIXxONEONExTWO}{Administración de bases de datos: impacto social de las bases de datos; seguridad y privacidad.} %level = 4, prefix[level] = 1.6.11.2
+\newcommand{\ITSIXTopicONExSIXxONEONExTHREE}{Propiedad y controles de acceso para sistema de datos y de aplicaciones.} %level = 4, prefix[level] = 1.6.11.3
+\newcommand{\ITSIXTopicONExSIXxONEONExFOUR}{Modelos de acceso basados en roles y capacidades.} %level = 4, prefix[level] = 1.6.11.4
+\newcommand{\ITSIXTopicONExSIXxONEONExFIVE}{Replicación.} %level = 4, prefix[level] = 1.6.11.5
+\newcommand{\ITSIXTopicONExSIXxONEONExSIX}{Planeamiento de la capacidad del sistema.} %level = 4, prefix[level] = 1.6.11.6
+\newcommand{\ITSIXTopicONExSIXxONEONExSEVEN}{Planeamiento y administración de redundancia, seguridad y copias de seguridad.} %level = 4, prefix[level] = 1.6.11.7
+\newcommand{\ITSIXTopicONExSIXxONETWO}{Diccionarios, enciclopedias y repositorios de datos.} %level = 3, prefix[level] = 1.6.12
+\newcommand{\ITSIXTopicONExSIXxONETHREE}{Recuperación de información: p.e. herramientas de Internet, procesamiento de imágenes, hipermedia.} %level = 3, prefix[level] = 1.6.13
+\newcommand{\ITSEVENTopicONExSEVENxONE}{Representación del conocimiento.} %level = 3, prefix[level] = 1.7.1
+\newcommand{\ITSEVENTopicONExSEVENxONExONE}{Historia, contexto y límites de la inteligencia artificial; el test de Turing.} %level = 4, prefix[level] = 1.7.1.1
+\newcommand{\ITSEVENTopicONExSEVENxTWO}{Ingeniería del conocimiento.} %level = 3, prefix[level] = 1.7.2
+\newcommand{\ITSEVENTopicONExSEVENxTHREE}{Proceso de inferencia.} %level = 3, prefix[level] = 1.7.3
+\newcommand{\ITSEVENTopicONExSEVENxTHREExONE}{Estrategias de control básicas (p.e., por profundidad y por amplitud).} %level = 4, prefix[level] = 1.7.3.1
+\newcommand{\ITSEVENTopicONExSEVENxTHREExTWO}{Razonamiento hacia adelante y hacia atrás.} %level = 4, prefix[level] = 1.7.3.2
+\newcommand{\ITSEVENTopicONExSEVENxTHREExTHREE}{Búsqueda heurística.} %level = 4, prefix[level] = 1.7.3.3
+\newcommand{\ITSEVENTopicONExSEVENxTHREExFOUR}{Sistemas expertos.} %level = 4, prefix[level] = 1.7.3.4
+\newcommand{\ITSEVENTopicONExSEVENxFOUR}{Otras técnicas: lógica difusa, razonamiento basado en casos, lenguaje natural y reconocimiento del habla.} %level = 3, prefix[level] = 1.7.4
+\newcommand{\ITSEVENTopicONExSEVENxFIVE}{Sistemas basados en conocimiento.} %level = 3, prefix[level] = 1.7.5
+\newcommand{\ITSEVENTopicONExSEVENxFIVExONE}{Lenguaje natural, habla y visión.} %level = 4, prefix[level] = 1.7.5.1
+\newcommand{\ITSEVENTopicONExSEVENxFIVExTWO}{Reconocimiento de patrones.} %level = 4, prefix[level] = 1.7.5.2
+\newcommand{\ITSEVENTopicONExSEVENxFIVExTHREE}{Aprendizaje de máquina.} %level = 4, prefix[level] = 1.7.5.3
+\newcommand{\ITSEVENTopicONExSEVENxFIVExFOUR}{Robótica.} %level = 4, prefix[level] = 1.7.5.4
+\newcommand{\ITSEVENTopicONExSEVENxFIVExFIVE}{Redes neuronales.} %level = 4, prefix[level] = 1.7.5.5
+
+\newcommand{\OMCBOKArea}{}
+\newcommand{\OMCONETopicTWOxONExONE}{Modelos organizacionales jerárquicos y de flujo.} %level = 3, prefix[level] = 2.1.1
+\newcommand{\OMCONETopicTWOxONExTWO}{Grupos de trabajo organizacionales.} %level = 3, prefix[level] = 2.1.2
+\newcommand{\OMCONETopicTWOxONExTHREE}{Envergadura organizacional: usuario simple, grupo de trabajo, equipo, empresa, global.} %level = 3, prefix[level] = 2.1.3
+\newcommand{\OMCONETopicTWOxONExFOUR}{Rol de Sistemas de Información dentro de la empresa: estratégico, táctico y operativo.} %level = 3, prefix[level] = 2.1.4
+\newcommand{\OMCONETopicTWOxONExFIVE}{Efecto de Sistemas de Información en la estructura organizacional; Sistemas de Información y mejora continua.} %level = 3, prefix[level] = 2.1.5
+\newcommand{\OMCONETopicTWOxONExSIX}{Estructura organizacional: centralizada, descentralizada, matriz.} %level = 3, prefix[level] = 2.1.6
+\newcommand{\OMCONETopicTWOxONExSEVEN}{Aspectos organizacionales para el uso de sistemas de software en organizaciones.} %level = 3, prefix[level] = 2.1.7
+\newcommand{\OMCONETopicTWOxONExEIGHT}{Procesos en la organización.} %level = 3, prefix[level] = 2.1.8
+\newcommand{\OMCONETopicTWOxONExEIGHTxONE}{Vista estratégica de los procesos organizacionales; conceptos de eficiencia y efectividad organizacional.} %level = 4, prefix[level] = 2.1.8.1
+\newcommand{\OMCONETopicTWOxONExEIGHTxTWO}{Integración de las áreas funcionales de la organización.} %level = 4, prefix[level] = 2.1.8.2
+\newcommand{\OMCONETopicTWOxONExEIGHTxTHREE}{Procesos relacionados a los objetivos financieros, usuario final y orientados al producto.} %level = 4, prefix[level] = 2.1.8.3
+\newcommand{\OMCONETopicTWOxONExEIGHTxFOUR}{Innovación de procesos: análisis, modelado y simulación. } %level = 4, prefix[level] = 2.1.8.4
+\newcommand{\OMCONETopicTWOxONExNINE}{Modelado y simulación de procesos de negocio.} %level = 3, prefix[level] = 2.1.9
+\newcommand{\OMCONETopicTWOxONExNINExONE}{Automatización del proceso de negocios.} %level = 4, prefix[level] = 2.1.9.1
+\newcommand{\OMCONETopicTWOxONExNINExTWO}{Utilización de diagramas de actividad y de la Notación de Modelado de Procesos de Negocio (\emph{Business Process Modeling Notation} - BPMN - ) para el modelado del proceso de negocio.} %level = 4, prefix[level] = 2.1.9.2
+\newcommand{\OMCONETopicTWOxONExNINExTHREE}{Herramientas para el modelado del proceso de negocio.} %level = 4, prefix[level] = 2.1.9.3
+\newcommand{\OMCONETopicTWOxONExNINExFOUR}{Rediseño de tareas; impacto de la automatización en las prácticas de trabajo.} %level = 4, prefix[level] = 2.1.9.4
+\newcommand{\OMCONETopicTWOxONExNINExFIVE}{Alcanzando seguridad y conformidad del proceso.} %level = 4, prefix[level] = 2.1.9.5
+\newcommand{\OMCONETopicTWOxONExNINExSIX}{Monitoreo y control de procesos.} %level = 4, prefix[level] = 2.1.9.6
+\newcommand{\OMCONETopicTWOxONExNINExSEVEN}{Administración de la cadena de abastecimiento (\emph{Supply Chain Management} - SCM). } %level = 4, prefix[level] = 2.1.9.7
+\newcommand{\OMCONETopicTWOxONExNINExEIGHT}{Administración de la relación con los clientes (\emph{Customer Relationship Management} - CRM).} %level = 4, prefix[level] = 2.1.9.8
+\newcommand{\OMCONETopicTWOxONExNINExNINE}{Sistemas de gerenciamiento empresarial (\emph{Enterprise Management Systems} - ERP).} %level = 4, prefix[level] = 2.1.9.9
+\newcommand{\OMCONETopicTWOxONExNINExONEOH}{El proceso continuo: de procesos estructurados a no estructurados.} %level = 4, prefix[level] = 2.1.9.10
+\newcommand{\OMCONETopicTWOxONExONEOH}{Una vista integral de la firma y su relación con proveedores y clientes.} %level = 3, prefix[level] = 2.1.10
+\newcommand{\OMCTWOTopicTWOxTWOxONE}{Planeamiento de Sistemas de Información.} %level = 3, prefix[level] = 2.2.1
+\newcommand{\OMCTWOTopicTWOxTWOxONExONE}{Alineamiento del planeamiento de Sistemas de Información con el planeamiento empresarial.} %level = 4, prefix[level] = 2.2.1.1
+\newcommand{\OMCTWOTopicTWOxTWOxONExTWO}{Planeamiento estratégico de Sistemas de Información.} %level = 4, prefix[level] = 2.2.1.2
+\newcommand{\OMCTWOTopicTWOxTWOxONExTHREE}{Paneamiento de corto alcance de Sistemas de Información.} %level = 4, prefix[level] = 2.2.1.3
+\newcommand{\OMCTWOTopicTWOxTWOxONExFOUR}{Reingeniería.} %level = 4, prefix[level] = 2.2.1.4
+\newcommand{\OMCTWOTopicTWOxTWOxONExFIVE}{Mejora continua.} %level = 4, prefix[level] = 2.2.1.5
+\newcommand{\OMCTWOTopicTWOxTWOxTWO}{Control de la función de Sistemas de Información: p.e., auditoría, \textit{outsourcing}.} %level = 3, prefix[level] = 2.2.2
+\newcommand{\OMCTWOTopicTWOxTWOxTHREE}{Administración y contratación de recursos humanos.} %level = 3, prefix[level] = 2.2.3
+\newcommand{\OMCTWOTopicTWOxTWOxTHREExONE}{Planeamiento de habilidades.} %level = 4, prefix[level] = 2.2.3.1
+\newcommand{\OMCTWOTopicTWOxTWOxTHREExTWO}{Administración del rendimiento del personal.} %level = 4, prefix[level] = 2.2.3.2
+\newcommand{\OMCTWOTopicTWOxTWOxTHREExTHREE}{Educación y entrenamiento.} %level = 4, prefix[level] = 2.2.3.3
+\newcommand{\OMCTWOTopicTWOxTWOxTHREExFOUR}{Estructuras de competencia, cooperación y premios.} %level = 4, prefix[level] = 2.2.3.4
+\newcommand{\OMCTWOTopicTWOxTWOxFOUR}{Estructuras funcionales de Sistemas de Información -- internas vs. \textit{outsourcing}.} %level = 3, prefix[level] = 2.2.4
+\newcommand{\OMCTWOTopicTWOxTWOxFIVE}{Determinación de las metas y objetivos de la organización de Sistemas de Información.} %level = 3, prefix[level] = 2.2.5
+\newcommand{\OMCTWOTopicTWOxTWOxSIX}{Administración de Sistema de Información como un negocio: p.e., definición del cliente, definición de la misión de Sistemas de Información, aspectos críticos del éxito de Sitemas de Información.} %level = 3, prefix[level] = 2.2.6
+\newcommand{\OMCTWOTopicTWOxTWOxSEVEN}{Oficial de Información en Jefe (\emph{Chief Information Officer} - CIO) y funciones del personal.} %level = 3, prefix[level] = 2.2.7
+\newcommand{\OMCTWOTopicTWOxTWOxEIGHT}{Sistemas de Información como una función de servicio: evaluación del desempeño -- externo e interno, \textit{marketing} de servicios.} %level = 3, prefix[level] = 2.2.8
+\newcommand{\OMCTWOTopicTWOxTWOxNINE}{Administración financiera de Sistemas de Información.} %level = 3, prefix[level] = 2.2.9
+\newcommand{\OMCTWOTopicTWOxTWOxONEOH}{Uso estratégico de Sistemas de Información: p.e., ventajas competitivas y Sistemas de Información, proceso de reingeniería, Sistemas de Información y calidad.} %level = 3, prefix[level] = 2.2.10
+\newcommand{\OMCTWOTopicTWOxTWOxONEONE}{Trabajo del conocimiento, computación de usuario final: soporte, roles, productividad y actividades.} %level = 3, prefix[level] = 2.2.11
+\newcommand{\OMCTWOTopicTWOxTWOxONETWO}{Política de Sistemas de Información y formulación y comunicación de procesos operativos.} %level = 3, prefix[level] = 2.2.12
+\newcommand{\OMCTWOTopicTWOxTWOxONETHREE}{Copias de seguridad, planeamiento y recuperación de desastres.} %level = 3, prefix[level] = 2.2.13
+\newcommand{\OMCTWOTopicTWOxTWOxONEFOUR}{Administración de tecnologías emergentes.} %level = 3, prefix[level] = 2.2.14
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVE}{Administración de sub-funciones.} %level = 3, prefix[level] = 2.2.15
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExONE}{Administración de telecomunicaciones.} %level = 4, prefix[level] = 2.2.15.1
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExTWO}{Administración de arquitecturas de computadores.} %level = 4, prefix[level] = 2.2.15.2
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExTHREE}{Administración de sistemas de soporte a decisión de grupos.} %level = 4, prefix[level] = 2.2.15.3
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExFOUR}{Administración de datos.} %level = 4, prefix[level] = 2.2.15.4
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExFIVE}{Sistemas de aplicación y propiedad de datos.} %level = 4, prefix[level] = 2.2.15.5
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExSIX}{Optmización del ambiente para la creatividad-} %level = 4, prefix[level] = 2.2.15.6
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExSEVEN}{Administración de la calidad: p.e., ingeniería de calidad; equipos de control de calidad.} %level = 4, prefix[level] = 2.2.15.7
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExEIGHT}{Administración de las relaciones de consultoría, \textit{outsourcing}.} %level = 4, prefix[level] = 2.2.15.8
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExNINE}{Administración para la contención de recursos.} %level = 4, prefix[level] = 2.2.15.9
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExONEOH}{Asustos operativos asociados con la instalación, operación, transición y mantenimiento de sistemas.} %level = 4, prefix[level] = 2.2.15.10
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExONEONE}{Actividades y disciplinas de controlque soportan la evolución del software.} %level = 4, prefix[level] = 2.2.15.11
+\newcommand{\OMCTWOTopicTWOxTWOxONEFIVExONETWO}{Actividades de ingeniería de software: desarrollo, control, administración, operaciones.} %level = 4, prefix[level] = 2.2.15.12
+\newcommand{\OMCTWOTopicTWOxTWOxONESIX}{Seguridad y control, virus e integridad de sistemas.} %level = 3, prefix[level] = 2.2.16
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxONE}{Cómo la información es comprometida incluyendo el acceso sin autorización, modificación de la información, bloqueo de servicios, virus.} %level = 4, prefix[level] = 2.2.16.1
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxTWO}{Crimen computacional, terrorismo y guerras cibernéticas.} %level = 4, prefix[level] = 2.2.16.2
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxTHREE}{Virus computacionales, gusanos, caballos de troya.} %level = 4, prefix[level] = 2.2.16.3
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxFOUR}{Fraude en Internet, leyendas urbanas.} %level = 4, prefix[level] = 2.2.16.4
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxFIVE}{Correo no deseado (\emph{spam}), avisos publicitarios (\emph{adware}) y mensajes instantáneos no deseados (\emph{spIM}).} %level = 4, prefix[level] = 2.2.16.5
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxSIX}{Suplantación y \emph{phishing}.} %level = 4, prefix[level] = 2.2.16.6
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxSEVEN}{Medidas de seguridad computacionales incluyendo tecnológicas (acceso físico restringido, firewalls, encriptación y controles de auditoría) y métodos humanos (legal, ético y gerencia efectiva.)} %level = 4, prefix[level] = 2.2.16.7
+\newcommand{\OMCTWOTopicTWOxTWOxONESIXxEIGHT}{Planeamiento de seguridad computacional, incluyendo evaluación de riesgo, evaluación de políticas, implementación, entrenamiento y auditoría.} %level = 4, prefix[level] = 2.2.16.8
+\newcommand{\OMCTWOTopicTWOxTWOxONESEVEN}{Administración de operaciones del computador: p.e. administración de cinta/DASD, \textit{scheduling}.} %level = 3, prefix[level] = 2.2.17
+\newcommand{\OMCTHREETopicTWOxTHREExONE}{Medición y modelado.} %level = 3, prefix[level] = 2.3.1
+\newcommand{\OMCTHREETopicTWOxTHREExTWO}{Decisiones bajo certeza, incerteza, riesgo.} %level = 3, prefix[level] = 2.3.2
+\newcommand{\OMCTHREETopicTWOxTHREExTHREE}{Información costo/valor, valor competitivo de Sistemas de Información.} %level = 3, prefix[level] = 2.3.3
+\newcommand{\OMCTHREETopicTWOxTHREExTHREExONE}{Motivación/propiedad del trabajo.} %level = 4, prefix[level] = 2.3.3.1
+\newcommand{\OMCTHREETopicTWOxTHREExFOUR}{Modelos de decisión y Sistemas de Información: optimización, satisfacción.} %level = 3, prefix[level] = 2.3.4
+\newcommand{\OMCTHREETopicTWOxTHREExFIVE}{Proceso de decisión de grupo.} %level = 3, prefix[level] = 2.3.5
+\newcommand{\OMCFOURTopicTWOxFOURxONE}{Teoría de diseño del trabajo.} %level = 3, prefix[level] = 2.4.1
+\newcommand{\OMCFOURTopicTWOxFOURxTWO}{Diversidad cultural.} %level = 3, prefix[level] = 2.4.2
+\newcommand{\OMCFOURTopicTWOxFOURxTHREE}{Dinámicas de grupo.} %level = 3, prefix[level] = 2.4.3
+\newcommand{\OMCFOURTopicTWOxFOURxFOUR}{Trabajo en equipo, liderazgo y motivación.} %level = 3, prefix[level] = 2.4.4
+\newcommand{\OMCFOURTopicTWOxFOURxFIVE}{Uso de influencias, poder y política.} %level = 3, prefix[level] = 2.4.5
+\newcommand{\OMCFOURTopicTWOxFOURxSIX}{Estilos cognitivos.} %level = 3, prefix[level] = 2.4.6
+\newcommand{\OMCFOURTopicTWOxFOURxSEVEN}{Negociación y estilos de negociación.} %level = 3, prefix[level] = 2.4.7
+\newcommand{\OMCFOURTopicTWOxFOURxEIGHT}{Construcción de consenso.} %level = 3, prefix[level] = 2.4.8
+\newcommand{\OMCFOURTopicTWOxFOURxNINE}{La organización virtual.} %level = 3, prefix[level] = 2.4.9
+\newcommand{\OMCFOURTopicTWOxFOURxONEOH}{Implicaciones de la globalización.} %level = 3, prefix[level] = 2.4.10
+\newcommand{\OMCSEVENTopicTWOxSEVENxONE}{Razones para la resistencia al cambio.} %level = 3, prefix[level] = 2.7.1
+\newcommand{\OMCSEVENTopicTWOxSEVENxTWO}{Estrategias para motivar el cambio.} %level = 3, prefix[level] = 2.7.2
+\newcommand{\OMCSEVENTopicTWOxSEVENxTHREE}{Planeamiento para el cambio.} %level = 3, prefix[level] = 2.7.3
+\newcommand{\OMCSEVENTopicTWOxSEVENxFOUR}{Administración del cambio.} %level = 3, prefix[level] = 2.7.4
+\newcommand{\OMCSEVENTopicTWOxSEVENxFIVE}{Modelado de procesos y sistemas.} %level = 3, prefix[level] = 2.7.5
+\newcommand{\OMCSEVENTopicTWOxSEVENxSIX}{Experimentación como un medio para capturar dinámicas.} %level = 3, prefix[level] = 2.7.6
+\newcommand{\OMCSEVENTopicTWOxSEVENxSEVEN}{Liderazgo en la reingeniería de procesos/software relacionado.} %level = 3, prefix[level] = 2.7.7
+\newcommand{\OMCSEVENTopicTWOxSEVENxEIGHT}{Estrategia de sobrellevado: \textit{shock}, negación, ira, depresión, aceptación.} %level = 3, prefix[level] = 2.7.8
+\newcommand{\OMCSEVENTopicTWOxSEVENxNINE}{Aprendizaje en grupo/equipo.} %level = 3, prefix[level] = 2.7.9
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOH}{Atributos de un agente de cambio.} %level = 3, prefix[level] = 2.7.10
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxONE}{Escucha y comprensión.} %level = 4, prefix[level] = 2.7.10.1
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxTWO}{Mediación y negociación.} %level = 4, prefix[level] = 2.7.10.2
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxTHREE}{Facilitación.} %level = 4, prefix[level] = 2.7.10.3
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxFOUR}{Apreciación de la diferencia de tipos: Meyers Briggs, Rohm.} %level = 4, prefix[level] = 2.7.10.4
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxFIVE}{Miedo y administración del miedo.} %level = 4, prefix[level] = 2.7.10.5
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxSIX}{Pensamiento de sistemas.} %level = 4, prefix[level] = 2.7.10.6
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxSEVEN}{Dominio personal.} %level = 4, prefix[level] = 2.7.10.7
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxEIGHT}{Modelos mentales.} %level = 4, prefix[level] = 2.7.10.8
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxNINE}{Visión de construcción compartida.} %level = 4, prefix[level] = 2.7.10.9
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEOHxONEOH}{Expresión de la necesidad e importancia del cambio.} %level = 4, prefix[level] = 2.7.10.10
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEONE}{El rol de los especialistas de Sistemas de Información como agentes de cambio.} %level = 3, prefix[level] = 2.7.11
+\newcommand{\OMCSEVENTopicTWOxSEVENxONETWO}{Visualización del cambio y el proceso de cambio.} %level = 3, prefix[level] = 2.7.12
+\newcommand{\OMCSEVENTopicTWOxSEVENxONETHREE}{Diagnóstico y conceptualización del cambio.} %level = 3, prefix[level] = 2.7.13
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEFOUR}{Lidear con los retos de la implementación y entender y superar la resistencia.} %level = 3, prefix[level] = 2.7.14
+\newcommand{\OMCSEVENTopicTWOxSEVENxONEFIVE}{Administrar políticas organizacionales.} %level = 3, prefix[level] = 2.7.15
+\newcommand{\OMCSEVENTopicTWOxSEVENxONESIX}{Las limitaciones de los proyectos como iniciativas de cambios organizacionales.} %level = 3, prefix[level] = 2.7.16
+\newcommand{\OMCSEVENTopicTWOxSEVENxONESEVEN}{Influencias organizacionales en el éxito del proyecto.} %level = 3, prefix[level] = 2.7.17
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONE}{Ventas, licencias y agencias de software.} %level = 3, prefix[level] = 2.8.1
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxTWO}{Fundamentos contractuales.} %level = 3, prefix[level] = 2.8.2
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxTWOxONE}{Ley contractual.} %level = 4, prefix[level] = 2.8.2.1
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxTHREE}{Ley de privacidad.} %level = 3, prefix[level] = 2.8.3
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxFOUR}{Agencias y organismos regulatorios.} %level = 3, prefix[level] = 2.8.4
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxFIVE}{Ética y protección de los derechos de propiedad intelectual.} %level = 3, prefix[level] = 2.8.5
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxFIVExONE}{Protección de la propiedad intelectual.} %level = 4, prefix[level] = 2.8.5.1
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxFIVExTWO}{Formas de propiedad intelectual, medios para protegerla y penas por violación de derechos.} %level = 4, prefix[level] = 2.8.5.2
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxFIVExTHREE}{Ética (plagiarismo, honestidad, privacidad, hackers): uso, maluso y límites de derechos.} %level = 4, prefix[level] = 2.8.5.3
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIX}{Ética: responsabilidad y códigos personales y profesionales; modelos éticos.} %level = 3, prefix[level] = 2.8.6
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxONE}{Responsabilidad personal: principios de honestidad, justicia, autonomía.} %level = 4, prefix[level] = 2.8.6.1
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxTWO}{Responsabilidad profesional: expectativas y confianza debido al conocimiento y habilidades.} %level = 4, prefix[level] = 2.8.6.2
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxTHREE}{Códigos profesionales de conducta ética para profesionales de la computación responsables.} %level = 4, prefix[level] = 2.8.6.3
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxFOUR}{Motivación hacia e importancia del comportamiento ético.} %level = 4, prefix[level] = 2.8.6.4
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxFIVE}{Modelos éticos: utilitarismo de Bentham, imperativa moral de Kant.} %level = 4, prefix[level] = 2.8.6.5
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxSIX}{Elementos del análisis ético: argumentación por ejemplo, analogía y contra ejemplo.} %level = 4, prefix[level] = 2.8.6.6
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSIXxSEVEN}{Análisis social: influencia contextual social en el desarrollo y la tecnología.} %level = 4, prefix[level] = 2.8.6.7
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxSEVEN}{Riesgos, pérdidas y responsabilidad en las aplicaciones de computación.} %level = 3, prefix[level] = 2.8.7
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxEIGHT}{Garantías.} %level = 3, prefix[level] = 2.8.8
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxNINE}{Crímenes de computador.} %level = 3, prefix[level] = 2.8.9
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxNINExONE}{Virus y otros daños al software.} %level = 4, prefix[level] = 2.8.9.1
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxNINExTWO}{Fraude de software, abusos, hackers.} %level = 4, prefix[level] = 2.8.9.2
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOH}{Ética en los sitemas de información.} %level = 3, prefix[level] = 2.8.10
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxONE}{Aspectos éticos relacionados a la privacidad, accesibilidad, propiedad y precisión de la información.} %level = 4, prefix[level] = 2.8.10.1
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxTWO}{Monitoreo de empleados y políticas de uso aceptables.} %level = 4, prefix[level] = 2.8.10.2
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxTHREE}{Vicios generados por Internet y lo bueno de la sociedad.} %level = 4, prefix[level] = 2.8.10.3
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxFOUR}{Leyes y regulaciones actuales.} %level = 4, prefix[level] = 2.8.10.4
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxFIVE}{Lineamientos éticos para profesionales de computación.} %level = 4, prefix[level] = 2.8.10.5
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxSIX}{Asuntos éticos relacionados a la recuperación y minería de datos.} %level = 4, prefix[level] = 2.8.10.6
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxSEVEN}{Globalización y desarrollo dentro y fuera de la organización.} %level = 4, prefix[level] = 2.8.10.7
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxEIGHT}{Faltas relacionadas a los derechos de autor y propiedad intelectual, el rol de las redes punto-a-punto (\emph{peer-to-peer}).} %level = 4, prefix[level] = 2.8.10.8
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxNINE}{Movilidad, virtualización y privacidad.} %level = 4, prefix[level] = 2.8.10.9
+\newcommand{\OMCEIGHTTopicTWOxEIGHTxONEOHxONEOH}{Blogs y los medios.} %level = 4, prefix[level] = 2.8.10.10
+\newcommand{\OMCNINETopicTWOxNINExONE}{Literatura periódica actual, revistas profesionales y académicas.} %level = 3, prefix[level] = 2.9.1
+\newcommand{\OMCNINETopicTWOxNINExTWO}{Temas de certificación.} %level = 3, prefix[level] = 2.9.2
+\newcommand{\OMCNINETopicTWOxNINExTHREE}{Organizaciones profesionales: p.e. SPC, ACM, IEEE-CS, TIMS, ASM, DSI, ACE,  ASQC, AIS.} %level = 3, prefix[level] = 2.9.3
+\newcommand{\OMCNINETopicTWOxNINExFOUR}{Conferencias profesionales.} %level = 3, prefix[level] = 2.9.4
+\newcommand{\OMCNINETopicTWOxNINExFIVE}{Pendiente.} %level = 3, prefix[level] = 2.9.5
+\newcommand{\OMCNINETopicTWOxNINExSIX}{Industria de Sistemas de Información: fabricantes, OEMs, integradores de sistemas, desarrolladores de software.} %level = 3, prefix[level] = 2.9.6
+\newcommand{\OMCNINETopicTWOxNINExSEVEN}{Contexto social e histórico de la Computación.} %level = 3, prefix[level] = 2.9.7
+\newcommand{\OMCONEOHTopicTWOxONEOHxONE}{Habilidades de comunicación.} %level = 3, prefix[level] = 2.10.1
+\newcommand{\OMCONEOHTopicTWOxONEOHxTWO}{Entrevistas, cuestionarios y escucha.} %level = 3, prefix[level] = 2.10.2
+\newcommand{\OMCONEOHTopicTWOxONEOHxTHREE}{Habilidades de presentación.} %level = 3, prefix[level] = 2.10.3
+\newcommand{\OMCONEOHTopicTWOxONEOHxTHREExONE}{Comunicación oral y escrita.} %level = 4, prefix[level] = 2.10.3.1
+\newcommand{\OMCONEOHTopicTWOxONEOHxTHREExTWO}{Gráficos y el uso de multimedia.} %level = 4, prefix[level] = 2.10.3.2
+\newcommand{\OMCONEOHTopicTWOxONEOHxTHREExTHREE}{Entrenamiento: objetivos, metas, basado en computador.} %level = 4, prefix[level] = 2.10.3.3
+\newcommand{\OMCONEOHTopicTWOxONEOHxFOUR}{Habilidades de consultoría.} %level = 3, prefix[level] = 2.10.4
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVE}{Habilidades de escritura.} %level = 3, prefix[level] = 2.10.5
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExONE}{Fundamentos de escritura técnica.} %level = 4, prefix[level] = 2.10.5.1
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExTWO}{Principios y estándares para documentación.} %level = 4, prefix[level] = 2.10.5.2
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExTHREE}{Desarrollo de documentación de software.} %level = 4, prefix[level] = 2.10.5.3
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExFOUR}{Herramientas de documentación.} %level = 4, prefix[level] = 2.10.5.4
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExFIVE}{Escritura como un medio para al aprendizaje de por vida.} %level = 4, prefix[level] = 2.10.5.5
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExSIX}{Escritura de diarios como un método para capturar observaciones.} %level = 4, prefix[level] = 2.10.5.6
+\newcommand{\OMCONEOHTopicTWOxONEOHxFIVExSEVEN}{Escritura de soluciones a problemas y respuestas a asuntos para explorar el conocimiento.} %level = 4, prefix[level] = 2.10.5.7
+\newcommand{\OMCONEOHTopicTWOxONEOHxSIX}{Actitud y método proactivo.} %level = 3, prefix[level] = 2.10.6
+\newcommand{\OMCONEOHTopicTWOxONEOHxSEVEN}{Determinación de objetivos personales, toma de decisiones y administración del tiempo.} %level = 3, prefix[level] = 2.10.7
+\newcommand{\OMCONEOHTopicTWOxONEOHxEIGHT}{Liderazgo centrado en principios.} %level = 3, prefix[level] = 2.10.8
+\newcommand{\OMCONEOHTopicTWOxONEOHxNINE}{Principios de negociación.} %level = 3, prefix[level] = 2.10.9
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEOH}{Promoviendo la creatividad y la búsqueda de oportunidades.} %level = 3, prefix[level] = 2.10.10
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONE}{Pensamiento crítico.} %level = 3, prefix[level] = 2.10.11
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExONE}{Abstraer/depurar información.} %level = 4, prefix[level] = 2.10.11.1
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExTWO}{Priorizar tareas.} %level = 4, prefix[level] = 2.10.11.2
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExTHREE}{Pensamiento \textit{outside the box}.} %level = 4, prefix[level] = 2.10.11.3
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExFOUR}{Juicio suspendido.} %level = 4, prefix[level] = 2.10.11.4
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExFIVE}{Lluvia de ideas para la creación de nuevas ideas.} %level = 4, prefix[level] = 2.10.11.5
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExSIX}{Estrategias de prensamiento divergente, lateral, lineal.} %level = 4, prefix[level] = 2.10.11.6
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExSEVEN}{Formulación de preguntas.} %level = 4, prefix[level] = 2.10.11.7
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExEIGHT}{Asumpción de responsabilidades, toma de decisiones, delegación de responsabilidades.} %level = 4, prefix[level] = 2.10.11.8
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExNINE}{Trabajo con múltiples y diferentes puntos de vista.} %level = 4, prefix[level] = 2.10.11.9
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExONEOH}{El trato a otras personas  con respeto y tolerancia.} %level = 4, prefix[level] = 2.10.11.10
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEONExONEONE}{Dar y recibir críticas constructivas.} %level = 4, prefix[level] = 2.10.11.11
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWO}{Medición e interpretación de datos.} %level = 3, prefix[level] = 2.10.12
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxONE}{Evaluación de datos en contexto.} %level = 4, prefix[level] = 2.10.12.1
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxTWO}{Medición/determinación de los datos.} %level = 4, prefix[level] = 2.10.12.2
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxTHREE}{Conversión y presentación de datos.} %level = 4, prefix[level] = 2.10.12.3
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxFOUR}{Transformaciones algebráicas y funcionales de los datos.} %level = 4, prefix[level] = 2.10.12.4
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxFIVE}{Almacenamiento y organización de datos.} %level = 4, prefix[level] = 2.10.12.5
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxSIX}{Usos de los datos en el modelado y simulación de un proceso.} %level = 4, prefix[level] = 2.10.12.6
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxSEVEN}{Conceptos de muestreo en la determinación de los datos.} %level = 4, prefix[level] = 2.10.12.7
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETWOxEIGHT}{Validación de procesos a través del uso de los datos.} %level = 4, prefix[level] = 2.10.12.8
+\newcommand{\OMCONEOHTopicTWOxONEOHxONETHREE}{Pendiente.} %level = 3, prefix[level] = 2.10.13
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOUR}{Resolución de problemas.} %level = 3, prefix[level] = 2.10.14
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxONE}{Ámbito y restricciones del problema.} %level = 4, prefix[level] = 2.10.14.1
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxTWO}{Expectativas, precisión y limitaciones de tiempo de la solución.} %level = 4, prefix[level] = 2.10.14.2
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxTHREE}{Balance entre perfección y realismo, recursos y expectativas.} %level = 4, prefix[level] = 2.10.14.3
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxFOUR}{Criterios de completación del problema.} %level = 4, prefix[level] = 2.10.14.4
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxFIVE}{Ser creativo, realizar inferencias, deterctar y evitar falacias lógias.} %level = 4, prefix[level] = 2.10.14.5
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxSIX}{Determinación de las relaciones entre los componentes.} %level = 4, prefix[level] = 2.10.14.6
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxSEVEN}{Consideración de alternativas y soluciones relacionadas.} %level = 4, prefix[level] = 2.10.14.7
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxEIGHT}{Planeamiento, estimativa y documentación de las fases, resultados y actividades del proceso.} %level = 4, prefix[level] = 2.10.14.8
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxNINE}{Tiempo comprometido, presupuestos, multi-tarea, esfuerzo de contabiildad, balanceo de carga de trabajo.} %level = 4, prefix[level] = 2.10.14.9
+\newcommand{\OMCONEOHTopicTWOxONEOHxONEFOURxONEOH}{Verificación de la solución y validación del resultado.} %level = 4, prefix[level] = 2.10.14.10
+\newcommand{\OMCONEONETopicTWOxONEONExONE}{Pagos.} %level = 3, prefix[level] = 2.11.1
+\newcommand{\OMCONEONETopicTWOxONEONExONExONE}{Conceptos de administración del dinero.} %level = 4, prefix[level] = 2.11.1.1
+\newcommand{\OMCONEONETopicTWOxONEONExONExTWO}{Dinero digital.} %level = 4, prefix[level] = 2.11.1.2
+\newcommand{\OMCONEONETopicTWOxONEONExONExTHREE}{Flujos de dinero transnacionales.} %level = 4, prefix[level] = 2.11.1.3
+\newcommand{\OMCONEONETopicTWOxONEONExONExFOUR}{Flujos de crédito, transacciones, aprobaciones.} %level = 4, prefix[level] = 2.11.1.4
+\newcommand{\OMCONEONETopicTWOxONEONExONExFIVE}{Conjuntos de transacción EDI.} %level = 4, prefix[level] = 2.11.1.5
+\newcommand{\OMCONEONETopicTWOxONEONExONExSIX}{Lenguajes de marcado financieros, p.e., IFX.} %level = 4, prefix[level] = 2.11.1.6
+\newcommand{\OMCONEONETopicTWOxONEONExONExSEVEN}{Interfaces de sistemas de contabilidad: GL, AR, AP.} %level = 4, prefix[level] = 2.11.1.7
+\newcommand{\OMCONEONETopicTWOxONEONExONExEIGHT}{Balance y controles de auditoría.} %level = 4, prefix[level] = 2.11.1.8
+\newcommand{\OMCONEONETopicTWOxONEONExTWO}{Relaciones de negocio: C-B, C-C, C-G, B-B, B-G, G-G.} %level = 3, prefix[level] = 2.11.2
+\newcommand{\OMCONEONETopicTWOxONEONExTHREE}{Modelos de negocio; convencional/e-commerce.} %level = 3, prefix[level] = 2.11.3
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExONE}{Mercados e infraestructura de compras.} %level = 4, prefix[level] = 2.11.3.1
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExTWO}{Subastas.} %level = 4, prefix[level] = 2.11.3.2
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExTHREE}{Bolsa de valores.} %level = 4, prefix[level] = 2.11.3.3
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExFOUR}{Comunidad y colaboración.} %level = 4, prefix[level] = 2.11.3.4
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExFIVE}{Proveedor de información.} %level = 4, prefix[level] = 2.11.3.5
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExSIX}{Proveedor de servicios.} %level = 4, prefix[level] = 2.11.3.6
+\newcommand{\OMCONEONETopicTWOxONEONExTHREExSEVEN}{Portal.} %level = 4, prefix[level] = 2.11.3.7
+\newcommand{\OMCONEONETopicTWOxONEONExFOUR}{Conceptos de cadena de valor.} %level = 3, prefix[level] = 2.11.4
+\newcommand{\OMCONEONETopicTWOxONEONExFIVE}{Conceptos de administración de cadena de recursos.} %level = 3, prefix[level] = 2.11.5
+\newcommand{\OMCONEONETopicTWOxONEONExSIX}{Atención.} %level = 3, prefix[level] = 2.11.6
+\newcommand{\OMCONEONETopicTWOxONEONExSEVEN}{\textit{Marketing} y propaganda.} %level = 3, prefix[level] = 2.11.7
+\newcommand{\OMCONEONETopicTWOxONEONExEIGHT}{Comercio.} %level = 3, prefix[level] = 2.11.8
+\newcommand{\OMCONEONETopicTWOxONEONExEIGHTxONE}{Distribución.} %level = 4, prefix[level] = 2.11.8.1
+\newcommand{\OMCONEONETopicTWOxONEONExEIGHTxTWO}{Ventas directas.} %level = 4, prefix[level] = 2.11.8.2
+\newcommand{\OMCONEONETopicTWOxONEONExEIGHTxTHREE}{Personalización por cliente.} %level = 4, prefix[level] = 2.11.8.3
+\newcommand{\OMCONEONETopicTWOxONEONExEIGHTxFOUR}{Portales y canales.} %level = 4, prefix[level] = 2.11.8.4
+\newcommand{\OMCONEONETopicTWOxONEONExNINE}{Manufactura y producción.} %level = 3, prefix[level] = 2.11.9
+\newcommand{\OMCONEONETopicTWOxONEONExONEOH}{Administración de recursos humanos.} %level = 3, prefix[level] = 2.11.10
+\newcommand{\OMCONEONETopicTWOxONEONExONEONE}{Administración de inventario.} %level = 3, prefix[level] = 2.11.11
+\newcommand{\OMCONEONETopicTWOxONEONExONETWO}{Despacho.} %level = 3, prefix[level] = 2.11.12
+\newcommand{\OMCONEONETopicTWOxONEONExONETHREE}{Adquisición.} %level = 3, prefix[level] = 2.11.13
+\newcommand{\OMCONEONETopicTWOxONEONExONEFOUR}{Procesamiento de órdenes y servicio al cliente.} %level = 3, prefix[level] = 2.11.14
+\newcommand{\OMCONEONETopicTWOxONEONExONEFIVE}{Auditorías y controles.} %level = 3, prefix[level] = 2.11.15
+\newcommand{\OMCONETWOTopicTWOxONETWOxONE}{La función de Sistemas de Información.} %level = 3, prefix[level] = 2.12.1
+\newcommand{\OMCONETWOTopicTWOxONETWOxONExONE}{Procesos de negocio clave basados en Tecnología de Información.} %level = 4, prefix[level] = 2.12.1.1
+\newcommand{\OMCONETWOTopicTWOxONETWOxONExTWO}{Estructura organizacional de la Tecnología de Información y alternativas de gobierno.} %level = 4, prefix[level] = 2.12.1.2
+\newcommand{\OMCONETWOTopicTWOxONETWOxONExTHREE}{Necesidades de talento humano y métodos de gerencia.} %level = 4, prefix[level] = 2.12.1.3
+\newcommand{\OMCONETWOTopicTWOxONETWOxONExFOUR}{Métodos para medir y demostrar el valor dela Tecnología de Información.} %level = 4, prefix[level] = 2.12.1.4
+\newcommand{\OMCONETWOTopicTWOxONETWOxONExFIVE}{Métodos de organización para asegurar el cumplimiento de las regulaciones.} %level = 4, prefix[level] = 2.12.1.5
+\newcommand{\OMCONETWOTopicTWOxONETWOxONExSIX}{Administración de fuentes de tecnología.} %level = 4, prefix[level] = 2.12.1.6
+\newcommand{\OMCONETWOTopicTWOxONETWOxTWO}{Las Tecnologías de Información.} %level = 3, prefix[level] = 2.12.2
+\newcommand{\OMCONETWOTopicTWOxONETWOxTWOxONE}{Evaluación y selección de la plataforma y arquitectura, prioridades y políticas.} %level = 4, prefix[level] = 2.12.2.1
+\newcommand{\OMCONETWOTopicTWOxONETWOxTWOxTWO}{Evaluación del impacto de tecnologías emergentes.} %level = 4, prefix[level] = 2.12.2.2
+\newcommand{\OMCONETWOTopicTWOxONETWOxTWOxTHREE}{Evaluación del rol de los estándares.} %level = 4, prefix[level] = 2.12.2.3
+\newcommand{\OMCONETWOTopicTWOxONETWOxTWOxFOUR}{Evaluación del efecto de las estrategias de venta.} %level = 4, prefix[level] = 2.12.2.4
+
+\newcommand{\TDSBOKArea}{}
+\newcommand{\TDSONETopicTHREExONExONE}{Teoría general de sistemas.} %level = 3, prefix[level] = 3.1.1
+\newcommand{\TDSONETopicTHREExONExTWO}{Conceptos de sistemas: p.e. estructura, límites, estados, objetivos.} %level = 3, prefix[level] = 3.1.2
+\newcommand{\TDSONETopicTHREExONExTWOxONE}{Conceptos fundamentales de teoría de información.} %level = 4, prefix[level] = 3.1.2.1
+\newcommand{\TDSONETopicTHREExONExTWOxTWO}{Razonamiento acerca de sistemas organizacionales, productos y procesos de software.} %level = 4, prefix[level] = 3.1.2.2
+\newcommand{\TDSONETopicTHREExONExTWOxTHREE}{Relaciones de usuarios y proveedores al sistema.} %level = 4, prefix[level] = 3.1.2.3
+\newcommand{\TDSONETopicTHREExONExTHREE}{Propiedades de sistemas abiertos.} %level = 3, prefix[level] = 3.1.3
+\newcommand{\TDSONETopicTHREExONExFOUR}{Componentes y relaciones del sistema.} %level = 3, prefix[level] = 3.1.4
+\newcommand{\TDSONETopicTHREExONExFIVE}{Controles del sistema: estándares, teoría de control, retroalimentación, bucles, mediciones, calidad.} %level = 3, prefix[level] = 3.1.5
+\newcommand{\TDSONETopicTHREExONExSIX}{Propiedades de los sistemas de información.} %level = 3, prefix[level] = 3.1.6
+\newcommand{\TDSTWOTopicTHREExTWOxONE}{Modelos de desarrollo de sistemas: p.e. SDLC, prototipado.} %level = 3, prefix[level] = 3.2.1
+\newcommand{\TDSTWOTopicTHREExTWOxONExONE}{Cilco de vida del desarrollo de sistemas: modelos de ciclos de vida del software.} %level = 4, prefix[level] = 3.2.1.1
+\newcommand{\TDSTWOTopicTHREExTWOxONExTWO}{Desarrollo con prototipado.} %level = 4, prefix[level] = 3.2.1.2
+\newcommand{\TDSTWOTopicTHREExTWOxONExTHREE}{Desarrollo con paquetes.} %level = 4, prefix[level] = 3.2.1.3
+\newcommand{\TDSTWOTopicTHREExTWOxONExFOUR}{Técnicas de desarrollo orientadas a los datos.} %level = 4, prefix[level] = 3.2.1.4
+\newcommand{\TDSTWOTopicTHREExTWOxONExFIVE}{Técnicas de desarrollo orientadas a los procesos.} %level = 4, prefix[level] = 3.2.1.5
+\newcommand{\TDSTWOTopicTHREExTWOxONExSIX}{Técnicas de desarrollo orientadas a objetos: diseño \textit{bottom-up}; soporte para el reuso.} %level = 4, prefix[level] = 3.2.1.6
+\newcommand{\TDSTWOTopicTHREExTWOxONExSEVEN}{Consideraciones de ingeniería de sistemas.} %level = 4, prefix[level] = 3.2.1.7
+\newcommand{\TDSTWOTopicTHREExTWOxONExEIGHT}{Software como un componente de un sistema.} %level = 4, prefix[level] = 3.2.1.8
+\newcommand{\TDSTWOTopicTHREExTWOxONExNINE}{Proceso de software y modelos del ciclo de vida de un producto.} %level = 4, prefix[level] = 3.2.1.9
+\newcommand{\TDSTWOTopicTHREExTWOxONExONEOH}{Métodos y herramientas de generación de software: diseño y codificación desde cero.} %level = 4, prefix[level] = 3.2.1.10
+\newcommand{\TDSTWOTopicTHREExTWOxONExONEONE}{Métodos y herramientas de diseño de sistemas.} %level = 4, prefix[level] = 3.2.1.11
+\newcommand{\TDSTWOTopicTHREExTWOxTWO}{Adquisición e implementación de paquetes.} %level = 3, prefix[level] = 3.2.2
+\newcommand{\TDSTWOTopicTHREExTWOxTHREE}{Integración de los componentes de software.} %level = 3, prefix[level] = 3.2.3
+\newcommand{\TDSTWOTopicTHREExTWOxFOUR}{Sistemas desarrollados por el usuario final.} %level = 3, prefix[level] = 3.2.4
+\newcommand{\TDSTWOTopicTHREExTWOxFIVE}{Selección de una metodología de desarrollo de sistemas.} %level = 3, prefix[level] = 3.2.5
+\newcommand{\TDSTHREETopicTHREExTHREExONE}{Modelado de procesos organizacionales y de software.} %level = 3, prefix[level] = 3.3.1
+\newcommand{\TDSTHREETopicTHREExTHREExONExONE}{Conceptos de modelado.} %level = 4, prefix[level] = 3.3.1.1
+\newcommand{\TDSTHREETopicTHREExTHREExONExTWO}{Conceptos avanzados de modelado, incluyendo modelos asíncronos y paralelos.} %level = 4, prefix[level] = 3.3.1.2
+\newcommand{\TDSTHREETopicTHREExTHREExTWO}{Modelado de datos: p.e. diagramas entidad-relación, normalización.} %level = 3, prefix[level] = 3.3.2
+\newcommand{\TDSTHREETopicTHREExTHREExTHREE}{Metodologías orientadas a datos.} %level = 3, prefix[level] = 3.3.3
+\newcommand{\TDSTHREETopicTHREExTHREExFOUR}{Metodologías orientadas a los procesos.} %level = 3, prefix[level] = 3.3.4
+\newcommand{\TDSTHREETopicTHREExTHREExFIVE}{Metodologías orientadas al comportamiento (modelado de eventos).} %level = 3, prefix[level] = 3.3.5
+\newcommand{\TDSTHREETopicTHREExTHREExSIX}{Metodologías orientadas a objetos.} %level = 3, prefix[level] = 3.3.6
+\newcommand{\TDSTHREETopicTHREExTHREExSEVEN}{Procesos y productos de la ingeniería de software.} %level = 3, prefix[level] = 3.3.7
+\newcommand{\TDSFOURTopicTHREExFOURxONE}{CASE} %level = 3, prefix[level] = 3.4.1
+\newcommand{\TDSFOURTopicTHREExFOURxONExONE}{Metodologías (ingeniería de información, técnicas de Jackson, Yourdon).} %level = 4, prefix[level] = 3.4.1.1
+\newcommand{\TDSFOURTopicTHREExFOURxONExTWO}{Herramientas: herramientas CASE, generadores de código, GDSS.} %level = 4, prefix[level] = 3.4.1.2
+\newcommand{\TDSFOURTopicTHREExFOURxONExTHREE}{Herramientas: IDEF y otras herramientas de especificación y diseño; diseño e implementación de bases de datos.} %level = 4, prefix[level] = 3.4.1.3
+\newcommand{\TDSFOURTopicTHREExFOURxTWO}{Métodos basados en grupos: p.e. JAD, revisiones de diseño y código.} %level = 3, prefix[level] = 3.4.2
+\newcommand{\TDSFOURTopicTHREExFOURxTHREE}{Conceptos y herramientas de implementación de software: p.e., diccionarios de datos, repositorios, aplicación.} %level = 3, prefix[level] = 3.4.3
+\newcommand{\TDSFIVETopicTHREExFIVExONE}{Planeamiento de infraestructuras: hardware, comunicaciones, bases de datos.} %level = 3, prefix[level] = 3.5.1
+\newcommand{\TDSFIVETopicTHREExFIVExTWO}{Planeamiento de la arquitectura de Sistemas de Información.} %level = 3, prefix[level] = 3.5.2
+\newcommand{\TDSFIVETopicTHREExFIVExTHREE}{Planeamiento para operaciones.} %level = 3, prefix[level] = 3.5.3
+\newcommand{\TDSFIVETopicTHREExFIVExFOUR}{Métricas para tamaño, puntos de función, control de complejidad.} %level = 3, prefix[level] = 3.5.4
+\newcommand{\TDSFIVETopicTHREExFIVExFIVE}{Planeamiento para securidad, privacidad y control de Sistemas de Información.} %level = 3, prefix[level] = 3.5.5
+\newcommand{\TDSSIXTopicTHREExSIXxONE}{Estimativa de la viabilidad.} %level = 3, prefix[level] = 3.6.1
+\newcommand{\TDSSIXTopicTHREExSIXxTWO}{Principios de administración de riesgos.} %level = 3, prefix[level] = 3.6.2
+\newcommand{\TDSSIXTopicTHREExSIXxTHREE}{Planeamiento de contigencias.} %level = 3, prefix[level] = 3.6.3
+\newcommand{\TDSSEVENTopicTHREExSEVENxONE}{Planeamiento de proyectos y selección de un modelo de procesos apropiado; cronograma del proyecto y \textit{milestones}.} %level = 3, prefix[level] = 3.7.1
+\newcommand{\TDSSEVENTopicTHREExSEVENxTWO}{Organización, administración, principios y conceptos de proyectos.} %level = 3, prefix[level] = 3.7.2
+\newcommand{\TDSSEVENTopicTHREExSEVENxTWOxONE}{Asuntos organizacionales de la administración de proyectos.} %level = 4, prefix[level] = 3.7.2.1
+\newcommand{\TDSSEVENTopicTHREExSEVENxTWOxTWO}{Principios y conceptos de la administración de proyectos.} %level = 4, prefix[level] = 3.7.2.2
+\newcommand{\TDSSEVENTopicTHREExSEVENxTHREE}{Estructuras de división y cronograma de trabajo.} %level = 3, prefix[level] = 3.7.3
+\newcommand{\TDSSEVENTopicTHREExSEVENxFOUR}{Consideraciones de personal para proyectos: p.e., administración de matriz, factores humanos, organización de los equipos.} %level = 3, prefix[level] = 3.7.4
+\newcommand{\TDSSEVENTopicTHREExSEVENxFIVE}{Control de proyectos: planeamiento, estimativa de costos, asignación de recursos, revisiones técnicas de software.} %level = 3, prefix[level] = 3.7.5
+\newcommand{\TDSSEVENTopicTHREExSEVENxFIVExONE}{Documentación de la administración del proyecto.} %level = 4, prefix[level] = 3.7.5.1
+\newcommand{\TDSSEVENTopicTHREExSEVENxFIVExTWO}{Representaciones del cronograma del proyecto.} %level = 4, prefix[level] = 3.7.5.2
+\newcommand{\TDSSEVENTopicTHREExSEVENxFIVExTHREE}{Aspectos económicos del proyecto: técnias y herramientas de estimación de costos; análisis costo/beneficio.} %level = 4, prefix[level] = 3.7.5.3
+\newcommand{\TDSSEVENTopicTHREExSEVENxFIVExFOUR}{Herramientas de cronogramas de proyectos.} %level = 4, prefix[level] = 3.7.5.4
+\newcommand{\TDSSEVENTopicTHREExSEVENxSIX}{Administración de múltiples proyectos.} %level = 3, prefix[level] = 3.7.6
+\newcommand{\TDSSEVENTopicTHREExSEVENxSEVEN}{Consideraciones de administración; estrés y administración del tiempo.} %level = 3, prefix[level] = 3.7.7
+\newcommand{\TDSSEVENTopicTHREExSEVENxEIGHT}{Documentación de sistemas.} %level = 3, prefix[level] = 3.7.8
+\newcommand{\TDSSEVENTopicTHREExSEVENxNINE}{Documentación de usuario (p.e., manuales de referencia, procedimientos de operación, documentación \textit{on-line}).} %level = 3, prefix[level] = 3.7.9
+\newcommand{\TDSSEVENTopicTHREExSEVENxONEOH}{Métricas de sistemas.} %level = 3, prefix[level] = 3.7.10
+\newcommand{\TDSSEVENTopicTHREExSEVENxONEONE}{Contextualización y control de alcance.} %level = 3, prefix[level] = 3.7.11
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWO}{Administración de la configuración.} %level = 3, prefix[level] = 3.7.12
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxONE}{Principios y conceptos de la administración de la configuración.} %level = 4, prefix[level] = 3.7.12.1
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxTWO}{Rol en el control de la evolución del sistema.} %level = 4, prefix[level] = 3.7.12.2
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxTHREE}{Rol en la manuntención de la integridad del producto.} %level = 4, prefix[level] = 3.7.12.3
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxFOUR}{Documentación: controles de cambio, controles de versión, etc.} %level = 4, prefix[level] = 3.7.12.4
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxFIVE}{Estructuras organizacionales para la administración de la configuración.} %level = 4, prefix[level] = 3.7.12.5
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxSIX}{Planes de administración de la configuración.} %level = 4, prefix[level] = 3.7.12.6
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETWOxSEVEN}{Herramientas de administración de la configuración.} %level = 4, prefix[level] = 3.7.12.7
+\newcommand{\TDSSEVENTopicTHREExSEVENxONETHREE}{Aseguramiento de la calidad del desarrollo de sistemas.} %level = 3, prefix[level] = 3.7.13
+\newcommand{\TDSSEVENTopicTHREExSEVENxONEFOUR}{Seguimiento del proyecto: p.e., PERT, Gantt.} %level = 3, prefix[level] = 3.7.14
+\newcommand{\TDSSEVENTopicTHREExSEVENxONEFIVE}{Finalización y cierre del proyecto.} %level = 3, prefix[level] = 3.7.15
+\newcommand{\TDSSEVENTopicTHREExSEVENxONESIX}{Recursos de administración de proyectos de software y desarrollo personal tales como SMI y PMI.} %level = 3, prefix[level] = 3.7.16
+\newcommand{\TDSSEVENTopicTHREExSEVENxONESEVEN}{Actividades adicionales requeridas para asegurar el éxito de los proyectos de tecnologías de información (entrenamiento, rediseño del trabajo, comunicación, etc.)} %level = 3, prefix[level] = 3.7.17
+\newcommand{\TDSSEVENTopicTHREExSEVENxONEEIGHT}{Administración de sociedades y definición del contrato y relaciones.} %level = 3, prefix[level] = 3.7.18
+\newcommand{\TDSSEVENTopicTHREExSEVENxONENINE}{Experiencia en campo del uso de software de administración de proyectos.} %level = 3, prefix[level] = 3.7.19
+\newcommand{\TDSEIGHTTopicTHREExEIGHTxONE}{Identificación de oportunidades: p.e., solicitudes de servicio, a partir de proceso de planeamiento.} %level = 3, prefix[level] = 3.8.1
+\newcommand{\TDSEIGHTTopicTHREExEIGHTxTWO}{Relación de la aplicación con el modelo empresarial.} %level = 3, prefix[level] = 3.8.2
+\newcommand{\TDSEIGHTTopicTHREExEIGHTxTHREE}{Determinación y especificación de requerimientos.} %level = 3, prefix[level] = 3.8.3
+\newcommand{\TDSNINETopicTHREExNINExONE}{Diseño: lógico, físico.} %level = 3, prefix[level] = 3.9.1
+\newcommand{\TDSNINETopicTHREExNINExONExONE}{Métodos y herramientas de diseño de sistemas.} %level = 4, prefix[level] = 3.9.1.1
+\newcommand{\TDSNINETopicTHREExNINExONExTWO}{Rol del diseño de software vs. diseño del sistema.} %level = 4, prefix[level] = 3.9.1.2
+\newcommand{\TDSNINETopicTHREExNINExONExTHREE}{Balance de hardware-software para el desempeño y flexibilidad del sistema.} %level = 4, prefix[level] = 3.9.1.3
+\newcommand{\TDSNINETopicTHREExNINExONExFOUR}{Diseño de interfaces de alto nivel, hardware a hardware y software a software.} %level = 4, prefix[level] = 3.9.1.4
+\newcommand{\TDSNINETopicTHREExNINExONExFIVE}{Predicción del desempeño del sistema.} %level = 4, prefix[level] = 3.9.1.5
+\newcommand{\TDSNINETopicTHREExNINExONExSIX}{Técnicas y representaciones del modelado del sistema.} %level = 4, prefix[level] = 3.9.1.6
+\newcommand{\TDSNINETopicTHREExNINExONExSEVEN}{Técnicas de diseño de sistemas orientadas a objetos.} %level = 4, prefix[level] = 3.9.1.7
+\newcommand{\TDSNINETopicTHREExNINExONExEIGHT}{Técnicas de diseño de sistemas: diseño iterativo, modelado, etc.} %level = 4, prefix[level] = 3.9.1.8
+\newcommand{\TDSNINETopicTHREExNINExONExNINE}{Flexibilidad del diseño de sistemas.} %level = 4, prefix[level] = 3.9.1.9
+\newcommand{\TDSNINETopicTHREExNINExTWO}{Metodologías de sistemas: p.e., en tiempo real, orientadas a objetos, estructuradas, basadas en eventos.} %level = 3, prefix[level] = 3.9.2
+\newcommand{\TDSNINETopicTHREExNINExTHREE}{Objetivos de diseño: p.e., usabilidad, desempeño.} %level = 3, prefix[level] = 3.9.3
+\newcommand{\TDSNINETopicTHREExNINExFOUR}{Técnicas para mejorar el proceso de diseño creativo.} %level = 3, prefix[level] = 3.9.4
+\newcommand{\TDSNINETopicTHREExNINExFIVE}{Alternativas de presentación de información; estilos cognitivos.} %level = 3, prefix[level] = 3.9.5
+\newcommand{\TDSNINETopicTHREExNINExSIX}{Interacción humano-computador (p.e., ergonomía, interfaces gráficas de usuario, voz, tacto).} %level = 3, prefix[level] = 3.9.6
+\newcommand{\TDSNINETopicTHREExNINExSIXxONE}{Interfaces de usuario (voz, tacto...).} %level = 4, prefix[level] = 3.9.6.1
+\newcommand{\TDSNINETopicTHREExNINExSIXxTWO}{Ergonomía.} %level = 4, prefix[level] = 3.9.6.2
+\newcommand{\TDSNINETopicTHREExNINExSIXxTHREE}{Acceso de usuario común.} %level = 4, prefix[level] = 3.9.6.3
+\newcommand{\TDSNINETopicTHREExNINExSIXxFOUR}{Interfaces de usario; menús del sistema, lenguajes de comandos, manipulación directa.} %level = 4, prefix[level] = 3.9.6.4
+\newcommand{\TDSNINETopicTHREExNINExSIXxFIVE}{Dispositivos de salida gráficos y sus propiedades.} %level = 4, prefix[level] = 3.9.6.5
+\newcommand{\TDSNINETopicTHREExNINExSIXxSIX}{Primitivas gráficas y sus propiedades.} %level = 4, prefix[level] = 3.9.6.6
+\newcommand{\TDSNINETopicTHREExNINExSIXxSEVEN}{Sistemas de software gráficos; estándares gráficos generales.} %level = 4, prefix[level] = 3.9.6.7
+\newcommand{\TDSNINETopicTHREExNINExSIXxEIGHT}{Arquitectura de administradores de ventada e interfaces de usuario.} %level = 4, prefix[level] = 3.9.6.8
+\newcommand{\TDSNINETopicTHREExNINExSIXxNINE}{Arquitectura de cajas de herramientas y ambientes de soporte a la programación.} %level = 4, prefix[level] = 3.9.6.9
+\newcommand{\TDSNINETopicTHREExNINExSIXxONEOH}{Representación de datos gráficos y sonido.} %level = 4, prefix[level] = 3.9.6.10
+\newcommand{\TDSNINETopicTHREExNINExSIXxONEONE}{Técnicas de diseño para problemas de interfaz humano-computador: independencia del dispositivo.} %level = 4, prefix[level] = 3.9.6.11
+\newcommand{\TDSNINETopicTHREExNINExSIXxONETWO}{Factores humanos asociados con interfaces humano-computador.} %level = 4, prefix[level] = 3.9.6.12
+\newcommand{\TDSNINETopicTHREExNINExSEVEN}{Desarrollo de software.} %level = 3, prefix[level] = 3.9.7
+\newcommand{\TDSNINETopicTHREExNINExSEVENxONE}{Requerimientos de software: principios; tipos (funcional, desempeño y otros).} %level = 4, prefix[level] = 3.9.7.1
+\newcommand{\TDSNINETopicTHREExNINExSEVENxTWO}{Especificaciones de software: objetivos; estándares; tipos (funcional, desempeño).} %level = 4, prefix[level] = 3.9.7.2
+\newcommand{\TDSNINETopicTHREExNINExSEVENxTHREE}{Diseño de software: principios de diseño (abstracción, ocultamiento de información).} %level = 4, prefix[level] = 3.9.7.3
+\newcommand{\TDSNINETopicTHREExNINExSEVENxFOUR}{Aseguramiento de la calidad del software: problemas, definiciones, estándares, aseguramiento de calidad como un proceso continuo).} %level = 4, prefix[level] = 3.9.7.4
+\newcommand{\TDSNINETopicTHREExNINExSEVENxFIVE}{Correctitud y confiabilidad del software: principios, conceptos, modelado, métodos.} %level = 4, prefix[level] = 3.9.7.5
+\newcommand{\TDSNINETopicTHREExNINExSEVENxSIX}{Verificación y validación del aseguramiento de la calidad del software: roles y métodos.} %level = 4, prefix[level] = 3.9.7.6
+\newcommand{\TDSNINETopicTHREExNINExSEVENxSEVEN}{Implementación del software: relación del diseño con la implementación del software.} %level = 4, prefix[level] = 3.9.7.7
+\newcommand{\TDSNINETopicTHREExNINExSEVENxEIGHT}{Integración de sistemas de software y hardware: métodos, planes, pruebas.} %level = 4, prefix[level] = 3.9.7.8
+\newcommand{\TDSNINETopicTHREExNINExSEVENxNINE}{Pruebas de software: roles, principios y estándares.} %level = 4, prefix[level] = 3.9.7.9
+\newcommand{\TDSONEOHTopicTHREExONEOHxONE}{Construcción de sistemas.} %level = 3, prefix[level] = 3.10.1
+\newcommand{\TDSONEOHTopicTHREExONEOHxTWO}{Construcción de sistemas de software: p.e. programación, pruebas de unidad, empaquetamiento de módulos.} %level = 3, prefix[level] = 3.10.2
+\newcommand{\TDSONEOHTopicTHREExONEOHxTHREE}{Integración de software: p.e., paquetes.} %level = 3, prefix[level] = 3.10.3
+\newcommand{\TDSONEOHTopicTHREExONEOHxFOUR}{Conversión de sistemas: métodos, planeamiento, implementación.} %level = 3, prefix[level] = 3.10.4
+\newcommand{\TDSONEOHTopicTHREExONEOHxFIVE}{Integración y pruebas de sistemas: verificación y validación, generación del plan de pruebas, ejecución de pruebas.} %level = 3, prefix[level] = 3.10.5
+\newcommand{\TDSONEOHTopicTHREExONEOHxSIX}{Entrenamiento de usuarios, gerenciamiento, operación, materiales de entrenamiento.} %level = 3, prefix[level] = 3.10.6
+\newcommand{\TDSONEOHTopicTHREExONEOHxSEVEN}{Gerenciamiento de proyectos de software: ámbito, planificación, manejo de la configuración, calidad.} %level = 3, prefix[level] = 3.10.7
+\newcommand{\TDSONEOHTopicTHREExONEOHxEIGHT}{Sistemas de instalación.} %level = 3, prefix[level] = 3.10.8
+\newcommand{\TDSONEOHTopicTHREExONEOHxNINE}{Revisión post-implementación.} %level = 3, prefix[level] = 3.10.9
+\newcommand{\TDSONEONETopicTHREExONEONExONE}{Petición de servicios y control de cambios.} %level = 3, prefix[level] = 3.11.1
+\newcommand{\TDSONEONETopicTHREExONEONExTWO}{Ingeniería inversa y reingeniería.} %level = 3, prefix[level] = 3.11.2
+\newcommand{\TDSONEONETopicTHREExONEONExTHREE}{Balanceo y afinamiento} %level = 3, prefix[level] = 3.11.3
+\newcommand{\TDSONEONETopicTHREExONEONExFOUR}{Conceptos de mantenimiento de software.} %level = 3, prefix[level] = 3.11.4
+\newcommand{\TDSONEONETopicTHREExONEONExFOURxONE}{Tipos de mantenimiento de software: perceptivo, adaptativo, correctivo.} %level = 4, prefix[level] = 3.11.4.1
+\newcommand{\TDSONEONETopicTHREExONEONExFOURxTWO}{Diseño de software para mantenimiento.} %level = 4, prefix[level] = 3.11.4.2
+\newcommand{\TDSONEONETopicTHREExONEONExFOURxTHREE}{Técnicas de mantenimiento de Software: lectura de programas, ingeniería reversa.} %level = 4, prefix[level] = 3.11.4.3
+\newcommand{\TDSONEONETopicTHREExONEONExFOURxFOUR}{Modelos de mantenimiento de Software.} %level = 4, prefix[level] = 3.11.4.4
+\newcommand{\TDSONETWOTopicTHREExONETWOxONE}{Sistemas para el procesamiento de transacciones.} %level = 3, prefix[level] = 3.12.1
+\newcommand{\TDSONETWOTopicTHREExONETWOxTWO}{Sistemas de Información Gerencial} %level = 3, prefix[level] = 3.12.2
+\newcommand{\TDSONETWOTopicTHREExONETWOxTHREE}{Sistemas para el soporte de grupos.} %level = 3, prefix[level] = 3.12.3
+\newcommand{\TDSONETWOTopicTHREExONETWOxFOUR}{Sistemas para soporte a la toma de decisiones/Sistemas expertos.} %level = 3, prefix[level] = 3.12.4
+\newcommand{\TDSONETWOTopicTHREExONETWOxFIVE}{Sistemas de soporte ejecutivo.} %level = 3, prefix[level] = 3.12.5
+\newcommand{\TDSONETWOTopicTHREExONETWOxSIX}{Sistemas de oficina.} %level = 3, prefix[level] = 3.12.6
+\newcommand{\TDSONETWOTopicTHREExONETWOxSEVEN}{Sistemas Colaborativos.} %level = 3, prefix[level] = 3.12.7
+\newcommand{\TDSONETWOTopicTHREExONETWOxEIGHT}{Imagen y Sistemas de Flujos de Información (\textit{Work-flow systems}).} %level = 3, prefix[level] = 3.12.8
+\newcommand{\TDSONETWOTopicTHREExONETWOxNINE}{Sistemas de soporte funcional: e.g. control de procesos, marketing.} %level = 3, prefix[level] = 3.12.9
+\newcommand{\TDSONETWOTopicTHREExONETWOxONEOH}{Sistemas Interorganizacionales.} %level = 3, prefix[level] = 3.12.10
+\newcommand{\TDSONETWOTopicTHREExONETWOxONEONE}{Sistemas de administración del conocimiento.} %level = 3, prefix[level] = 3.12.11
+\newcommand{\TDSONETWOTopicTHREExONETWOxONETWO}{Procesos que cubren el mundo; mercados virtuales globales.} %level = 3, prefix[level] = 3.12.12
+\newcommand{\TDSONETWOTopicTHREExONETWOxONETHREE}{Comercio electrónico.} %level = 3, prefix[level] = 3.12.13
+\newcommand{\TDSONETHREETopicTHREExONETHREExONE}{Conceptos de tecnologías emergentes.} %level = 3, prefix[level] = 3.13.1
+\newcommand{\TDSONETHREETopicTHREExONETHREExONExONE}{Definición de tecnologías emergentes.} %level = 4, prefix[level] = 3.13.1.1
+\newcommand{\TDSONETHREETopicTHREExONETHREExONExTWO}{Impacto económico actual y potencial.} %level = 4, prefix[level] = 3.13.1.2
+\newcommand{\TDSONETHREETopicTHREExONETHREExONExTHREE}{Proyecciones de impactos económicos futuros.} %level = 4, prefix[level] = 3.13.1.3
+\newcommand{\TDSONETHREETopicTHREExONETHREExONExFOUR}{Creación y transformación de bienes y servicios a través de tecnologías emergentes.} %level = 4, prefix[level] = 3.13.1.4
+\newcommand{\TDSONETHREETopicTHREExONETHREExONExFIVE}{Impacto en organizaciones, mercados, industria y sociedad.} %level = 4, prefix[level] = 3.13.1.5
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWO}{Reacciones de la organización frente a las tecnologías emergentes.} %level = 3, prefix[level] = 3.13.2
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxONE}{El remodelado de las organizaciones por parte de las tecnologías emergentes.} %level = 4, prefix[level] = 3.13.2.1
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxTWO}{Reacción de los negocios frente a las tecnologías emergentes.} %level = 4, prefix[level] = 3.13.2.2
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxTHREE}{Efecto del incremento de la transparencia en el balance entre el poder de los consumidores y los productores.} %level = 4, prefix[level] = 3.13.2.3
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxFOUR}{Efecto de los mercados ``libres de fricción'' en el precio y posicionamiento de productos y servicios.} %level = 4, prefix[level] = 3.13.2.4
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxFIVE}{Teorías de innovación tecnológica.} %level = 4, prefix[level] = 3.13.2.5
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxSIX}{Examen de las causas y efectos de revoluciones tecnológicas pasadas (p.e. electricidad, ferrovías).} %level = 4, prefix[level] = 3.13.2.6
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxSEVEN}{Relaciones de causa y efecto entre las nuevas tecnologías electrónicas y la globalización económica en aumento.} %level = 4, prefix[level] = 3.13.2.7
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxEIGHT}{Información: costo, valor y precio; efecto de derechos de autor en la industria de tecnologías de información; contraste de la información como bien público y como recurso propietario.} %level = 4, prefix[level] = 3.13.2.8
+\newcommand{\TDSONETHREETopicTHREExONETHREExTWOxNINE}{Modelos de negocio: el esfuerzo de las empresas por generar ganacias usando Internet y tecnologías emergentes } %level = 4, prefix[level] = 3.13.2.9
+\newcommand{\TDSONETHREETopicTHREExONETHREExTHREE}{Tecnologías emergentes desde el punto de vista tecnológico.} %level = 3, prefix[level] = 3.13.3
+\newcommand{\TDSONETHREETopicTHREExONETHREExTHREExONE}{Nanotecnologías, RFID y otros.} %level = 4, prefix[level] = 3.13.3.1
+\newcommand{\TDSONETHREETopicTHREExONETHREExTHREExTWO}{Open Source.} %level = 4, prefix[level] = 3.13.3.2
+\newcommand{\TDSONETHREETopicTHREExONETHREExTHREExTHREE}{Convergencia de tecnologías.} %level = 4, prefix[level] = 3.13.3.3
+\newcommand{\TDSONETHREETopicTHREExONETHREExTHREExFOUR}{Posible evolución de la tecnología en el futuro cercano.} %level = 4, prefix[level] = 3.13.3.4

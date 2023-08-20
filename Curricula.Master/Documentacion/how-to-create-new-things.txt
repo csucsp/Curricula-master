@@ -1,0 +1,51 @@
+
+How to create new Country
+
+- Crear el ./in/country.Peru/country-info.tex
+- Crear el ./in/country.Peru/logos
+- Crear el ./in/country.Peru/country-extra-environments.sty
+- Crear el ./in/country.Peru/country-extra-macros.tex
+- Crear el ./in/country.Peru/country-info.tex
+- Crear el ./in/country.Peru/dot/big-graph-item1.dot
+- Crear el ./in/country.Peru/dot/big-graph-item2.dot
+- Crear el ./in/country.Peru/dot/small-graph-item1.dot
+- Crear el ./in/country.Peru/dot/small-graph-item2.dot
+- Crear el ./in/country.Peru/CS.tex/Main.tex
+
+***********************************************************************************************************
+How to create new institutions
+
+- Crear in/country.Peru/CS-SPC/ los archivos:
+     * team.tex,
+     * syllabus-template.tex,
+     * syllabus-delivery-control.tex
+     * institution-info.tex,
+     * ack.tex
+- Configurar datos de la institución (in/country.Peru/CS-SPC/institution-info.tex)
+- Copiar el ./in/country.Peru/logos/SPC.eps
+- Crear el ./in/country.Peru/logos/SPC.jpg
+- Crear el ./in/country.Peru/logos/SPC-small.eps
+- Crear el ./in/country.Peru/logos/SPC-small.jpg
+
+- Configurar equipo de trabajo (in/country.Peru/CS-SPC/team.tex) 
+- Editar el ./in/institutions-list.txt
+
+- Completar cursos
+
+***********************************************************************************************************
+How to create courses of new areas (ie. JK123.tex)
+
+Modify:
+../Curricula.in/lang/Espanol/Computing.config/Computing.config
+../Curricula.in/config/all.config
+../Curricula.in/lang/Espanol/CS.config/Area.config
+../Curricula.in/lang/Espanol/CS.tex/description-foreach-prefix.tex
+
+../Curricula.in/config/colors.config
+../Curricula.in/lang/Espanol/dictionary.txt
+
+***********************************************************************************************************
+How to create a new program 
+
+./scripts/create-program.sh Peru Computing Espanol DS UTEC
+

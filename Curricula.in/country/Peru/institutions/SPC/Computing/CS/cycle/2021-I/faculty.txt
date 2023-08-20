@@ -1,0 +1,52 @@
+--BEGIN-PROFESSOR--
+--BEGIN-PROFESSOR--
+\email{ecuadros@ucsp.edu.pe}
+\prefix{Dr.}
+\name{Ernesto Cuadros-Vargas}
+\begin{titles}
+	\Doctor{Espanol}{Computing}{Ciencia de la Computación}{Recuperación de Información}{ICMC-USP}{Brasil}{2004}
+	\Master{Espanol}{Computing}{Ciencia de la Computación}{Redes Neuronales}{ICMC-USP}{Brasil}{1998}
+	\Doctor{English}{Computing}{Computer Science}{Information Retrieval}{ICMC-USP}{Brazil}{2004}
+	\Master{English}{Computing}{Computer Science}{Neural Networks}{ICMC-USP}{Brazil}{1998}
+\end{titles}
+\Category{Principal}
+\Dedication{TP}
+\Position{Professor}
+\webpage{http://socios.spc.org.pe/ecuadros}
+\Office{Lima}
+\Phone{+51-1-}
+\Mobile{+51-958.339.127}
+\facebook{https://www.facebook.com/pages/Ernesto-Cuadros-Vargas-Public-Figure/136184539813774}
+\Twitter{@ecuadrosv}
+\Blog{https://ecuadros.blogspot.com}
+\Research{Information Retrieval, Data Structures, Programming, Education in CS}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{mbermejo@domain.edu}
+\prefix{Mg.}
+\name{Maria Hilda Fernandez Cabrera}
+\begin{titles}
+	\Master{Espanol}{Computing}{Ciencia de la Computación}{Algoritmos}{Pontificia Universidad Católica del Perú}{Perú}{2001}
+	\Master{Espanol}{Educación}{Docencia en Educación Superior}{Game Based Learning}{Universidad Nacional Andrés Bello}{Chile}{2012}
+	\Master{Espanol}{Administración de Empresas}{Administración y Dirección de Empresas}{}{Universitat Politécnica de Catalunya -UPC}{España}{2001}
+	\Master{Espanol}{Administración de Empresas}{Administración y Dirección de Empresas}{}{Escuela de Postgrado de la Universidad Peruana de Ciencias Aplicadas-UPC}{Perú}{2004}
+	\Master{English}{Computing}{Computer Science}{Algorithms}{Pontificia Universidad Católica del Perú}{Perú}{2001}
+	\Master{English}{Education}{Teaching in higher Education}{Game Based Learning}{Universidad Nacional Andrés Bello}{Chile}{2012}
+	\Master{English}{MBA}{Business Administration and Management}{}{Universitat Politécnica de Catalunya-UPC}{España}{2001}
+	\Master{English}{MBA}{Business Administration and Management}{}{Escuela de Postgrado de la Universidad Peruana de Ciencias Aplicadas-UPC}{Perú}{2004}
+\end{titles}
+\Category{Principal}
+\Dedication{TC}
+\webpage{}
+\Office{Lima}
+\Phone{+51-1-}
+\Mobile{+51-}
+\facebook{https://www.facebook.com/}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--

@@ -1,0 +1,322 @@
+lang_for_latex=english
+
+Curricula   =Curricula
+School      = School
+Course      = Course
+Courses     = Courses
+Department  = Department
+Semester    = Semester
+TypeOfCourse=Type of course
+Condition   =Type of course
+LearningModality=Learning modality
+
+GeneralInformation=General information
+CourseCodeandName=Code and Name
+HoursTheoryAndLab=Hours of theory and Lab
+CourseFoundation=Course foundation
+GeneralObjective=General Objective
+
+SyllabusofCourse=Syllabus of Course
+Syllabus=Syllabus
+Bibliography=Bibliography
+Readings=Readings
+CONTENTS=CONTENTS
+Content=Content
+Period=Period
+AcademicPeriod = Academic Period  
+CourseArea= Area
+CourseCode= Code
+CourseName= Course name
+Syllabi=Syllabi
+THEORY    = THEORY
+Theory    = Theory
+TheoryHours= Theory Hours
+PRACTICE  = PRACTICE
+Practice  = Practice
+Plan = Plan
+PRACTICEEX= PRACTICE
+PracticeEx= Practice
+LABORATORY= LAB
+Laboratory= Laboratory
+LabHours  = Practice Hours
+AutonomousHours=Autonomous hours
+CREDITS     = CREDITS
+Credits     = Credits
+cr          = cr
+CR	        = CR
+Cr	        = Cr
+Date        = Date
+Time        = Time
+SessionType = Session type
+SeeatEDU    = See at EDU
+Durationoftheperiod=Duration of the period
+Prerequisites=Prerrequisites
+TYPE      = TYPE
+TypeOfCourse=Type of Course
+PREREQ    = Prerequisites
+Summary  = Summary
+UNIT=UNIT
+Unit=Unit
+Professor=Professor
+Professors=Professors
+ProfessorEmailAndAttentionSchedule=Professor(s), email and schedule to attend students
+AttentionwithAppointment=Meetings after coordination with the professor
+InformationAbouttheCourse=Information about the course
+Introductiontothecourse=Introduction to the course
+BriefDescription=Brief description about the course
+Where=Where
+PerformanceInClass=Performance in class
+TheoryEvaluation=Theory evaluation
+Project=Project
+BookSummary=Book Summaries
+SetOfProblems=Set of problems
+Coordinator=Coordinator
+
+HoursPerSession                        = Hours per Session
+LengthOfPeriod                         = Length Of Period 
+Book 				                   = Book
+BookOf				                   = Book of
+ShortDescriptionByCourse               = short descriptions by course
+BibliographyByCourse                   = Bibliography by course
+Author				                   = Author
+YearsOfPublication                     = Years of publication
+OtherTexts                             = Other Texts
+Title                                  = Title
+CourseInformation                      = Course Information.
+GoalsOfTheCourse                       = Goals of the Course
+Goals                                  = Goals
+SpecificGoalsOfTheCourse               = Specific goals of the Course
+SpecificCompetencesOfTheCourse         = Specific Competences Of TheCourse.
+ListOfSubjectsToStudyDuringTheCourse   = List Of Subjects To Study During TheCourse.
+MethodologyAndMethodOfEvaluation       = Methodology and Method of Evaluation
+Methodology                            = Methodology
+Workplan                               = Workplan
+Planning                               = Planning
+BriefDescriptionOfCourseContent        = Brief Description Of Course Content.
+Name                                   = Nombre.
+E-mail                                 = E-mail. 
+Corequisites                           = Co-Requisites.
+HoursOfAttentionOfTheInstructorOrCoordinatorOfTheCourse  = Hours Of Attention Of The Instructor Or Coordinator Of The Course .
+
+DPTO	            = Department
+TOTALHOURS          = Total hours 
+Syllabus            = Sillabus
+SyllabusOf          = Sillabus de
+Syllabi             = Syllabi
+Descriptions        =Short descriptions
+Bibliography        =Bibliography
+BasicBibliography   =Basic Bibliography
+Plan	            = Plan
+BloomLevel          = Bloom Level
+
+Semester	        =Semester
+Sem		            =Sem
+Semesters	        =Semesters
+Mandatory	        =Mandatory
+MandatoryShort	    =M
+MandatoryUnit	    =Mandatory Unit
+Core-Tier1	        =Core Tier1
+Core-Tier2	        =Core Tier2
+Elective	        =Elective
+Electives           =Electives
+ElectiveShort	    =E
+None		        =None
+hours		        =hours
+Hours               =Horas
+HOURS		        =HOURS
+hrs		            =hr(s)
+hour		        =hour
+weeks               =weeks
+Weekly              =Weekly
+Week                =Week
+HoursOfThisCourse   =Hour of this course
+Total		        =Total
+Pag                 =Pg.
+Pages               =Pages
+pages               =pages
+TeamTitle           =Task Force
+FinalReport	        =Final Report
+LastModification    =Last change
+Justification	    = Justification
+GeneralGoals	    = Generales Goals
+Competences	        = Competences
+Competence	        = Competence
+Outcomes            = Competences
+Outcome             = Competence
+SpecificCompetences	= Specific Competences
+ContributionToOutcomes  =Contribution to Outcomes
+ContributionToSkills    =Contribution to Computer Science Skills (IEEE)
+Skills		            = Skills
+EducationalObjectives=Educational Objectives
+Units		            =Units
+KUTitle		            =Knowledge Unit
+KUsTitle	            =Knowledge Units
+Topics                  =Topics
+TopicsOfCourse	        =Topics of this course
+UnitGoals               =Goals
+LearningOutcomes        =Learning Outcomes
+LearningLevelExpected   =Learning Level Expected
+CompetencesExpected     =Competences Expected
+CompetencesIEEE	        = Competences (IEEE)
+UnitNotDefined          =Unit Not Defined
+BibliographySection     =Bibliography
+
+MethodologyAndEvaluation=Methodology and Evaluation
+MethodologyAndEvaluationSystem=Methodology and system evaluation
+Methodology		        =Methodology
+THEORY-SESSIONS     	= Theory Sessions
+THEORY-SESSIONS-CONTENT =The theory sessions are held in master classes with activities including active learning and roleplay to allow students to internalize the concepts.
+LAB-SESSIONS           	=Lab Sessions
+LAB-SESSIONS-CONTENT    =In order to verify their competences, several activities including active learning and roleplay will be developed during lab sessions.
+ORAL-SESSIONS    	    =Oral Presentations
+ORAL-SESSIONS-CONTENT 	=Individual and team participation is encouraged to present their ideas, motivating them with additional points in the different stages of the course evaluation.
+READING-SESSIONS        =Reading
+READING-SESSIONS-CONTENT=Throughout the course different readings are provided, which are evaluated. The average of the notes in the readings is considered as the mark of a qualified practice. The use of the UTEC Online virtual campus allows each student to access the course information, and interact outside the classroom with the teacher and with the other students.
+PRACTICAL-SESSIONS         =Practical Sessions
+PRACTICAL-SESSIONS-CONTENT =The practical sessions are held in class where a series of exercises and/or practical concepts are developed through problem solving, problem solving, specific exercises and/or in application contexts.
+EVALUATION-SYSTEM     	=Evaluation System
+EVALUATION-CONTENT    	 =~
+METHODOLOGY-DESCRIPTION  =~
+NoteT                   =It consists of the average scores of the individual short exams, rounded up (this note is about 9).
+NoteP                   =It consists of the average grades of group practice, rounded up (this note is about 9).
+NoteE                   =It consists of the result of individual effort problems rounded up (this note is about 2).
+
+nocorehours             =No core hours
+corehours	            =Core Hours
+ThisSchool	            =This School 
+
+AdviceRecCourses		        =Se recomienda que el alumno haya llevado
+FreeCreditsAdvice		        =More courses (<NFREECREDITS> <CREDITS>) may be added here
+TotalNumberOfCreditsMsg		    =Total credits
+DistributionCreditsByArea	    =Distribution by areas
+TableOfTopicByCourseCaption	    =Topics by course from <BEGIN_SEM> to <END_SEM> <SEMESTER>
+TableOfOutcomesByCourseCaption  =Outcomes by course <BEGIN_SEM> to <END_SEM> <SEMESTER>
+Skill				            =Skill
+ComparisonWithStandardCaption   =Comparing <AREA>-<INST>~Vs. <STANDARD> of <STANDARD_REF_INSTITUTION>.
+InstitutionToCompareWith        =IEEE-CS/ACM
+Yes 	                        = Yes
+No 	                            = No
+
+CriticalPath                    =Critical path
+
+<HASH name=standards_long_name>
+CE=>Computer Engineering
+CS=>Computer Science
+IS=>Information Systems
+IT=>Information Technology
+SE=>Software Engineering
+</HASH>
+
+% Labels for spider charts
+<HASH name=all_areas>
+CS => Computer<ENTER>Science
+MC => Mathematics<ENTER>for Computing
+CB => Basic<ENTER>Sciences
+SE => Software<ENTER>Engineering
+HW => Hardware and<ENTER>Architecture
+IT => Information<ENTER>Technology
+IS => Information<ENTER>Systems 
+BM => Business
+FG => General<ENTER>Knowledge
+</HASH>
+
+<HASH name=semester_ordinal>
+1=>First
+2=>Second
+3=>Third
+4=>Fourth
+5=>Fifth
+6=>Sixth
+7=>Seventh
+8=>Eighth
+9=>Ninth
+10=>Tenth
+</HASH>
+
+<HASH name=ordinal_postfix>
+1=>st
+2=>nd
+3=>rd
+4=>th
+5=>th
+6=>th
+7=>th
+8=>th
+9=>th
+10=>th
+</HASH>
+
+Familiarity=Familiarity
+Usage=Usage
+Assessment=Assessment
+
+<HASH name=labels_per_level>
+1=>Introductory
+2=>Intermediate
+3=>>Advanced
+4=>Capstone project
+</HASH>
+
+<HASH name=Acronyms>
+SI=>Information Systems
+TI=>Information Technology
+BD=>Data Bases
+POO=>Object Oriented Programming
+ADS=>Systems Analysis and Design
+ADA=>Algorithms Analysis and Design
+</HASH>
+
+Mission=Mission
+Definition=Definition
+
+<HASH name=professor_role_label>
+C=>Coordinator
+T=>Lecturer
+L=>Practice
+-=>
+</HASH>
+
+DoctorIn=PhD in
+MasterIn=MSc in
+
+Modality=Modality
+<HASH name=LearningModalityList>
+FaceToFace=>Face to face
+Blended=>Blended
+Virtual=>Virtual
+</HASH>
+
+CoursesAProfessorCouldTeach=Courses that a teacher could dictate this semester
+ProfessorSkilledToTeachACourse=Professor skilled to teach a course
+ProfessorAssignedByCourse=Professor assignado by courso
+CoursesAssignedByProfessor=Taught courses by professor
+ThereIsNoProfessorSkilledForThisCourse=--
+ThereIsNoProfessorAssignedForThisCourse=--
+
+%%%%En ingles
+Exam=Exam
+PartialExam = Partial Exam
+Finalexam=Final exam
+ExamAcronym=E
+ContinuousAssessment=Continuous Assessment
+ContinuousAssessmentAcronym=C
+Project=Project
+ProjectAcronym=P
+PracticalTest=Practical Test
+PracticalTestAcronym=PT
+LabExperiments=Lab experiments
+LabExperimentsAcronym=L
+FG=FG
+Remarks=Remarks
+Finalmakeup=Final Makeup
+AutonomousLearning=Autonomous learning
+Developmentofpracticalexercises=Development of practical exercises
+
+CompetencesForEngineering=Competences for Engineering
+CompetencesForCS=Competences for Computer Science
+
+<HASH name=ISBOKAreas>
+IT  =>Information Technology
+OMC =>Organization and Management
+TDS =>Theory and information systems development
+</HASH>

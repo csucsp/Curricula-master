@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  curricula:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PERL5LIB=/app/Curricula.Master/scripts
+    command: tail -f /dev/null

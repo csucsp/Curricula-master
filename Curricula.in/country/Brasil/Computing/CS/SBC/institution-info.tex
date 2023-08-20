@@ -1,0 +1,109 @@
+\newcommand{\DocumentVersion}{2010}
+\newcommand{\fecha}{2 de Janeiro de 2019}
+\newcommand{\city}{Brasilia\xspace}
+\newcommand{\country}{Brasil\xspace}
+\newcommand{\dictionary}{Portugues\xspace}
+\newcommand{\SyllabusLangs}{Portugues,English}
+\newcommand{\GraphVersion}{2\xspace}
+
+% newcommand{\CurriculaVersion}{1\xspace} % Malla 2006: 1, Malla 2010: 2
+% newcommand{\YYYY}{2006\xspace}          % Plan 2006
+% newcommand{\Range}{8-10}                % Plan 2010 1-8, Plan 2006 7-10
+% newcommand{\SchoolShortName}{IngenieríaInformática\xspace}
+% newcommand{\SchoolFullName}{Escuela Profesional de \SchoolShortName}
+% newcommand{\SchoolFullNameBreak}{\FacultadName\\ Escuela Profesional de \\\SchoolShortName\xspace}
+
+% Para UTEC 2017
+%newcommand{\CurriculaVersion}{2016\xspace} % Malla 2006: 1, Malla 2010: 2
+%newcommand{\YYYY}{2017\xspace}             % Plan 2006
+%newcommand{\Range}{1-10}                   % Plan 2010 1-8, Plan 2006 7-10
+%newcommand{\Semester}{2017-II\xspace}      
+
+%Para UTEC 2018
+\newcommand{\CurriculaVersion}{2018\xspace} % Malla 2006: 1, Malla 2010: 2
+\newcommand{\YYYY}{2018\xspace}             % Plan 2006
+\newcommand{\Range}{1-10}                   % Plan 2010 1-8, Plan 2006 7-10
+\newcommand{\Semester}{2018-II\xspace}      
+
+% convert ./fig/UTEC.jpg ./html/img3.png
+% cp ./fig/big-graph-curricula.png ./html/img18.png
+% convert ../Curricula2.0.out/Peru/CS-UTEC/cycle/2014-1/Plan2010/fig/UTEC.jpg ../Curricula2.0.out/Peru/CS-UTEC/cycle/2014-1/Plan2010/html/img3.png
+% cp ../Curricula2.0.out/Peru/CS-UTEC/cycle/2014-1/Plan2010/fig/big-graph-curricula.png ../Curricula2.0.out/Peru/CS-UTEC/cycle/2014-1/Plan2010/html/img18.png
+
+% newcommand{\OutcomesList}{a,b,c,d,e,f,g,h,i,j,k,l,m,HU,FH,TASDSH}
+\OutcomesVersion{V1}
+\OutcomesList{V1}{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p}
+\OutcomesList{V2}{1,2,3,4,5,6,7,8,9,10}
+
+\newcommand{\logowidth}{8cm}
+\newcommand{\InstitutionURL}{\htmladdnormallink{http://www.sbc.org.br}{http://www.sbc.org.br}\xspace}
+
+\newcommand{\UniversityPortugues}{Sociedade Brasileira de  computação\xspace}
+\newcommand{\UniversityEnglish}{Brazilian Computer Society\xspace}
+\newcommand{\University}{Sociedade Brasileira de  computação\xspace}
+
+\newcommand{\FacultadNamePortugues}{Instituto de  computação\\ \xspace}
+\newcommand{\FacultadNameEnglish}{}
+\newcommand{\FacultadName}{\FacultadNamePortugues}
+
+\newcommand{\DepartmentNamePortugues}{Departamento de Ciência da computação\xspace}
+\newcommand{\DepartmentNameEnglish}{Department of Computer Science\xspace}
+\newcommand{\DepartmentName}{\DepartmentNamePortugues}
+
+\newcommand{\SchoolShortNamePortugues}{Ciência da computação\xspace}
+\newcommand{\SchoolShortNameEnglish}{Computer Science\xspace}
+\newcommand{\SchoolShortName}{\SchoolShortNamePortugues}
+
+\newcommand{\SchoolFullNamePortugues}{Escola Profissional de \SchoolShortNamePortugues}
+\newcommand{\SchoolFullNameEnglish}{School of \SchoolShortNameEnglish}
+\newcommand{\SchoolFullName}{\SchoolFullNamePortugues}
+
+\newcommand{\SchoolFullNameBreakPortugues}{Escola Profissional de \\ \SchoolShortNamePortugues\xspace}
+\newcommand{\SchoolFullNameBreakEnglish}{School of \SchoolShortNameEnglish\xspace}
+\newcommand{\SchoolFullNameBreak}{\SchoolFullNameBreakPortugues}
+
+
+
+\newcommand{\PosterTitle}{}
+
+\newcommand{\SchoolAcro}{EPCC\xspace}
+\newcommand{\SchoolURL}{\htmladdnormallink{http://www.sbc.org.br}{http://www.sbc.org.br}\xspace}
+\newcommand{\underlogotext}{}
+
+\newcommand{\AcademicDegreeIssued}{Bacharel em Ciência da computação\xspace}
+\newcommand{\TitleIssued}{Profissional em Ciência da computação\xspace}
+\newcommand{\AcademicDegreeAndTitle}%
+{\begin{description}%
+\item [Grado Académico: ] \AcademicDegreeIssued\xspace y% 
+\item [Titulo Profesional: ] \TitleIssued%
+\end{description}%
+}
+
+\newcommand{\doctitle}{Curriculo \YYYY\xspace de \SchoolFullName\\ \SchoolURL}
+
+\newcommand{\AbstractIntro}{Este documento representa el informe final de la nueva 
+malla curricular \YYYY del \SchoolFullName de la \University (\textit{\InstitutionURL}) 
+en la ciudad de \city-\country.}
+
+\newcommand{\OtherKeyStones}{}
+
+
+\newcommand{\profile}{%
+El perfil profesional de este programa profesional puede ser mejor entendido a partir de
+\OnlyMainDoc{la Fig. \ref{fig.cs} (Pág. \pageref{fig.cs})}\OnlyPoster{las figuras del lado derecho}. 
+Este profesional tiene como centro de su estudio a la computación. Es decir, tiene a la computación 
+como fin y no como medio. De acuerdo a la definición de esta área, este profesional está llamado 
+directamente a ser un impulsor del desarrollo de nuevas técnicas computacionales que 
+puedan ser útiles a nivel local, nacional e internacional.
+
+Nuestro perfil profesional está orientado a ser generador de puestos de empleo a través de la innovación permanente. 
+Nuestra formación profesional tiene 3 pilares fundamentales: 
+Formación Humana, un contenido de acuerdo a normas internacionales y una orientación marcada a la innovación.
+}
+
+\newcommand{\mission}{Contribuir al desarrollo científico, tecnológico y técnico del país,  
+formando profesionales competentes, orientados a la creación de nueva 
+ciencia y tecnología computacional, como motor que impulse y consolide la industria 
+del software en base a la investigación científica y tecnológica en 
+áreas innovadoras formando, EN NUESTROS profesionales, un conjunto de habilidades y 
+destrezas para la solución de problemas computacionales con un compromiso social.\xspace}

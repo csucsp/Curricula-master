@@ -1,0 +1,44 @@
+
+% Semester #1 .
+% CS1100. Introducción a la Ciencia de la Computación (Obligatorio)
+CS1100->ecuadros@utec.edu.pe:T,heider.sanchez.pe@gmail.com:L,jfiestas@utec.edu.pe:L,jbellido@utec.edu.pe:L,pmorriberon@utec.edu.pe:L,jdiazl@utec.edu.pe:L,jfarfan@utec.edu.pe:L,tchambilla@utec.edu.pe:L,jbueno@utec.edu.pe:L,kenneth@tektonlabs.com:L,rrivas@utec.edu.pe:L,kefreen@gmail.com:L,ajaflorez@gmail.com:L,jalvarador@utec.edu.pe:L,mmelgarz@utec.edu.pe:L,rotkyvairam@gmail.com:L
+% CS1D01. Estructuras Discretas I (Obligatorio)
+CS1D01->jfiestas@utec.edu.pe:T,jrenom@utec.edu.pe:T
+
+
+% Semester #2 .
+% CS1102. Programación Orientada a Objetos I (Obligatorio)
+CS1102->mbermejo@utec.edu.pe:T,ibringas@utec.edu.pe:T,tchambilla@utec.edu.pe:L,rmelgarejo@utec.edu.pe:L
+% CS1D02. Estructuras Discretas II (Obligatorio)
+CS1D02->jfiestas@utec.edu.pe:T
+
+
+% Semester #3 .
+% CS1103. Programación Orientada a Objetos II (Obligatorio)
+CS1103->rrivas@utec.edu.pe:T,ibringas@utec.edu.pe:T
+% CS2201. Arquitectura de Computadores (Obligatorio)
+CS2201->aliaga.walter@pucp.edu.pe:T
+% CS2B01. Desarrollo Basado en Plataformas (Obligatorio)
+CS2B01->jbellido@utec.edu.pe:T
+
+
+% Semester #4 .
+
+
+% Semester #5 .
+
+
+% Semester #6 .
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+

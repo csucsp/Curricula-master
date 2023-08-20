@@ -1,0 +1,143 @@
+\begin{syllabus}
+
+\course{CS3P2. Cloud Computing}{Obligatorio}{CS3P2}
+
+\begin{justification}
+In order to understand the advanced computational techniques, the students must have a strong knowledge of the
+various discrete structures, structures that will be implemented and used in the laboratory in the programming language.
+\end{justification}
+
+\begin{goals}
+\item That the student is able to model computer science problems using graphs and trees related to data structures.
+\item That the student apply efficient travel strategies to be able to search data in an optimal way.
+\end{goals}
+
+%% (1) familiar  (2)usar (3)evaluar
+\begin{outcomes}
+    \item \ShowOutcome{a}{2} % Apply computational and math knowledge appropriate to the discipline.
+    \item \ShowOutcome{b}{2} % Analyze problems identify and define the appropriate computational requirements for their solution
+    \item \ShowOutcome{i}{2} % Use current techniques and tools necessary for the practice of computing
+    \item \ShowOutcome{j}{2} % Apply the mathematical base, principles of algorithms and the theory of the Science of the Computing in the modeling and design of computational systems in such a way that it demonstrates understanding of the points of balance involved in the chosen option.
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C2}{a} % Ability to have a critical and creative perspective to identify and solve problems using computational thinking
+    \item \ShowCompetence{C4}{b}
+    \item \ShowCompetence{C16}{i} % Ability to identify advanced computing topics and understanding the boundaries of the discipline.
+    \item \ShowCompetence{CS2}{i} % Identify and analyze the criteria and specifications appropriate to the specific problems, and plan strategies for their solution.
+    \item \ShowCompetence{CS3}{j} % Analyze the degree to which a computer-based system complies with  the criteria defined for its current use and future development.
+    \item \ShowCompetence{CS6}{j} % Evaluate systems in terms of quality attributes in general and the possible advantages and disadvantages that arise in the given problem.
+\end{competences}
+
+\begin{unit}{\PDDistributedSystems}{}{coulouris}{15}{C2, C4}
+\begin{topics}%
+    \item \PDDistributedSystemsTopicFaults
+    \item \PDDistributedSystemsTopicDistributed
+    \item \PDDistributedSystemsTopicDistributedSystem
+    \item \PDDistributedSystemsTopicDistributedService
+    \item \PDDistributedSystemsTopicCore
+\end{topics}
+\begin{learningoutcomes}%
+    \item \PDDistributedSystemsLODistinguishNetwork~[\Familiarity] %
+    \item \PDDistributedSystemsLOExplainWhySuch~[\Familiarity] %
+    \item \PDDistributedSystemsLOWriteAPerforms~[\Usage] %
+    \item \PDDistributedSystemsLOMeasure~[\Usage] %
+    \item \PDDistributedSystemsLOExplainWhySystem~[\Familiarity] %
+    \item \PDDistributedSystemsLOImplementAForSpell~[\Usage] %
+    \item \PDDistributedSystemsLOExplainTheOverhead~[\Familiarity] %
+    \item \PDDistributedSystemsLODescribeTheAssociated~[\Familiarity] %
+    \item \PDDistributedSystemsLOGiveExamplesFor~[\Usage] %
+\end{learningoutcomes}%
+\end{unit}
+
+\begin{unit}{\PDCloudComputing}{}{dongarra, buyya}{15}{C2, C4}
+\begin{topics}
+    \item Overview of it Cloud Computing.
+    \item History.
+    \item Overview of the technologies involved.
+    \item Benefits, risks and economic aspects.
+    \item \PDCloudComputingTopicCloud
+    \item \PDCloudComputingTopicInternet
+\end{topics}
+\begin{learningoutcomes}
+    \item Explain the concept of Cloud Computing. [\Familiarity]
+    \item List some technologies related to Cloud Computing. [\Familiarity]
+    \item \PDCloudComputingLOExplainStrategies~[\Familiarity] %
+    \item Discuss the advantages and disadvantages of the Cloud Computing paradigm.  [\Familiarity]
+    \item Express the economic benefits as well as the characteristics and risks of the Cloud paradigm for business and cloud providers.   [\Familiarity]
+    \item Differentiate between service models.   [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Centros de Procesamiento de Datos}{}{dongarra, buyya}{10}{C16}
+\begin{topics}
+    \item Overview of a data processing center.
+    \item Design Considerations.
+    \item Comparison of large data processing centers.
+\end{topics}
+\begin{learningoutcomes}
+    \item Describe the evolution of Data Centers. [\Familiarity]
+    \item Sketch the architecture in detail of the data center. [\Familiarity]
+    \item Indicate design considerations and discuss their impact.  [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\PDCloudComputing}{}{dongarra, buyya}{20}{CS2, CS3}
+\begin{topics}
+    \item \PDCloudComputingTopicVirtualization
+    \item Security, resources, and failures isolation .
+    \item Storage as a Service.
+    \item Elasticity.
+    \item Xen y WMware.
+    \item Amazon EC2.
+\end{topics}
+\begin{learningoutcomes}
+    \item \PDCloudComputingTopicVirtualization. [\Familiarity]
+    \item \PDCloudComputingLOExplainTheDisadvantages. [\Familiarity]
+    \item Identify the reasons why virtualization is becoming enormously useful, especially in the cloud. [\Familiarity]
+    \item Explain different types of isolation such as failure, resources and security provided by virtualization and used by the cloud. [\Familiarity]
+    \item Explain the complexity that management can have in terms of abstraction levels and well-defined interfaces and their applicability for virtualization in the cloud.  [\Familiarity]
+    \item Define Virtualization and Identify Different Types of Virtual Machines. [\Familiarity]
+    \item Identify CPU virtualization conditions, recognize the difference between full virtualization and  paravirtualization,explain emulation as a major technique for CPU virtualization and examine virtual CPU planning in Xen. [\Familiarity]
+    \item Sketching the difference between the classic OS virtual memory and memory virtualization.Explain multiple levels of page mapping as opposed to memory virtualization. Define over-commitment memory and illustrate VMware memory ballooning as a claiming technique for virtualized systems with over-committed memory. [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\PDCloudComputing}{}{dongarra, buyya}{12}{CS2, CS3}
+\begin{topics}
+    \item \PDCloudComputingTopicCloudBased
+    \item Overview of Storage Technologies.
+    \item Fundamentals concepts of cloud storage.
+    \item Amazon S3 y EBS.
+    \item Distributed File System.
+    \item Database System  NoSQL.
+\end{topics}
+\begin{learningoutcomes}
+    \item Describe the general organization of data and storage. [\Familiarity]
+    \item Identify the problems of scalability and administration of the big data. Discuss several abstractions in storage. [\Familiarity]
+    \item Compare and contrast different types of file system. Compare and contrast the Hadoop Distributed File System (HDFS) and the Virtual Parallel File System (PVFS).  [\Usage]
+    \item Compare and contrast different types of databases. Discuss the advantages and disadvantages of NoSQL databases. [\Usage]
+    \item Discuss storage concepts in the cloud. [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Modelos de Programación}{}{dongarra, buyya, graphlab, pregel, giraph}{12}{CS6}
+\begin{topics}
+    \item Overview of cloud computing-based programming models.
+    \item Programming Model MapReduce.
+    \item Programming model for graph-based applications.
+\end{topics}
+\begin{learningoutcomes}
+    \item Explain the fundamental aspects of parallel and distributed programming models. [\Familiarity]
+    \item Differences between programming models: MapReduce, Pregel, GraphLab and Giraph.. [\Usage]
+    \item Explain the main concepts in the MapReduce programming model.  [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS3P2}
+\end{coursebibliography}
+
+\end{syllabus}

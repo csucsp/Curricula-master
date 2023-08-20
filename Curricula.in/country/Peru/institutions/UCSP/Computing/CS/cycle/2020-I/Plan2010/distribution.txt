@@ -1,0 +1,21 @@
+
+% Semester #7 .
+% CS401. Proyecto I (Obligatorio)
+CS401->jsantisteban@ucsp.edu.pe:T,ytupac@ucsp.edu.pe:T
+
+
+% Semester #9 .
+% CS370. Tópicos en Bases de Datos (Obligatorio)
+CS370->jtejadac@ucsp.edu.pe:T
+% CS393. Métodos Formales (Electivo)
+CS393->ggdelgado@ucsp.edu.pe:T
+
+
+% Semester #10 .
+% CS232W. Programación de Dispositivos Móviles (Obligatorio)
+CS232W->kvizconde@ucsp.edu.pe:T
+% CS404. Seminario de Tesis (Obligatorio)
+CS404->acuadros@ucsp.edu.pe:T,jeochoa@ucsp.edu.pe:T,ejcayllahua@ucsp.edu.pe:T
+% CS404. Seminario de Tesis (Obligatorio)
+CS404->acuadros@ucsp.edu.pe:T,jeochoa@ucsp.edu.pe:T,ejcayllahua@ucsp.edu.pe:T
+

@@ -1,0 +1,326 @@
+lang_for_latex=spanish
+
+Curricula   = Curriculo
+School      = Escuela
+Department  = Department
+Course      = Curso
+Course      = Curso
+Courses     = Cursos
+Semester    = Semestre
+Plan        = Plan Curricular
+
+TypeOfCourse=Tipo de curso
+Condition=Condición
+LearningModality=Modalidad de aprendizaje
+
+GeneralInformation=Información general
+CourseCodeandName=Código del curso y nombre
+HoursTheoryAndLab=Horas de Teoría y Laboratorio
+CourseFoundation=Fundamentación del curso
+GeneralObjective=Objetivo general
+SyllabusofCourse=Silabo del curso
+Syllabus=Sílabo
+Bibliography=Bibliografía
+Readings=Lecturas
+CONTENTS=CONTENIDOS
+Content=Contenido
+Period=Period
+AcademicPeriod = Periodo Académico
+CourseArea=Área
+CourseCode=Código
+CourseName=Curso
+Syllabi=Syllabi
+THEORY    = HT
+Theory    = Teoría
+TheoryHours= Horas de teoría
+PRACTICE  = HP
+Practice  = Práctica
+PRACTICEEX= HP
+PracticeEx= Práctica
+LABORATORY= HL
+LabHours  = Horas de práctica
+AutonomousHours=Horas autónomas
+Laboratory= Laboratorio
+CREDITS   = CRÉDITOS
+Credits   = Créditos
+cr          = cr
+CR	        = CR
+Cr	        = Cr
+Date        = Fecha
+Time        = Horario
+SessionType = Tipo de Sesión
+SeeatEDU    = Consultar en EDU
+Durationoftheperiod=Duración del periodo
+Prerequisites=Prerrequisitos
+TYPE        = TIPO
+TypeOfCourse=Tipo de curso
+PREREQ      = Requisitos
+Summary     = Resumen
+UNIT=UNIDAD
+Unit=Unidad
+Professor=Docente
+Professors=Profesores
+ProfessorEmailAndAttentionSchedule=Profesor(es) del curso, email y horario de atención 
+AttentionwithAppointment=Atención previa coordinación con el profesor
+InformationAbouttheCourse=Información del curso
+Introductiontothecourse=Introducción al curso
+BriefDescription=Breve descripción del curso 
+Where=Donde
+PerformanceInClass=Desempeño en la clase
+TheoryEvaluation=Evaluaciones Teóricas
+Project=Proyecto
+BookSummary=Resumen del libro
+SetOfProblems=Conjuntos de problemas
+Coordinator=Coordinador
+
+HoursPerSession                       = Horas por Sesión
+LengthOfPeriod			              = Duración del Período 
+Book 				                  = Libro
+BookOf				                  = Libro de
+ShortDescriptionByCourse              = sumillas
+BibliographyByCourse                  = Bibliografía por curso
+Author				                  = Autor
+YearsOfPublication                    = Años de Publicación 
+OtherTexts                            = Otros Textos 
+Title                                 = Título.
+CourseInformation                     = Información del curso.
+GoalsOfTheCourse                      = Objetivos del curso.
+Goals                                = Objetivos
+SpecificGoalsOfTheCourse              = Objetivos específicos del curso.
+SpecificCompetencesOfTheCourse        = Competencias específicas del curso.
+ListOfSubjectsToStudyDuringTheCourse  = Lista de temas a estudiar durante el curso.
+MethodologyAndMethodOfEvaluation      = Metodología y método de evaluación
+Methodology                           = Metodología
+Workplan                              = Plan de trabajo
+Planning                              = Planificación
+BriefDescriptionOfCourseContent       = Breve descripción del contenido del curso.
+Name				                  = Nombre
+E-mail				                  = Correo Electrónico 
+Corequisites                          = Co-Requisitos
+HoursOfAttentionOfTheInstructorOrCoordinatorOfTheCourse = Horas de Atención del Instructor o coordinador del curso
+
+DPTO	        = Dpto
+TOTALHOURS      = Horas totales 
+Syllabus        = Sílabo
+SyllabusOf      = Silabus de
+Syllabi         = Sílabos
+Descriptions    =Sumillas
+Bibliography=Bibliografía
+BasicBibliography=Bibliografía básica
+Plan	  = Plan
+BloomLevel= Nivel Bloom
+
+Semester	   =Semestre
+Sem		   =Sem
+Semesters	   =Semestres
+Mandatory	   =Obligatorio
+MandatoryShort	   =O
+MandatoryUnit	    =Unidad obligatoria
+Core-Tier1	        =Core Tier1
+Core-Tier2	        =Core Tier2
+Elective	        =Electivo
+Electives           =Electivos
+ElectiveShort	    =E
+None		        = Ninguno
+hours		        = horas
+Hours               = horas
+HOURS		        = HORAS
+hrs		            = hr(s)
+hour		        = hora
+HoursOfThisCourse   = Horas del curso
+weeks               =semanas
+Weekly              =Semanal
+Week                =Semana
+Total		        = Total
+Pag                 = Pág
+Pages               =Páginas
+pages               =páginas
+TeamTitle           = Equipo de Trabajo
+FinalReport	        = Reporte Final
+LastModification    = Última modificación
+Justification	    = Justificación
+GeneralGoals	    = Objetivos Generales
+Competences	        = Competencias
+Competence	        = Competencia
+Outcomes            = Competencias
+Outcome             = Competencia
+SpecificCompetences	= Competencias Específicas
+ContributionToOutcomes=Contribución a los resultados ({\it Outcomes})
+ContributionToSkills=Contribución a las habilidades de Ciencia de la Computación (IEEE)
+Skills		        = Habilidades
+EducationalObjectives=Objetivos Educacionales ({\it Educational Objectives})
+Units		        =Unidades
+KUTitle		        =Unidad de Conocimiento
+KUsTitle	        =Unidades de Conocimiento
+
+Topics             =Temas
+TopicsOfCourse	   =Tópicos del curso
+UnitGoals          =Objetivos
+LearningOutcomes   =Objetivos de Aprendizaje
+LearningLevelExpected=Nivel de Aprendizaje Esperado
+CompetencesExpected=Competencias esperadas
+CompetencesIEEE	   =Competencias (IEEE)
+UnitNotDefined     =Unidad no definida
+BibliographySection=Referencias Bibliográficas
+
+MethodologyAndEvaluation=Metodologia y Evaluación
+MethodologyAndEvaluationSystem=Metodologia y sistema de evaluación
+Methodology		=Metodología
+THEORY-SESSIONS     =Sesiones Teóricas
+THEORY-SESSIONS-CONTENT =Las sesiones de teoría se llevan a cabo en clases magistrales donde se realizarán actividades que propicien un aprendizaje activo, con dinámicas que permitan a los estudiantes interiorizar los conceptos.
+LAB-SESSIONS           =Sesiones de Laboratorio
+LAB-SESSIONS-CONTENT    =Para verificar que los alumnos hayan alcanzado el logro planteado para cada una de las unidades de aprendizaje, realizarán actividades que les permita aplicar los conocimientos adquiridos durante las sesiones de teoría y se les propondrá retos que permitan evaluar el desempeño de los alumnos.
+ORAL-SESSIONS           =Exposiciones individuales o grupales
+ORAL-SESSIONS-CONTENT   =Se fomenta la participación individual y en equipo para exponer sus ideas, motivándolos con puntos adicionales en las diferentes etapas de la evaluación del curso.
+READING-SESSIONS         =Lecturas
+READING-SESSIONS-CONTENT =A lo largo del curso se proporcionan diferentes lecturas, las cuales podrían ser evaluadas. El uso de herramientas Online permite a cada estudiante acceder a la información del curso, e interactuar fuera de aula con el profesor y con los otros estudiantes.
+PRACTICAL-SESSIONS        =Sesiones Prácticas
+PRACTICAL-SESSIONS-CONTENT =Las sesiones prácticas se llevan en clase donde se desarrollan una serie de ejercicios y/o conceptos prácticos mediante planteamiento de problemas, la resolución de problemas, ejercicios puntuales y/o en contextos aplicativos.
+EVALUATION-SYSTEM        =Sistema de Evaluación
+EVALUATION-CONTENT       =~
+METHODOLOGY-DESCRIPTION  =~
+
+NoteT=Consiste en el promedio de notas de los exámenes cortos individuales, redondeada hacia arriba (esta nota es sobre 9).
+NoteP=Consiste en el promedio de notas de las practicas calificadas grupales, redondeada hacia arriba (esta nota es sobre 9).
+NoteE=Consiste en el resultado de los problemas de esfuerzo individual redondeada hacia arriba (esta nota es sobre 2).
+
+nocorehours    =Sin mínimo de horas
+corehours	   =horas como mínimo
+ThisSchool	   =Esta carrera
+
+AdviceRecCourses		=Se recomienda que el alumno haya llevado
+FreeCreditsAdvice		=Otros cursos (<NFREECREDITS> <CREDITS>) podrían ser agregados aquí
+TotalNumberOfCreditsMsg		=Total de créditos de la carrera
+DistributionCreditsByArea	=Distribución de cursos por áreas
+TableOfTopicByCourseCaption	=Tópicos por curso del <BEGIN_SEM> al <END_SEM> <SEMESTER>
+TableOfOutcomesByCourseCaption  =Resultados esperados por curso <BEGIN_SEM> al <END_SEM> <SEMESTER>
+Skill				=Competencia
+ComparisonWithStandardCaption=Comparación <AREA>-<INST>~Vs. <STANDARD> de <STANDARD_REF_INSTITUTION>.
+InstitutionToCompareWith=IEEE-CS/ACM
+Yes 	= Si
+No 	= No
+CriticalPath=Camino crítico
+
+Familiarity=Familiarizarse
+Usage=Usar
+Assessment=Evaluar
+
+<HASH name=standards_long_name>
+CE=>Ingeniería de Computación--{\it Computer Engineering}
+CS=>Ciencia de la Computación--{\it Computer Science}
+IS=>Sistemas de Información--{\it Information Systems}
+IT=>Tecnología de Información--{\it Information Technology}
+SE=>Ingeniería de Software--{\it Software Engineering}
+</HASH>
+
+% Labels for spider charts
+<HASH name=all_areas>
+CS => Ciencia de la<ENTER>Computación
+MC => Matemática para<ENTER>Computación
+CB => Ciencias<ENTER>Básicas
+SE => Ingeniería<ENTER>de Software
+HW => Hardware y<ENTER>Arquitectura
+IT => Tecnología<ENTER>de Información
+IS => Sistemas de<ENTER>Información 
+BM => Contenido<ENTER>Empresarial
+FG => Formación<ENTER>General
+</HASH>
+
+<HASH name=semester_ordinal>
+1=>Primer
+2=>Segundo
+3=>Tercer
+4=>Cuarto
+5=>Quinto
+6=>Sexto
+7=>Séptimo
+8=>Octavo
+9=>Noveno
+10=>Décimo
+</HASH>
+
+<HASH name=ordinal_postfix>
+1=>er
+2=>do
+3=>er
+4=>to
+5=>to
+6=>to
+7=>mo
+8=>vo
+9=>no
+10=>mo
+</HASH>
+
+<HASH name=labels_per_level>
+1=>Introductorio
+2=>Intermedio
+3=>Avanzado
+4=>Proyecto Final
+</HASH>
+
+<HASH name=Acronyms>
+SI=>Sistemas de Información
+TI=>Tecnología de la Información
+BD=>Bases de Datos
+POO=>Programación Orientada a Objetos
+ADS=>Análisis y Diseño de Sistemas
+ADA=>Análisis y Diseño de Algoritmos
+#IVU= >Introducción a la Vida Universitaria
+</HASH>
+
+Mission=Misión
+Definition=Definición
+
+<HASH name=professor_role_label>
+C=>Coordinador
+T=>Titular
+L=>Laboratorio
+-=>
+</HASH>
+
+DoctorIn=Doctor en
+MasterIn=Master en
+
+Modality=Modalidad
+<HASH name=LearningModalityList>
+FaceToFace=>Presencial
+Blended=>Híbrido
+Virtual=>Virtual
+</HASH>
+
+CoursesAProfessorCouldTeach=Cursos que un profesor tiene habilitación
+ProfessorSkilledToTeachACourse=Profesor capacitado para enseñar por curso
+ProfessorAssignedByCourse=Profesor asignado por curso
+CoursesAssignedByProfessor=Cursos asignados por profesor
+ThereIsNoProfessorSkilledForThisCourse=--
+ThereIsNoProfessorAssignedForThisCourse=--
+
+%%%Spanish
+Exam=Examen
+PartialExam = Examen parcial
+Finalexam=Examen final
+ExamAcronym=E
+ContinuousAssessment=Evaluación Continua
+ContinuousAssessmentAcronym=C
+Project=Proyecto
+ProjectAcronym=P
+PracticalTest=Práctica Calificada
+PracticalTestAcronym=PC
+LabExperiments=Laboratorio
+LabExperimentsAcronym=L
+FG=NF 
+Remarks=Observaciones
+Finalmakeup=Rezagable
+AutonomousLearning=Aprendizaje autónomo
+Developmentofpracticalexercises=Desarrollo de ejercicios prácticos
+
+
+CompetencesForEngineering=Competencias para Ingeniería
+CompetencesForCS=Competencias para Ciencia de la Computación
+
+<HASH name=ISBOKAreas>
+IT  =>Tecnologia de Información
+OMC =>Organización y Gestión
+TDS =>Teoría y Desarrollo de Sistemas de Información
+</HASH>

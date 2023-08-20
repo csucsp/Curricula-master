@@ -1,0 +1,141 @@
+\documentclass[final]{article}
+% This file was generated based on: --INPUT_TEX_FILE_NAME--
+\input{preamble0}
+\input{current-institution}
+\usepackage[utf8]{inputenc} 
+% \usepackage[<LANG-EXTENDED>]{babel}
+\usepackage{ae}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{eso-pic,graphicx}
+
+\usepackage{\InStyAllDir/syllabus-final}
+
+\input{\InDir/All.tex/outcomes-macros-def}
+\input{\basedir/<IN_TEX_DIR>/outcomes-macros}
+\usepackage{\basedir/<IN_STY_DIR>/bok-macros}				% Macros for the Body of Knowledge: /Curricula.in/lang/English/CS.sty
+
+\usepackage{enumitem} 
+% \usepackage[backend=bibtex,style=alphabetic]{biblatex}
+\usepackage[style=alphabetic]{biblatex}
+% \bibliographystyle{apalike}
+\addbibresource{--BIBFILE--}
+
+\newcommand{\INST}{}
+\newcommand{\AREA}{}
+
+\begin{document}
+%\AddToShipoutPictureBG{\put(0,100){\includegraphics[width=2cm]{\InInstDir/stamp1}}}
+
+\begin{tabularx}{\textwidth}{p{3cm}cX}
+\includegraphics[width=3cm]{\InLogosDir/\INST} 
+&
+\begin{minipage}{0.75\textwidth}
+\begin{center}
+{\vspace{-3cm}
+    \noindent\Large\bf\University<LANG>\\
+\SchoolFullNameBreak<LANG> \\
+<<SyllabusofCourse>> \\
+<<AcademicPeriod>> \Semester}
+\end{center}
+\end{minipage}
+\end{tabularx}
+
+\section*{}\label{sec:--COURSE_CODE--}%
+\addcontentsline{toc}{subsection}{--COURSE_CODE--. --COURSE_NAME-- (--COURSE_TYPE--)}%
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<CourseCodeandName>>:} --COURSE_CODE--. --COURSE_NAME-- (--COURSE_TYPE--) \label{sec:--COURSE_CODE--}
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<Credits>>:} --CREDITS--
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<HoursTheoryAndLab>>:} --HOURS-- (<<Weekly>>)
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<ProfessorEmailAndAttentionSchedule>>}\\
+--PROFESSOR_SHORT_CVS--
+<<AttentionwithAppointment>>
+
+\addtocounter{SyllabiSectionCount}{1} {\noindent\bf \arabic{SyllabiSectionCount}. <<BasicBibliography>>}
+\defbibheading{bibliography}[\bibname]{}
+\printbibliography
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<InformationAbouttheCourse>>}
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{<<BriefDescription>>}
+--JUSTIFICATION--
+ 
+\item \textbf{<<Prerequisites>>:}
+--PREREQUISITES--
+ 
+\item \textbf{<<TypeOfCourse>>:} --COURSE_TYPE--
+
+\item \textbf{<<Modality>>:} <<FaceToFace>>
+\end{enumerate}
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<GoalsOfTheCourse>>}
+\begin{description}
+\item \textbf{<<Competences>>}
+--FULL_OUTCOMES--
+
+--OUTCOMES-FOR-OTHERS--
+
+\item \textbf{<<LearningOutcomes>>}
+--FULL_GOALS--
+\end{description}
+
+%\addtocounter{SyllabiSectionCount}{1}
+%{\noindent\bf \arabic{SyllabiSectionCount}. <<CompetencesIEEE>>}
+%\begin{description}
+%COMPETENCES_ITEMS--
+%\end{description}
+
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<TopicsOfCourse>>}
+\begin{enumerate}
+--LIST_OF_TOPICS--
+\end{enumerate}
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<MethodologyAndEvaluationSystem>>}\\
+\begin{evaluation}
+        ********* EVALUATION MISSING ********
+\end{evaluation}
+%{\noindent\bf <<EVALUATION-SYSTEM>>:}\\
+%--<EVALUATION-CONTENT>>
+
+\addtocounter{SyllabiSectionCount}{1}
+{\noindent\bf \arabic{SyllabiSectionCount}. <<Content>>}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{SyllabiUnitCount}{0}
+--BEGINUNIT--
+% A new unit begins here
+\addtocounter{SyllabiUnitCount}{1}
+\begin{center}
+\begin{tabularx}{\textwidth}{|X|X|}                 \hline
+\multicolumn{2}{|l|}{\textbf{<<Unit>> \arabic{SyllabiUnitCount}: --UNIT_TITLE-- (--HOURS--)}} \\ \hline
+\multicolumn{2}{|l|}{\textbf{<<CompetencesExpected>>: --LEVEL_OF_COMPETENCE--}} \\ \hline
+\textbf{<<LearningOutcomes>>}  & \textbf{<<Topics>>}                    \\ \hline
+--UNIT_GOAL--
+& 
+--UNIT_CONTENT--
+\\ \hline
+\multicolumn{2}{|l|}
+{\begin{minipage}{0.95\textwidth}
+\textbf{<<Readings>> :} --CITATIONS--
+\end{minipage}
+}
+\\ \hline
+\end{tabularx}
+\end{center}
+
+--ENDUNIT--
+
+\end{document}
+    

@@ -1,0 +1,159 @@
+You can add this to the ~/.bashrc to make it always available when you log-in.
+Ubuntu: export PERL5LIB=/home/ecuadros/Articles/Curricula/Curricula.Master/scripts
+Mac   :
+/usr/local/Cellar/perl/5.34.0/lib/perl5/site_perl/5.34.1/
+export PERL5LIB=/usr/local/Cellar/perl/5.34.0/lib/perl5/site_perl/5.34.0:/System/Library/Perl/Extras/5.30/darwin-thread-multi-2level:/usr/local/Cellar/perl/5.32.1/lib/perl5/site_perl/5.32.1/JSON.pm:/Users/ecuadros/Articles/Curricula/Curricula.Master/scripts
+
+for html.sty
+    export TEXINPUTS=::/usr/local/Cellar/latex2html/2022.2/texinputs
+    export TEXINPUTS=::/usr/local/Cellar/latex2html/2023/texinputs
+source ~/.zshrc
+
+export GITHUB_NOTIFICATIONS_TOKEN=::32c429a81bf67dd7faf8f702b6f73eb4bf2e874a
+
+sudo apt-get install zsh
+csh -s /usr/local/bin/zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+sudo apt-get install texlive-latex-extra;
+sudo apt-get install texlive-bibtex-extra;
+sudo apt-get install texlive-science;
+sudo apt-get install texlive-lang-spanish
+sudo apt-get install texlive-pstricks
+sudo apt-get install biber
+sudo apt-get install kile
+sudo apt-get install dot2tex;
+
+sudo apt-get install ps2eps; ok;
+sudo apt-get install latex2html; ok
+sudo apt-get install ps2pdf; (ya viene); xxxxxx *** unable to locate *** 
+
+sudo apt-get install graphviz; ok;
+sudo apt-get install gv; ok;
+sudo apt-get install inkscape; ***completed
+brew install imagemagick;
+cpan install Number::Bytes::Human;
+cpan install CAM::PDF;
+cpan install Switch;
+
+# convert does not work correctly with default parameters
+sudo sed -i 's/\(<policy domain="coder" rights=\)"none" \(pattern="PDF" \/>\)/\1"read|write"\2/g' /etc/ImageMagick-6/policy.xml
+
+%%%% /usr/local/Cellar/latex2html/2022.2/l2hconf.pm
+%%%% /usr/local/Cellar/latex2html/2023/l2hconf.pm
+
+#  Give the paths to latex and dvips on your system:
+#
+$LATEX = '/Library/TeX/texbin/latex';	# LaTeX
+$PDFLATEX = '/Library/TeX/texbin/pdflatex';	# pdfLaTeX
+$LUALATEX = '/Library/TeX/texbin/lualatex';	# LuaLaTeX
+$DVILUALATEX = '/Library/TeX/texbin/dvilualatex';	# dviLuaLaTeX
+$DVIPS = '/Library/TeX/texbin/dvips';	# dvips
+$DVIPNG = '/Library/TeX/texbin/dvipng';	# dvipng
+$PDFTOCAIRO = '/usr/local/bin/pdftocairo';	# pdf to svg converter
+$PS2PDF = '/usr/local/bin/ps2pdf';	# ps to pdf converter
+$PDFCROP = '/Library/TeX/texbin/pdfcrop';	# pdfcrop
+$GS = '/usr/local/opt/ghostscript/bin/gs';	# GhostScript
+
+#  give these too, to use the  -ldump  feature
+$TEX = "/Library/TeX/texbin/TeX"; 			# TeX
+$INILATEX = " \"&latex\"";	# initex+latex
+
+brew tap homebrew/cask
+brew cask install inkscape
+
+sudo apt-get install csh;
+sudo apt-get install libcarp-assert-perl;
+sudo apt-get install okular;
+
+sudo apt-get install mupdf
+sudo apt-get install mupdf-tools
+
+sudo snap install pdftk; 
+sudo gedit /etc/ImageMagick-6/policy.xml
+Comment this line:
+<policy domain="coder" rights="none" pattern="PDF" />
+to have this new line:
+<!-- <policy domain="coder" rights="none" pattern="PDF" /> -->
+
+sudo apt-get install texlive-science texlive-latex-extra texlive-bibtex-extra gv inkscape csh libcarp-assert-perl okular chromium-browser
+
+sudo wget http://www.medibuntu.org/sources.list.d/jaunty.list -O /etc/apt/sources.list.d/medibuntu.list
+sudo apt-get update && sudo apt-get install medibuntu-keyring && sudo apt-get update
+
+sudo apt install aptitude
+
+https://tex.stackexchange.com/questions/52988/avoid-linebreaks-in-latex-console-log-output-or-increase-columns-in-terminal
+error_line = 254
+half_error_line = 238
+max_print_line = 250
+sudo vi /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+**************************************************
+brew reinstall dpkg
+brew install ps2eps;
+* apt-get install dot2tex;
+brew install graphviz;
+apt-get install ps2pdf; (ya viene); xxxxxx
+brew install gv;
+brew install Caskroom/cask/inkscape;
+brew install Caskroom/cask/mactex;
+* brew install scsh;
+brew install tcsh;
+brew install perl
+brew cask install mactex;
+brew install caskroom/cask/meld
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+brew install latex2html
+
+brew install cpanm
+sudo cpan install Text::Levenshtein::XS
+sudo cpan install PDF::API2
+sudo cpan install Carp::Assert
+sudo cpan install Array::Utils
+sudo cpan install Number::Bytes::Human
+
+cpan install Switch
+
+--- Install Perlbrew ---
+\curl -L https://install.perlbrew.pl | bash
+--- Download perl in Perlbrew
+perlbrew -v install perl-5.32.1 --notest -Dcc=gcc
+perlbrew switch perl-5.32.1
+--- Install perl-blead ---
+perlbrew install perl-blead
+perlbrew use perl-blead
+-- Install cpanm--
+perlbrew install-cpanm
+--- Install modules ---
+cpanm "Modulo"::"Name"
+Links:
+https://perlbrew.pl/
+
+----------------Configure own modules -------------
+--Define a environment variable
+/home/foobar/code/My/Module.pm
+export PERL5LIB=/home/foobar/code
+-- Use in file .pl
+use lib '/home/foobar/code';
+use My::Module;
+
+Link:
+https://perlmaven.com/how-to-change-inc-to-find-perl-modules-in-non-standard-locations
+
+brew install libcarp-assert-perl;
+sudo cpan install App::perlbrew
+brew install texlive-latex-extra texlive-bibtex-extra texlive-science texlive-lang-spanish
+brew install texlive-latex-extra;
+brew install texlive-bibtex-extra;
+brew install texlive-science;
+brew install texlive-lang-spanish
+apt-get install okular;
+apt-get install pdftk;
+
+sudo apt-get install texlive-science texlive-latex-extra texlive-bibtex-extra gv inkscape csh libcarp-assert-perl okular chromium-browser
+
+sudo wget http://www.medibuntu.org/sources.list.d/jaunty.list -O /etc/apt/sources.list.d/medibuntu.list
+sudo apt-get update && sudo apt-get install medibuntu-keyring && sudo apt-get update
+
+sudo apt-get install aptitude

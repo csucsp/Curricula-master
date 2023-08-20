@@ -1,0 +1,594 @@
+\newcommand{\LUONEDef}{LU1 Sistemas y conceptos de tecnología de Informacion}
+\newcommand{\LUONEName}{LU1 Sistemas y conceptos de tecnología de Informacion}
+\newcommand{\LUONEBib}{OBrien2008IntroductionIS,Turban2005ITforManagement}
+\newcommand{\LUONEHours}{}
+
+\newcommand{\LUONEGoal}{%
+\begin{LUGoal}
+\item Introducir a los nuevos usuarios a los conceptos de Sistemas y de Tecnología de Información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir y explicar en términos de sistemas los componentes de hardware y software de un sistema computacional.
+\item Describir, explicar y utilizar un Sistema Operativo e interfaz de usuario para instalar y operar programas, definir y proteger archivos de datos así como utilizar utilitarios del Sistema Operativo.
+\item Definir, explicar y utilizar software para el trabajo con conocimiento.
+\end{LUObjective}
+}
+
+\newcommand{\LUTWODef}{LU2 Software de trabajo de conocimiento}
+\newcommand{\LUTWOName}{LU2 Software de trabajo de conocimiento}
+\newcommand{\LUTWOBib}{Excel2007Walkenbach,Bain2007OpenOffice,PPT2007Wempen,Muir2007PPT,Sun2008OO}
+\newcommand{\LUTWOHours}{}
+
+\newcommand{\LUTWOGoal}{%
+\begin{LUGoal}
+\item Desarrollar las habilidades para utilizar efectivamente software para el manejo de conocimiento tales como sistemas operativos, interfaces de usuario, hojas de cálculo, procesadores de texto, bases de datos, estadísticas y manejo de datos, presentaciones y comunicaciones.
+\end{LUGoal}
+\begin{LUObjective}
+\item Diseñar, desarrollar y utilizar una base de datos simple, importar hojas de cálculo a bases de datos, exportar una tabla de base de datos u hoja de cálculo a un procesador de texto para ser utilizado en un reporte.
+\item Implementar una presentación basada en slides utilizando un paquete gráfico de presentaciones para comunicar un problema y su solución así como preparar documentos impresos para una posible audiencia.
+\end{LUObjective}
+}
+
+\newcommand{\LUTHREEDef}{LU3 Resolución de problemas, Sistemas de Información pequeños}
+\newcommand{\LUTHREEName}{LU3 Resolución de problemas, Sistemas de Información pequeños}
+\newcommand{\LUTHREEBib}{Excel2007Walkenbach,Robbins2006WebDesign,Zakas2007Ajax,Tayntor2005SWImplementation}
+\newcommand{\LUTHREEHours}{}
+
+\newcommand{\LUTHREEGoal}{%
+\begin{LUGoal}
+\item Introducir los conceptos de resolución de problemas dentro del contexto de Sistemas de Información de complejidad limitada usando software de manejo de conocimiento estándar.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir, explicar y usar una definición de abordaje de sistemas e implementación de soluciones basadas en PCs utilizando software de manejo de conocimiento (sistemas operativos, interfaces de usuario, hojas de cálculo, procesadores de texto, bases de datos, estadísticas y manejo de datos, presentaciones y comunicaciones) para mejorar la productividad del personal e incrementar las capacidades de trabajo con conocimiento.
+\item Identificar, definir e implementar una solución que involucre software para el trabajo con conocimiento para organizaciones simples y tareas personales.
+\item Seleccionar y configurar macros apropiadas, herramientas y paquetes para implementación de sistemas personales.
+\end{LUObjective}
+}
+
+\newcommand{\LUFOURDef}{LU4 Tecnología de Información y la sociedad}
+\newcommand{\LUFOURName}{LU4 Tecnología de Información y la sociedad}
+\newcommand{\LUFOURBib}{Turban2005ITforManagement}
+\newcommand{\LUFOURHours}{}
+
+\newcommand{\LUFOURGoal}{%
+\begin{LUGoal}
+\item Introducir la relevancia y aplicación de la Tecnología de Información en la sociedad.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir y explicar la relevancia e impacto de la Tecnología de la Información en la sociedad.
+\item Explicar el rol de los Sistemas de Información dentro de una empresa versus un entorno global.
+\end{LUObjective}
+}
+
+\newcommand{\LUFIVEDef}{LU5 Sistemas y calidad}
+\newcommand{\LUFIVEName}{LU5 Sistemas y calidad}
+\newcommand{\LUFIVEBib}{Oz2002ManagementIS,OBrien2008IntroductionIS,OBrien2008IntroductionIS,Laudon2007ManagementIS}
+\newcommand{\LUFIVEHours}{}
+
+\newcommand{\LUFIVEGoal}{%
+\begin{LUGoal}
+\item Introducir conceptos de sistemas y de calidad.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar conceptos de calidad y teoría de sistemas.
+\end{LUObjective}
+}
+
+\newcommand{\LUSIXDef}{LU6 Información y calidad}
+\newcommand{\LUSIXName}{LU6 Información y calidad}
+\newcommand{\LUSIXBib}{Daft2000Organization,Hodge1996OrganizationalTheory,Oz2002ManagementIS,OBrien2008IntroductionIS}
+\newcommand{\LUSIXHours}{}
+
+\newcommand{\LUSIXGoal}{%
+\begin{LUGoal}
+\item Proveer una introducción al uso organizacional de la información para mejorar la calidad general.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar metodologías para facilitar la medición y alcanzar el ISO9000, Baldridge, \textit{National Performance Review} y otros estándares de calidad.
+\end{LUObjective}
+}
+
+\newcommand{\LUSEVENDef}{LU7 Hardware y software de Tecnología de Información}
+\newcommand{\LUSEVENName}{LU7 Hardware y software de Tecnología de Información}
+\newcommand{\LUSEVENBib}{ITHWSW2003Englander}
+\newcommand{\LUSEVENHours}{}
+
+\newcommand{\LUSEVENGoal}{%
+\begin{LUGoal}
+\item Presentar conceptos de Tecnología de Información relacionados a hardware y software.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar los elementos y su relación funcional de los principales componentes de hardware, software y comunicaciones que forman PCs, LANs y/o WANs.
+\end{LUObjective}
+}
+
+\newcommand{\LUEIGHTDef}{LU8 Especificación de Sistemas de Tecnología de Información}
+\newcommand{\LUEIGHTName}{LU8 Especificación de Sistemas de Tecnología de Información}
+\newcommand{\LUEIGHTBib}{OBrien2008IntroductionIS,Stair2007FundamentalsIS,Tayntor2005SWImplementation}
+\newcommand{\LUEIGHTHours}{}
+
+\newcommand{\LUEIGHTGoal}{%
+\begin{LUGoal}
+\item Proveer los conceptos y habilidades para la especificación y diseño o reingeniería de sistemas pequeños relacionados con organizaciones basados en Tecnología de la Información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar los conceptos de implementación de Sistemas de Información acoplados a la reingeniería e mejoramiento continuo.
+\end{LUObjective}
+}
+
+\newcommand{\LUNINEDef}{LU9 Tecnología de Información y el consecusión de objetivos}
+\newcommand{\LUNINEName}{LU9 Tecnología de Información y el consecusión de objetivos}
+\newcommand{\LUNINEBib}{Gray2005MakingDecisions,Turban2005ITforManagement,McNurlin2005ISManagement,Applegate2002Corporate,Kaplan1996Scorecard,Tayntor2005SWImplementation}
+\newcommand{\LUNINEHours}{}
+
+\newcommand{\LUNINEGoal}{%
+\begin{LUGoal}
+\item Mostrar como la Tecnología de Información puede ser utilizada para diseñar, facilitar y comunicar los objetivos organizacionales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar la relevancia del manejo de Sistemas de Información alineados con los objetivos organizacionales.
+\end{LUObjective}
+}
+
+\newcommand{\LUONEOHDef}{LU10 Características de un profesional de Sistemas de Información}
+\newcommand{\LUONEOHName}{LU10 Características de un profesional de Sistemas de Información}
+\newcommand{\LUONEOHBib}{OBrien2008IntroductionIS}
+\newcommand{\LUONEOHHours}{}
+
+\newcommand{\LUONEOHGoal}{%
+\begin{LUGoal}
+\item Explicar los conceptos de la toma de decisiones personales, objetivos, definición de metas, confiabilidad y motivación.
+\end{LUGoal}
+\begin{LUObjective}
+\item Discutir y explicar los conceptos de definición de metas y toma y alcance de decisiones individuales. Explicar los requerimientos de definición de metas y toma de decisiones personales en la motivación y mejora de las condiciones de trabajo.
+\end{LUObjective}
+}
+
+\newcommand{\LUONEONEDef}{LU11 Línea de carrera de carrera de Sistemas de Información}
+\newcommand{\LUONEONEName}{LU11 Línea de carrera de carrera de Sistemas de Información}
+\newcommand{\LUONEONEBib}{OBrien2008IntroductionIS,InformationSystemsCurricula2002Book}
+\newcommand{\LUONEONEHours}{}
+
+\newcommand{\LUONEONEGoal}{%
+\begin{LUGoal}
+\item Mostrar las áreas de la carrera de Sistemas de Información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Identificar y explicar las carreras de telecomunicaciones y sus áreas.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETWODef}{LU12 Ética y el profesional de Sistemas de Información}
+\newcommand{\LUONETWOName}{LU12 Ética y el profesional de Sistemas de Información}
+\newcommand{\LUONETWOBib}{Reynolds2006ITEthics}
+\newcommand{\LUONETWOHours}{}
+
+\newcommand{\LUONETWOGoal}{%
+\begin{LUGoal}
+\item Presentar y discutir las responsabilidades profesionales y éticas del profesional de Sistemas de Información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Usar códigos de ética profesional para evaluar acciones de Sistemas de Información específicas.
+\item Describir asuntos éticos y legales; discutir y explicar consideraciones éticas del uso, distribución, operación y mantenimiento de software.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREEDef}{LU13 Sistemas de Información de nivel personal}
+\newcommand{\LUONETHREEName}{LU13 Sistemas de Información de nivel personal}
+\newcommand{\LUONETHREEBib}{Tayntor2005SWImplementation}
+\newcommand{\LUONETHREEHours}{}
+
+\newcommand{\LUONETHREEGoal}{%
+\begin{LUGoal}
+\item Identificar, investigar, analizar, diseñar y desarrollar con paquetes (y/o lenguajes de alto nivel) y sistemas de información de nivel personal para mejorar la productividad personal.
+\end{LUGoal}
+\begin{LUObjective}
+\item Analizar, diseñar, desarrollar y usar paquetes (p.e. un paquete de estadística o de administración de datos de alto nivel) y/o bases de datos de alto nivel que requieran lenguajes para implementar soluciones trabajables para resolver problemas de Sistemas de Información asociados con actividades de trabajo del conocimiento.
+\item Evaluar el incremento de la productividad realizado a través de la implementación de sistemas personales.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHONEDef}{LU13.01 Conceptos de Trabajo y Actividad}
+\newcommand{\LUONETHREE.OHONEName}{LU13.01 Conceptos de Trabajo y Actividad}
+\newcommand{\LUONETHREE.OHONEBib}{Halpern2002Thought,Tiwana1999Knowledge}
+\newcommand{\LUONETHREE.OHONEHours}{}
+
+\newcommand{\LUONETHREE.OHONEGoal}{%
+\begin{LUGoal}
+\item Describir el concepto de trabajo del conocimiento y la necesidad de contar con tecnología de información personal que lo soporte.
+\end{LUGoal}
+\begin{LUObjective}
+\item Definir y explicar el concepto de trabajo del conocimiento.
+\item Comparar y contrastar datos, información y conocimiento.
+\item Describir las actividades del trabajo del conocimiento; identificar y explicar métodos para lograr productividad en el trabajo del conocimiento.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHTWODef}{LU13.02 Soporte: Individuos vs Grupos}
+\newcommand{\LUONETHREE.OHTWOName}{LU13.02 Soporte: Individuos vs Grupos}
+\newcommand{\LUONETHREE.OHTWOBib}{Oz2002ManagementIS,Laudon2007ManagementIS,OBrien2005ManagementIS}
+\newcommand{\LUONETHREE.OHTWOHours}{}
+
+\newcommand{\LUONETHREE.OHTWOGoal}{%
+\begin{LUGoal}
+\item Relacionar requerimientos de sistemas de información organizacionales vs. personales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Comparar y constrastar el planeamiento, desarrollo y administración de riesgos de las aplicaciones para sistemas de información personales vs. organizacionales.
+\item Explicar problemas potenciales de sistemas desarrollados por el usuario.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHTHREEDef}{LU13.03 Análisis de Información: Individual vs. Grupal}
+\newcommand{\LUONETHREE.OHTHREEName}{LU13.03 Análisis de Información: Individual vs. Grupal}
+\newcommand{\LUONETHREE.OHTHREEBib}{Oz2002ManagementIS,Laudon2007ManagementIS,OBrien2005ManagementIS}
+\newcommand{\LUONETHREE.OHTHREEHours}{}
+
+\newcommand{\LUONETHREE.OHTHREEGoal}{%
+\begin{LUGoal}
+\item Introducir conceptos de trabajo del conocimiento individuales vs. colaborativos y relacionarlos al análisis de las necesidades de información y a la tecnología.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir y explicar tecnologías individuales vs. grupales; explicar el procesamiento adicional y otros asuntos y necesidades requeridas para el trabajo en grupo.
+\item Describir y explicar tecnología de soporte a grupos para requerimientos de conocimiento común.
+\item Describir y explicar el proceso de análisis de información y de aplicación de soluciones de tecnología de información.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHFOURDef}{LU13.04 Análisis de Información: Encontrando sus requerimientos de Sistemas y Tecnologías de Información}
+\newcommand{\LUONETHREE.OHFOURName}{LU13.04 Análisis de Información: Encontrando sus requerimientos de Sistemas y Tecnologías de Información}
+\newcommand{\LUONETHREE.OHFOURBib}{Stair2007FundamentalsIS,OBrien2008IntroductionIS}
+\newcommand{\LUONETHREE.OHFOURHours}{}
+
+\newcommand{\LUONETHREE.OHFOURGoal}{%
+\begin{LUGoal}
+\item Describir y explicar los objetivos y el proceso de análisis y de la documentación del trabajo del conocimiento, tecnología de información y de los requerimientos de información para individuos y grupos de trabajo.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir y explicar características y atributos del trabajo del conocimiento para individuos y grupos.
+\item Discutir y explicar las tareas de construcción y mantenimiento del conocimiento.
+\item Usar preguntas para elicitar sistemáticamente e identificar los requerimientos de datos de individuos y grupos.
+\item Analizar las tareas individuales y grupales para determinar los requerimientos de información.
+\item Identificar requerimientos de tecnología de información relacionada.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHFIVEDef}{LU13.05 Organizando recursos de datos personales}
+\newcommand{\LUONETHREE.OHFIVEName}{LU13.05 Organizando recursos de datos personales}
+\newcommand{\LUONETHREE.OHFIVEBib}{Gray2005MakingDecisions,Tayntor2005SWImplementation}
+\newcommand{\LUONETHREE.OHFIVEHours}{}
+
+\newcommand{\LUONETHREE.OHFIVEGoal}{%
+\begin{LUGoal}
+\item Definir conceptos, principios y métodos prácticos para la administración de software y datos individuales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Dadas tareas y actividades de trabajo del conocimiento, diseñar e implementar un método para la organización de directorios y el etiquetado de archivos que soporte la retención y acceso a los datos.
+\item Listar principios que apliquen a la adquisición y actualización de software.
+\item Describir métodos para la transferencia de datos entre aplicaciones incluyendo OLE, importación/exportación y métodos alternativos.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHSIXDef}{LU13.06 Tecnologías y conceptos de Bases de Datos}
+\newcommand{\LUONETHREE.OHSIXName}{LU13.06 Tecnologías y conceptos de Bases de Datos}
+\newcommand{\LUONETHREE.OHSIXBib}{elmasri04}
+\newcommand{\LUONETHREE.OHSIXHours}{}
+
+\newcommand{\LUONETHREE.OHSIXGoal}{%
+\begin{LUGoal}
+\item Explicar conceptos organizacionales, componentes, estructuras, acceso, seguridad y consideraciones de administración de bases de datos.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir y explicar la terminología y el uso de bases de datos relacionales.
+\item Describir y explicar conceptos necesarios para acceder a bases de datos organizacionales.
+\item Usar infraestructura de acceso a bases de datos para hacer consultas de datos a partir de un repositorio organizacional.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHSEVENDef}{LU13.07 Acceso, Recuperación y Almacenamiento de Datos}
+\newcommand{\LUONETHREE.OHSEVENName}{LU13.07 Acceso, Recuperación y Almacenamiento de Datos}
+\newcommand{\LUONETHREE.OHSEVENBib}{elmasri04}
+\newcommand{\LUONETHREE.OHSEVENHours}{}
+
+\newcommand{\LUONETHREE.OHSEVENGoal}{%
+\begin{LUGoal}
+\item Definir el contenido, disponibilidad y estrategias para acceder información externa a la organización.
+\end{LUGoal}
+\begin{LUObjective}
+\item Definir y discutir recursos de información externa; identificar la fuente, el contenido, los costos y la temporalidad.
+\item Localizar y acceder recursos de información externos usando herramientas de Internet disponibles: navegador, búsqueda, ftp.
+\item Crear y mantener un directorio individual para los recursos de información externa.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHEIGHTDef}{LU13.08 Ciclo de vida de Sistemas de Información: Desarrollando con Paquetes}
+\newcommand{\LUONETHREE.OHEIGHTName}{LU13.08 Ciclo de vida de Sistemas de Información: Desarrollando con Paquetes}
+\newcommand{\LUONETHREE.OHEIGHTBib}{OBrien2008IntroductionIS,Stair2007FundamentalsIS,Tayntor2005SWImplementation}
+\newcommand{\LUONETHREE.OHEIGHTHours}{}
+
+\newcommand{\LUONETHREE.OHEIGHTGoal}{%
+\begin{LUGoal}
+\item Presentar y explicar el ciclo de vida de desarrollo de un sistema de información incluyendo los conceptos de adquisición vs. desarrollo de software.
+\end{LUGoal}
+\begin{LUObjective}
+\item Discutir el concepto del ciclo de vida de un sistema de información.
+\item Identificar y explicar los criterios para decidir entre la adquisición de paquetes de software vs. el desarrollo de software personalizado.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.OHNINEDef}{LU13.09 Configuración y personalización de un paquete}
+\newcommand{\LUONETHREE.OHNINEName}{LU13.09 Configuración y personalización de un paquete}
+\newcommand{\LUONETHREE.OHNINEBib}{Tayntor2005SWImplementation}
+\newcommand{\LUONETHREE.OHNINEHours}{}
+
+\newcommand{\LUONETHREE.OHNINEGoal}{%
+\begin{LUGoal}
+\item Introducir y explorar el uso de software de aplicación y de propósito general.
+\end{LUGoal}
+\begin{LUObjective}
+\item Instalar y personalizar un paquete de software de propósito general para proveer funcionalidad específica más allá de las opciones por defecto.
+\item Adicionar capacidades a un sistema de software por medio de la grabación y almacenamiento de una macro en la librería del paquete de software dado.
+\item Acceder a información técnica provista en la forma de facilidades de ``ayuda" del software; observar y usar la infraestructura de ``ayuda".
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONEOHDef}{LU13.10 Programación Procedural y Orientada a Eventos}
+\newcommand{\LUONETHREE.ONEOHName}{LU13.10 Programación Procedural y Orientada a Eventos}
+\newcommand{\LUONETHREE.ONEOHBib}{Cormen91,Stroustrup97,Meyer98}
+\newcommand{\LUONETHREE.ONEOHHours}{}
+
+\newcommand{\LUONETHREE.ONEOHGoal}{%
+\begin{LUGoal}
+\item Introducir y explorar los métodos de desarrollo de software, para luego explicar los objetivos y estrategias de los paradigmas de programación procedural, basado en eventos y orientado a objetos.
+\end{LUGoal}
+\begin{LUObjective}
+\item Discutir y explicar los conceptos de datos y de representación procedural, lenguajes de programación, compiladores, intérpretes, ambientes de desarrollo e interfaces gráficas de usuario basadas en eventos.
+\item Comparar, relacionar y explicar conceptos de métodos estructurados, basados en eventos y orientados a objetos para el diseño de programas, con ejemplos para cada método.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONEONEDef}{LU13.11 Implementando algoritmos simples}
+\newcommand{\LUONETHREE.ONEONEName}{LU13.11 Implementando algoritmos simples}
+\newcommand{\LUONETHREE.ONEONEBib}{Cormen91,Stroustrup97,Meyer98}
+\newcommand{\LUONETHREE.ONEONEHours}{}
+
+\newcommand{\LUONETHREE.ONEONEGoal}{%
+\begin{LUGoal}
+\item Introducir y desarrollar el proceso de desarrollo de algoritmos y código estructurado.
+\end{LUGoal}
+\begin{LUObjective}
+\item Definir un problema sencillo identificando las salidas deseadas para entradas dadas; ofrecer una vista panorámica del problema.
+\item Describir tipos de datos fundamentales y sus operaciones.
+\item Diseñar lógica de programas usando tanto técnicas gráficas como de pseudocódigo que utilicen estructuras de control estándar: secuencia, iteración y selección.
+\item Traducir estructuras de datos y diseño de programas en código de un lenguaje de programación; verificar la traducción y asegurar la correctitud de los resultados; evaluar el código con conjuntos de datos de prueba.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONETWODef}{LU13.12 Implementación de un Diseño simple de Base de Datos}
+\newcommand{\LUONETHREE.ONETWOName}{LU13.12 Implementación de un Diseño simple de Base de Datos}
+\newcommand{\LUONETHREE.ONETWOBib}{elmasri04}
+\newcommand{\LUONETHREE.ONETWOHours}{}
+
+\newcommand{\LUONETHREE.ONETWOGoal}{%
+\begin{LUGoal}
+\item Introducir el propósito y desarrollar la habilidad para usar un paquete de software de bases de datos relacionales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir y explicar tablas, relaciones, integridad referencial y los conceptos de las formas normales.
+\item A partir de un dibujo de flujo de trabajo o de otros documentos de requisitos, derivar un diseño de bases de datos simple con múltiples tablas.
+\item Usando un paquete de software de bases de datos relacionales, implementar y poblar las tablas; desarrollar varias consultas simples para explorar los datos.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONETHREEDef}{LU13.13 Implementación de aplicaciones orientadas a eventos}
+\newcommand{\LUONETHREE.ONETHREEName}{LU13.13 Implementación de aplicaciones orientadas a eventos}
+\newcommand{\LUONETHREE.ONETHREEBib}{Cormen91,Stroustrup97,Meyer98}
+\newcommand{\LUONETHREE.ONETHREEHours}{}
+
+\newcommand{\LUONETHREE.ONETHREEGoal}{%
+\begin{LUGoal}
+\item Introducir y desarrollar la habilidad para diseñar e implementar una infraestructura de interfaz gráfica de usuario.
+\end{LUGoal}
+\begin{LUObjective}
+\item Aplicar una solución de GUI basada en eventos en un ambiente de desarrollo.
+\item Construir un formulario de aplicación simple con varios objetos (p.e. etiqueta, cajas de edición \textit{edit box}, listas, botones de comando).
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONEFOURDef}{LU13.14 Desarrollo de Sistemas de Información con prototipado}
+\newcommand{\LUONETHREE.ONEFOURName}{LU13.14 Desarrollo de Sistemas de Información con prototipado}
+\newcommand{\LUONETHREE.ONEFOURBib}{Avison98ISD,Kirikova03ISD}
+\newcommand{\LUONETHREE.ONEFOURHours}{}
+
+\newcommand{\LUONETHREE.ONEFOURGoal}{%
+\begin{LUGoal}
+\item Presentar el proceso de prototipeo e introducir y aplicar los conceptos de evaluación y refinamiento evolutivo para prototipos de aplicaciones personales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Comparar las capacidades de una aplicación con los requerimientos que debe cubrir.
+\item Identificar salidas alternativas del proceso de verificación de aplicaciones.
+\item Evaluar y definir los resultados y probabilidades de error en software de aplicación prototipeo.
+\item Modificar entradas, salidas y procesamiento para refinar un prototipo.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONEFIVEDef}{LU13.15 Evolución de la Tecnología de Sistemas de Información}
+\newcommand{\LUONETHREE.ONEFIVEName}{LU13.15 Evolución de la Tecnología de Sistemas de Información}
+\newcommand{\LUONETHREE.ONEFIVEBib}{OBrien2008IntroductionIS,Stair2007FundamentalsIS}
+\newcommand{\LUONETHREE.ONEFIVEHours}{}
+
+\newcommand{\LUONETHREE.ONEFIVEGoal}{%
+\begin{LUGoal}
+\item Presentar tecnologías de fundamento y definir la importancia en el futuro de las capacidades de la tecnología de información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Listar y explicar tecnologías y su relevancia para tecnología de información individual.
+\item Dada una tecnología, explicar su importancia para los desarrollos futuros y la productividad futura del trabajador del conocimiento.
+\item Identificar los causantes e inhibidores del cambio en la tecnología de la información.
+\end{LUObjective}
+}
+
+\newcommand{\LUONETHREE.ONESIXDef}{LU13.16 Implementación de una aplicación de Sistemas de Información personal}
+\newcommand{\LUONETHREE.ONESIXName}{LU13.16 Implementación de una aplicación de Sistemas de Información personal}
+\newcommand{\LUONETHREE.ONESIXBib}{Tayntor2005SWImplementation}
+\newcommand{\LUONETHREE.ONESIXHours}{}
+
+\newcommand{\LUONETHREE.ONESIXGoal}{%
+\begin{LUGoal}
+\item Identificar, investigar, analizar, diseñar y desarrollar con paquetes (y/o lenguajes de alto nivel) un sistema de información de nivel personal simple para mejorar la productividad individual.
+\end{LUGoal}
+\begin{LUObjective}
+\item Analizar, diseñar, desarrollar y usar paquetes y/o lenguajes de bases de datos de alto nivel para implementar soluciones trabajables que resuelvan un problema de sistemas de información asociado con actividades de trabajo del conocimiento.
+\item Evaluar el incremento de productividad realizado implementando sistemas personales.
+\end{LUObjective}
+}
+
+\newcommand{\LUONEFOURDef}{LU14 Resolución de problemas con paquetes}
+\newcommand{\LUONEFOURName}{LU14 Resolución de problemas con paquetes}
+\newcommand{\LUONEFOURBib}{Tayntor2005SWImplementation}
+\newcommand{\LUONEFOURHours}{}
+
+\newcommand{\LUONEFOURGoal}{%
+\begin{LUGoal}
+\item Presentar y aplicar estrategias, metodologías y métodos para usar paquetes de software, así como lenguajes de alto nivel para desarrollar soluciones a problemas formales implementables de ``usuario final'', los cuales se encuentran alineados con los sistemas de información organizacionales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar y usar conceptos de problemas formales e ingeniería de software aplicadas al desarrollo de soluciones efectivas que mejoren la productividad personal que involucre actividades de trabajo del conocimiento, dentro de soluciones que son compatibles con el sistema de información organizacional.
+\item Desarrollar, documentar y mantener sistemas pequeños para productividad personal usando bases de datos de alto nivel usando herramientas y ambientes de desarrollo de aplicaciones.
+\item Usar los conceptos de definición y resolución de problemas analíticos formales en el uso de paquetes de software; asegurar que dichas soluciones tomen en cuenta los sistemas de información ``reales'' involucrados.
+\end{LUObjective}
+}
+
+\newcommand{\LUONEFIVEDef}{LU15 Estrategias de uso de Información}
+\newcommand{\LUONEFIVEName}{LU15 Estrategias de uso de Información}
+\newcommand{\LUONEFIVEBib}{Halpern2002Thought,Tiwana1999Knowledge}
+\newcommand{\LUONEFIVEHours}{}
+
+\newcommand{\LUONEFIVEGoal}{%
+\begin{LUGoal}
+\item Presentar y aplicar estrategias para acceder y usar recursos de información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar administración de datos y acceso a recursos de información corporativos y alternativos.
+\item Discutir inteligentemente las diferencias entre la administración de SI\&T, desarrollo de sistemas, mantenimiento de sistemas, operación de sistemas.
+\end{LUObjective}
+}
+
+\newcommand{\LUONESIXDef}{LU16 Teoría de Sistemas de Información}
+\newcommand{\LUONESIXName}{LU16 Teoría de Sistemas de Información}
+\newcommand{\LUONESIXBib}{OBrien2008IntroductionIS,Stair2007FundamentalsIS}
+\newcommand{\LUONESIXHours}{}
+
+\newcommand{\LUONESIXGoal}{%
+\begin{LUGoal}
+\item Introducir, discutir y describir conceptos fundamentales de teoría de Sistemas de Información y su importancia para los profesionales.
+\end{LUGoal}
+\begin{LUObjective}
+\item Identificar y explicar los conceptos subyacentes de la disciplina de Sistemas de Información.
+\end{LUObjective}
+}
+
+\newcommand{\LUONESEVENDef}{LU17 Sistemas de Información como un componente estratégico}
+\newcommand{\LUONESEVENName}{LU17 Sistemas de Información como un componente estratégico}
+\newcommand{\LUONESEVENBib}{Oz2002ManagementIS,OBrien2005ManagementIS,Laudon2007ManagementIS}
+\newcommand{\LUONESEVENHours}{}
+
+\newcommand{\LUONESEVENGoal}{%
+\begin{LUGoal}
+\item Mostrar como un sistema de información es un componente estratégico e integral de una organización.
+\end{LUGoal}
+\begin{LUObjective}
+\item Describir el desarrollo histórico de la disciplina de Sistemas de Información.
+\item Explicar el rol estratégico de los sistemas de información en las organizaciones.
+\item Explicar la relación estratégica de las actividades de Sistemas de Información para mejorar la posición competitiva.
+\item Explicar las diferencias entre aplicaciones de nivel estratégico, táctico y operativo.
+\end{LUObjective}
+}
+
+\newcommand{\LUONEEIGHTDef}{LU18 Desarrollo y administración de Sistemas de Información}
+\newcommand{\LUONEEIGHTName}{LU18 Desarrollo y administración de Sistemas de Información}
+\newcommand{\LUONEEIGHTBib}{OBrien2008IntroductionIS}
+\newcommand{\LUONEEIGHTHours}{}
+
+\newcommand{\LUONEEIGHTGoal}{%
+\begin{LUGoal}
+\item Discutir cómo se desarrolla un sistema de información y éste es administrado dentro de una organización.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar el desarrollo de sistemas de información y el rediseño de los procesos organizacionales; explicar los grupos de individuos y sus responsabilidades en este proceso.
+\item Explicar los roles de los profesionales en Sistemas de Información dentro de una organización de Sistemas de Información; explicar las funciones de la administración de Sistemas de Información, administrador de proyectos, analista de información y explicar los caminos de desarrollo profesional posibles.
+\end{LUObjective}
+}
+
+\newcommand{\LUONENINEDef}{LU19 Proceso cognitivo}
+\newcommand{\LUONENINEName}{LU19 Proceso cognitivo}
+\newcommand{\LUONENINEBib}{Halpern2002Thought,Tiwana1999Knowledge}
+\newcommand{\LUONENINEHours}{}
+
+\newcommand{\LUONENINEGoal}{%
+\begin{LUGoal}
+\item Presentar y discutir la relevancia del proceso cognitivo e interacciones humanas en el diseño e implementación de sistemas de información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Explicar el proceso cognitivo y otras consideraciones orientadas al ser humano en el diseño e implementación de sistemas de información.
+\end{LUObjective}
+}
+
+\newcommand{\LUTWOOHDef}{LU20 Objetivos y decisiones}
+\newcommand{\LUTWOOHName}{LU20 Objetivos y decisiones}
+\newcommand{\LUTWOOHBib}{Robbins2002Behavior,Ivancevich2008Behavior,Gray2005MakingDecisions}
+\newcommand{\LUTWOOHHours}{}
+
+\newcommand{\LUTWOOHGoal}{%
+\begin{LUGoal}
+\item Discutir cómo los individuos toman decisiones y establecen y alcanzan objetivos.
+\end{LUGoal}
+\begin{LUObjective}
+\item Discutir y explicar cómo los individuos toman decisiones, establecen y alcanzan objetivos; explicar lo que significa acción personal dirigida a una misión.
+\end{LUObjective}
+}
+
+\newcommand{\LUTWOONEDef}{LU21 Toma de decisiones: el modelo de Simon}
+\newcommand{\LUTWOONEName}{LU21 Toma de decisiones: el modelo de Simon}
+\newcommand{\LUTWOONEBib}{Gray2005MakingDecisions}
+\newcommand{\LUTWOONEHours}{}
+
+\newcommand{\LUTWOONEGoal}{%
+\begin{LUGoal}
+\item Desarrollar la capacidad para discutir e intercambiar opiniones sobre  el Modelo de Simon para la toma de decisiones organizacionales y su soporte utilizando IS.
+\end{LUGoal}
+\begin{LUObjective}
+\item Discutir y explicar la teoría de decisiones y el proceso de toma de decisiones.
+\item Explicar el soporte de IS para la toma de decisiones; explicar el uso de sistemas expertos en el soporte en la toma de decisiones heurísticas.
+\item Explicar y dar una ilustración del modelo de decisión organizacional de Simon.
+\end{LUObjective}
+}
+
+\newcommand{\LUTWOTWODef}{LU22 Sistemas y calidad}
+\newcommand{\LUTWOTWOName}{LU22 Sistemas y calidad}
+\newcommand{\LUTWOTWOBib}{Jalote99,Peach02,Kulpa03}
+\newcommand{\LUTWOTWOHours}{}
+
+\newcommand{\LUTWOTWOGoal}{%
+\begin{LUGoal}
+\item Introducir a la teoría de Sistemas, calidad  y modelado organizacional y demostrar su relevancia en los sistemas de información.
+\end{LUGoal}
+\begin{LUObjective}
+\item Discutir y explicar los objetivos de los sistemas, expectativas de los clientes y conceptos de calidad.
+\item Discutir y explicar los componentes y relaciones de los sistemas.
+\item Aplicar conceptos de sistemas para definir y explicar el rol de los sistemas de información.
+\item Explicar el uso de la información y sistemas de información en actividades de documentación toma de decisiones y control organizacional.
+\end{LUObjective}
+}
+
+\newcommand{\LUTWOTHREEDef}{LU23 Rol de la administración, usuarios, diseñadores de sistemas}
+\newcommand{\LUTWOTHREEName}{LU23 Rol de la administración, usuarios, diseñadores de sistemas}
+\newcommand{\LUTWOTHREEBib}{Oz2002ManagementIS,OBrien2005ManagementIS}
+\newcommand{\LUTWOTHREEHours}{}
+
+\newcommand{\LUTWOTHREEGoal}{%
+\begin{LUGoal}
+\item Discutir un sistema basado en reglas para la administradores, usuarios y diseñadores.
+\end{LUGoal}
+\begin{LUObjective}
+\item Identificar la responsabilidad de los usuar

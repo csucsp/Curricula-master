@@ -1,0 +1,14 @@
+Create new branch
+git checkout -b UnifyInstitutionInfo
+
+Crearlo en el git
+git push origin UnifyInstitutionInfo
+
+Ver en cual estoy
+git branch -a
+
+cambiar de branch
+git checkout UnifyInstitutionInfo
+
+Ingridh:
+git checkout master

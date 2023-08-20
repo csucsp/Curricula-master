@@ -1,0 +1,10 @@
+
+% Semester #2 .
+% CS1D02. Estructuras Discretas II (Obligatorio)
+CS1D02->jfiestas@utec.edu.pe:C
+
+
+% Semester #4 .
+% CS2101. Teoría de la Computación (Obligatorio)
+CS2101->jfiestas@utec.edu.pe:C
+

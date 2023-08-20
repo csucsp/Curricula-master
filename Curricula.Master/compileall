@@ -1,0 +1,145 @@
+#!/bin/csh
+
+rm -rf html/Area-ABC Area-ABC-big-main.*
+rm -rf html/CS-SBC CS-SBC-big-main.*
+rm -rf html/CS-CLEI CS-CLEI-big-main.*
+rm -rf html/CS-UNAL CS-UNAL-big-main.*
+rm -rf html/IS-UNAL IS-UNAL-big-main.*
+rm -rf html/CS-UCR CS-UCR-big-main.*
+rm -rf html/CS-USGP CS-USGP-big-main.*
+rm -rf html/CS-MINEDU CS-MINEDU-big-main.*
+rm -rf html/CS-SPC CS-SPC-big-main.*
+rm -rf html/DS-SPC DS-SPC-big-main.*
+rm -rf html/IS-SPC IS-SPC-big-main.*
+rm -rf html/CS-UCSP CS-UCSP-big-main.*
+rm -rf html/IS-UCSP IS-UCSP-big-main.*
+rm -rf html/CS-UDEP CS-UDEP-big-main.*
+rm -rf html/CS-UNAM CS-UNAM-big-main.*
+rm -rf html/CS-UNMSM CS-UNMSM-big-main.*
+rm -rf html/CS-UNPRG CS-UNPRG-big-main.*
+rm -rf html/CS-UNSA CS-UNSA-big-main.*
+rm -rf html/IS-UNSA IS-UNSA-big-main.*
+rm -rf html/CS-UNU CS-UNU-big-main.*
+rm -rf html/CS-UPCH CS-UPCH-big-main.*
+rm -rf html/CS-USIL CS-USIL-big-main.*
+rm -rf html/IAG-USIL IAG-USIL-big-main.*
+rm -rf html/IS-USIL IS-USIL-big-main.*
+rm -rf html/CS-UTEC CS-UTEC-big-main.*
+rm -rf html/DS-UTEC DS-UTEC-big-main.*
+rm -rf html/IS-UTEC IS-UTEC-big-main.*
+
+# Arequipa
+./scripts/updatelog.pl "ABC: Starting compilation ..."
+./compile  Arequipa-Area-ABC 
+./gen-html Arequipa-Area-ABC
+
+# Brasil
+./scripts/updatelog.pl "SBC: Starting compilation ..."
+./compile  Brasil-CS-SBC 
+./gen-html Brasil-CS-SBC
+
+# CLEIC
+./scripts/updatelog.pl "CLEI: Starting compilation ..."
+./compile  CLEIC-CS-CLEI 
+./gen-html CLEIC-CS-CLEI
+
+# Colombia
+./scripts/updatelog.pl "UNAL: Starting compilation ..."
+./compile  Colombia-CS-UNAL 
+./gen-html Colombia-CS-UNAL
+
+./scripts/updatelog.pl "UNAL: Starting compilation ..."
+./compile  Colombia-IS-UNAL 
+./gen-html Colombia-IS-UNAL
+
+# Costa Rica
+./scripts/updatelog.pl "UCR: Starting compilation ..."
+./compile  Costa Rica-CS-UCR 
+./gen-html Costa Rica-CS-UCR
+
+# Ecuador
+./scripts/updatelog.pl "USGP: Starting compilation ..."
+./compile  Ecuador-CS-USGP 
+./gen-html Ecuador-CS-USGP
+
+# Peru
+./scripts/updatelog.pl "MINEDU: Starting compilation ..."
+./compile  Peru-CS-MINEDU 
+./gen-html Peru-CS-MINEDU
+
+./scripts/updatelog.pl "SPC: Starting compilation ..."
+./compile  Peru-CS-SPC 
+./gen-html Peru-CS-SPC
+
+./scripts/updatelog.pl "SPC: Starting compilation ..."
+./compile  Peru-DS-SPC 
+./gen-html Peru-DS-SPC
+
+./scripts/updatelog.pl "SPC: Starting compilation ..."
+./compile  Peru-IS-SPC 
+./gen-html Peru-IS-SPC
+
+./scripts/updatelog.pl "UCSP: Starting compilation ..."
+./compile  Peru-CS-UCSP 
+./gen-html Peru-CS-UCSP
+
+./scripts/updatelog.pl "UCSP: Starting compilation ..."
+./compile  Peru-IS-UCSP 
+./gen-html Peru-IS-UCSP
+
+./scripts/updatelog.pl "UDEP: Starting compilation ..."
+./compile  Peru-CS-UDEP 
+./gen-html Peru-CS-UDEP
+
+./scripts/updatelog.pl "UNAM: Starting compilation ..."
+./compile  Peru-CS-UNAM 
+./gen-html Peru-CS-UNAM
+
+./scripts/updatelog.pl "UNMSM: Starting compilation ..."
+./compile  Peru-CS-UNMSM 
+./gen-html Peru-CS-UNMSM
+
+./scripts/updatelog.pl "UNPRG: Starting compilation ..."
+./compile  Peru-CS-UNPRG 
+./gen-html Peru-CS-UNPRG
+
+./scripts/updatelog.pl "UNSA: Starting compilation ..."
+./compile  Peru-CS-UNSA 
+./gen-html Peru-CS-UNSA
+
+./scripts/updatelog.pl "UNSA: Starting compilation ..."
+./compile  Peru-IS-UNSA 
+./gen-html Peru-IS-UNSA
+
+./scripts/updatelog.pl "UNU: Starting compilation ..."
+./compile  Peru-CS-UNU 
+./gen-html Peru-CS-UNU
+
+./scripts/updatelog.pl "UPCH: Starting compilation ..."
+./compile  Peru-CS-UPCH 
+./gen-html Peru-CS-UPCH
+
+./scripts/updatelog.pl "USIL: Starting compilation ..."
+./compile  Peru-CS-USIL 
+./gen-html Peru-CS-USIL
+
+./scripts/updatelog.pl "USIL: Starting compilation ..."
+./compile  Peru-IAG-USIL 
+./gen-html Peru-IAG-USIL
+
+./scripts/updatelog.pl "USIL: Starting compilation ..."
+./compile  Peru-IS-USIL 
+./gen-html Peru-IS-USIL
+
+./scripts/updatelog.pl "UTEC: Starting compilation ..."
+./compile  Peru-CS-UTEC 
+./gen-html Peru-CS-UTEC
+
+./scripts/updatelog.pl "UTEC: Starting compilation ..."
+./compile  Peru-DS-UTEC 
+./gen-html Peru-DS-UTEC
+
+./scripts/updatelog.pl "UTEC: Starting compilation ..."
+./compile  Peru-IS-UTEC 
+./gen-html Peru-IS-UTEC
+

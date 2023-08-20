@@ -1,0 +1,691 @@
+\documentclass[twosides,openright,a4paper,final]{book}
+\usepackage[printonlyused]{acronym}
+\usepackage[spanish]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{hlundef} 
+\usepackage{ae}
+
+\usepackage{tabularx}
+
+\usepackage{xspace}
+\usepackage{pstricks}
+\usepackage{pst-tree}
+\usepackage{pst-node}
+\usepackage{xspace}
+
+\usepackage{watermark}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+
+\usepackage{paralist}
+\usepackage{color}
+\usepackage{html}
+\usepackage{multirow}
+\usepackage{rotating}
+
+\usepackage{xkeyval}
+
+\usepackage[top=2.5cm,bottom=3.5cm,left=3cm,right=2.5cm]{geometry}
+\usepackage{base-tex/CS-bok-macros}
+
+\newcommand{\fecha}{\today}
+\newcommand{\YYYY}{2009\xspace}
+\newcommand{\Semester}{2009-I\xspace}
+
+\newcommand{\Universidad}{Universidad Católica San Pablo\xspace}
+\newcommand{\InstitutionURL}{http://www.ucsp.edu.pe\xspace}
+\newcommand{\underlogotext}{}
+
+\newcommand{\FacultadName}{Ingenierías\xspace}
+\newcommand{\DepartmentName}{Sistemas de Información\xspace}
+\newcommand{\SchoolFullName}{Programa Profesional de Sistemas de Información\xspace}
+
+\newcommand{\SchoolShortName}{Sistemas de Información\xspace}
+\newcommand{\SchoolAcro}{PPSI\xspace}
+
+\newcommand{\AcademicDegreeIssued}{Bachiller en Sistemas de Información}
+\newcommand{\TitleIssued}{Licenciado en Sistemas de Información}
+\newcommand{\AcademicDegreeAndTitle}
+{\begin{description}
+\item [Grado Académico: ] \AcademicDegreeIssued~y
+\item [Titulo Profesional: ] \TitleIssued
+\end{description}
+}
+
+\newcommand{\SchoolURL}{http://www.ucsp.edu.pe\xspace}
+\newcommand{\doctitle}{Proyecto de creación del \SchoolFullName {\Large\footnote{\SchoolURL}}\xspace}
+\newcommand{\city}{Arequipa\xspace}
+\newcommand{\AbstractIntro}{Este documento representa el informe final de la nueva malla curricular \YYYY del \SchoolFullName de la \institution (\textit{\InstitutionURL}) en la ciudad de \city-Perú.}
+
+\newcommand{\OtherKeyStones}
+{Un pilar que merece especial consideración en el caso de la \Universidad es el aspecto de valores humanos, básicos y cristianos debido a que forman parte fundamental de los lineamientos básicos de la existencia de la institución.\xspace}
+
+
+
+
+\newcommand{\OnlyPeruUNI}[1]{\xspace}
+\newcommand{\NotPeruUNI}[1]\{#1\xspace}
+
+\newcommand{\OnlyPeruUTEA}[1]{\xspace}
+\newcommand{\NotPeruUTEA}[1]{#1\xspace}
+
+\newcommand{\OnlyPeruUNU}[1]{\xspace}
+\newcommand{\NotPeruUNU}[1]{#1\xspace}
+
+\newcommand{\OnlyPeruUCSP}[1]{#1\xspace}
+\newcommand{\NotPeruUCSP\{}[1]{\xspace}
+
+\newcommand{\OnlyPeruSPC}[1]{\xspace}
+\newcommand{\NotPeruSPC\{}[1]{#1\xspace}
+
+\newcommand{\OnlyPUCP}[1]{\xspace}
+\newcommand{\NotPeruPUCP\{}[1]{#1\xspace}
+
+\newcommand{\OnlyUTP}[1]{\xspace}
+\newcommand{\NotPeruUTP\{}[1]{#1\xspace}
+
+\newcommand{\OnlyPeruUNSA}[1]{\xspace}
+\newcommand{\NotPeruUNSA\{}[1]{#1\xspace}
+
+\newcommand{\OnlyCS}[1]{\xspace}
+\newcommand{\NotCS}[1]{#1\xspace}
+
+\newcommand{\OnlyIS}[1]{#1\xspace}
+\newcommand{\NotIS}[1]{\xspace}
+
+\begin{document}
+
+\newcommand{\UNOxUNOxUNO}{Representación de datos fundamentales: no numéricos, numéricos (enteros, reales, errores, precisión)}
+
+\newcommand{\UNOxUNOxUNOxUNO}{Representación básica en máquina de datos numéricos}
+
+\newcommand{\UNOxUNOxUNOxDOS}{Representación básica en máquina de datos no numéricos}
+
+\newcommand{\UNOxUNOxUNOxTRES}{Precisión de la representación de números enteros y de punto flotante}
+
+\newcommand{\UNOxUNOxUNOxCUATRO}{Errores en aritmética de computador y asuntos relacionados de portabilidad}
+
+\newcommand{\UNOxUNOxUNOxCINCO}{Conceptos básicos de arquitectura de computadores}
+
+\newcommand{\UNOxUNOxDOS}{Representación física de información digital: p.e. datos, texto, imágenes, voz, video.}
+
+\newcommand{\UNOxUNOxTRES}{Architecturas de CPU: CPU, memoria, registros, modos de direccionamiento, conjuntos de instrucciones.}
+
+\newcommand{\UNOxUNOxTRESxUNO}{Organización básica; von Neumann, diagrama de bloques, bus de datos, bus de control.}
+
+\newcommand{\UNOxUNOxTRESxDOS}{Instrucciones y modos de direccionamiento: conjuntos de instrucciones y tipos.}
+
+\newcommand{\UNOxUNOxTRESxTRES}{Instrucciones y modos de direccionamiento: lenguaje de máquina.}
+
+\newcommand{\UNOxUNOxTRESxCUATRO}{Modos de direccionamiento.}
+
+\newcommand{\UNOxUNOxTRESxCINCO}{Unidad de control; \textit{fetch} y ejecución de instrucciones, \textit{fetch} de operadores.}
+
+\newcommand{\UNOxUNOxTRESxSEIS}{CISC, RISC.}
+
+\newcommand{\UNOxUNOxTRESxSIETE}{Organización del computador.}
+
+\newcommand{\UNOxUNOxTRESxOCHO}{Sistemas de memoria.}
+
+\newcommand{\UNOxUNOxCUATRO}{Componentes de sistemas de computadores: bus, controladores, sistemas de almacenamiento, dispositivos periféricos.}
+
+\newcommand{\UNOxUNOxCUATROxUNO}{Periféricos: E/S e interrupciones.}
+
+\newcommand{\UNOxUNOxCUATROxDOS}{Periféricos: métodos de control de E/S, interrupciones.}
+
+\newcommand{\UNOxUNOxCUATROxTRES}{Periféricos: almacenamiento externo, organización física y \textit{drives}.}
+
+\newcommand{\UNOxUNOxCUATROxCUATRO}{Almacenamiento auxiliar, cinta, óptico.}
+
+\newcommand{\UNOxUNOxCUATROxCINCO}{Sistemas de almacenamiento, jerarquía.}
+
+\newcommand{\UNOxUNOxCUATROxSEIS}{Organización principal de la memoria, operaciones de bus, tiempos de ciclo.}
+
+\newcommand{\UNOxUNOxCUATROxSIETE}{Memoria caché, lectura/escritura.}
+
+\newcommand{\UNOxUNOxCUATROxOCHO}{Memoria virtual.}
+
+\newcommand{\UNOxUNOxCUATROxNUEVE}{Interfaces entre computadores y otros dispositivos (sensores, efectuadores, etc.)}
+
+\newcommand{\UNOxUNOxCINCO}{Arquitectura de multiprocesadores}
+
+\newcommand{\UNOxUNOxCINCOxUNO}{Arquitecturas de sistemas (multi-procesamiento simple y procesamiento distribuido, pilas)}
+
+\newcommand{\UNOxUNOxCINCOxDOS}{Tecnologías cliente-servidor.}
+
+\newcommand{\UNOxUNOxSEIS}{Lógica y sistemas discretos.}
+
+\newcommand{\UNOxUNOxSEISxUNO}{Elementos lógicos y teoría de \textit{switching}; conceptos e implementación de minimización.}
+
+\newcommand{\UNOxUNOxSEISxDOS}{Demoras y peligros de propagación.}
+
+\newcommand{\UNOxUNOxSEISxTRES}{Demultiplexers, multiplexers, decodificadores, codificadores, aditores, substractores.}
+
+\newcommand{\UNOxUNOxSEISxCUATRO}{ROM, PROM, EPROM, EAPROM, RAM.}
+
+\newcommand{\UNOxUNOxSEISxCINCO}{Análisis y síntesis de circuitos síncronos, asíncronos vs. síncronos.}
+
+\newcommand{\UNOxUNOxSEISxSEIS}{Notación de transferencia de registros, condicional e incondicional.}
+
+\newcommand{\UNOxUNOxSEISxSIETE}{Máquinas de estado, redes de conducción, señales de transferencia de carga.}
+
+\newcommand{\UNOxUNOxSEISxOCHO}{Tri-estados y estructuras de bus.}
+
+\newcommand{\UNOxUNOxSEISxNUEVE}{Diagramas de bloque, diagramas de tiempo, lenguaje de transferencia.}
+
+\newcommand{\UNOxDOSxUNO}{Problemas formales y resolución de problemas.}
+
+\newcommand{\UNOxDOSxUNOxUNO}{Estrategias de resolución de problemas usando algoritmos voraces.}
+
+\newcommand{\UNOxDOSxUNOxDOS}{Estrategias de resolución de problemas usando algoritmos divide y vencerás.}
+
+\newcommand{\UNOxDOSxUNOxTRES}{Estrategias de resolución de problemas usando algoritmos de \textit{back- tracking}.}
+
+\newcommand{\UNOxDOSxUNOxCUATRO}{Proceso de diseño de software; desde la especificación a la implementación.}
+
+\newcommand{\UNOxDOSxUNOxCINCO}{Establecimiento del problema y determinación algorítmica.}
+
+\newcommand{\UNOxDOSxUNOxSEIS}{Estrategias de implementación (\textit{top-down}, \textit{bottom-up}; equipo vs. individual).}
+
+\newcommand{\UNOxDOSxUNOxSIETE}{Conceptos de verificación formal.}
+
+\newcommand{\UNOxDOSxUNOxOCHO}{Models de computación formales.}
+
+\newcommand{\UNOxDOSxDOS}{Estructuras de datos básicas: listas, arreglos, cadenas, registros, conjuntos, listas enlazadas, pilas, colas, árboles.}
+
+\newcommand{\UNOxDOSxTRES}{Estructuras de datos complejas: p.e., de datos, texto, voz, imagen, video, hipermedia.}
+
+\newcommand{\UNOxDOSxCUATRO}{Tipos abstractos de datos.}
+
+\newcommand{\UNOxDOSxCUATROxUNO}{Propósito e implementación de tipos abstractos de datos.}
+
+\newcommand{\UNOxDOSxCUATROxDOS}{Especificaciones informales.}
+
+\newcommand{\UNOxDOSxCUATROxTRES}{Especificaciones formales, pre-condiciones y post-condiciones, algebraicas.}
+
+\newcommand{\UNOxDOSxCUATROxCUATRO}{Módulos, cohesión, acoplamiento; diagramas de flujo de datos y conversión a jerarquías.}
+
+\newcommand{\UNOxDOSxCUATROxCINCO}{Correctitud, verificación y validación: pre- y post-condiciones, invariantes.}
+
+\newcommand{\UNOxDOSxCUATROxSEIS}{Estructuras de control; selección, iteración, recursión; tipos de datos y sus usos.}
+
+\newcommand{\UNOxDOSxCINCO}{Estructuras de archivos: secuencial, de acceso directo, hashing, indexados.}
+
+\newcommand{\UNOxDOSxCINCOxUNO}{Archivos (estructura, métodos de acceso): distribución de archivos, conceptos de archivos fundamentales.}
+
+\newcommand{\UNOxDOSxCINCOxDOS}{Archivos (estructura, métodos de acceso): contenidos y estructuras de directorios, nombramiento.}
+
+\newcommand{\UNOxDOSxCINCOxTRES}{Archivos (estructura, métodos de acceso): vista general de seguridad del sistema, métodos de seguridad.}
+
+\newcommand{\UNOxDOSxSEIS}{Estructuras y algoritmos de ordenamiento y búsqueda.}
+
+\newcommand{\UNOxDOSxSEISxUNO}{Algoritmos de ordenamiento (\textit{shell sort}, \textit{bucket sort}, \textit{radix sort}, \textit{quick sort}), edición.}
+
+\newcommand{\UNOxDOSxSEISxDOS}{Algoritmos de búsqueda (búsqueda serial, búsqueda binaria y árboles de búsqueda binaria).}
+
+\newcommand{\UNOxDOSxSEISxTRES}{Búsqueda, hashing, resolución de colisiones.}
+
+\newcommand{\UNOxDOSxSIETE}{Eficiencia de algoritmos, complejidad y métricas.}
+
+\newcommand{\UNOxDOSxSIETExUNO}{Análisis asintótico.}
+
+\newcommand{\UNOxDOSxSIETExDOS}{Balance entre tiempo y espacio en algoritmos.}
+
+\newcommand{\UNOxDOSxSIETExTRES}{Clases de complejidad P, NP, P-space; problemas tratables e intratables.}
+
+\newcommand{\UNOxDOSxSIETExCUATRO}{Análisis de límite inferior.}
+
+\newcommand{\UNOxDOSxSIETExCINCO}{NP-completitud.}
+
+\newcommand{\UNOxDOSxSIETExSEIS}{Algoritmos de ordenamiento $O(n^2)$.}
+
+\newcommand{\UNOxDOSxSIETExSIETE}{Algoritmos de ordenamiento $O(n\log n)$.}
+
+\newcommand{\UNOxDOSxSIETExOCHO}{\textit{Backtracking}, \textit{parsing}, simulaciones discretas, etc.}
+
+\newcommand{\UNOxDOSxSIETExNUEVE}{Fundamentos de análisis de algoritmos.}
+
+\newcommand{\UNOxDOSxOCHO}{Algoritmos recursivos.}
+
+\newcommand{\UNOxDOSxOCHOxUNO}{Conexión de algoritmos recursivos con inducción matemática.}
+
+\newcommand{\UNOxDOSxOCHOxDOS}{Comparación de algoritmos iterativos y recursivos.}
+
+\newcommand{\UNOxDOSxNUEVE}{Redes neuronales y algoritmos genéticos.}
+
+\newcommand{\UNOxDOSxUNOCERO}{Consideraciones avanzadas.}
+
+\newcommand{\UNOxDOSxUNOCEROxUNO}{Funciones computables: modelos de funciones computables de máquinas de Turing.}
+
+\newcommand{\UNOxDOSxUNOCEROxDOS}{Problemas de decisión: problemas enumerables recursivos; indecibilidad.}
+
+\newcommand{\UNOxDOSxUNOCEROxTRES}{Modelo de arquitecturas paralelas.}
+
+\newcommand{\UNOxDOSxUNOCEROxCUATRO}{Algoritmos de arquitecturas paralelas.}
+
+\newcommand{\UNOxDOSxUNOCEROxCINCO}{Problemas matemáticos: problemas bien acondicionados y mal acondicionados.}
+
+\newcommand{\UNOxDOSxUNOCEROxSEIS}{Problemas matemáticos: aproximaciones iterativas a problemas matemáticos.}
+
+\newcommand{\UNOxDOSxUNOCEROxSIETE}{Problemas matemáticos: clasificación de error, computacional, representacional.}
+
+\newcommand{\UNOxDOSxUNOCEROxOCHO}{Problemas matemáticos: aplicaciones de métodos de aproximación interativa.}
+
+\newcommand{\UNOxDOSxUNOCEROxNUEVE}{Límites de computación: computabilidad e intratabilidad algorítmica.}
+
+\newcommand{\UNOxTRESxUNO}{Estructuras de lenguajes de programación fundamentales; comparación de lenguajes y aplicaciones.}
+
+\newcommand{\UNOxTRESxDOS}{Lenguajes de nivel de máquina y ensamblador.}
+
+\newcommand{\UNOxTRESxTRES}{Lenguajes procedurales.}
+
+\newcommand{\UNOxTRESxTRESxUNO}{Ventajas y desventajas de la programación procedural.}
+
+\newcommand{\UNOxTRESxTRESxDOS}{Declaraciones básicas de tipos; operaciones aritméticas y asignación; condicionales.}
+
+\newcommand{\UNOxTRESxTRESxTRES}{Procedimientos, funciones y parámetros; arreglos y registros.}
+
+\newcommand{\UNOxTRESxCUATRO}{Lenguajes no procedurales: lógicos, funcional y basados en eventos.}
+
+\newcommand{\UNOxTRESxCINCO}{Lenguajes de cuarta generación.}
+
+\newcommand{\UNOxTRESxSEIS}{Extensiones orientadas a objetos para lenguajes.}
+
+\newcommand{\UNOxTRESxSIETE}{Lenguajes de programación, diseño, implementación y comparación.}
+
+\newcommand{\UNOxTRESxSIETExUNO}{Historia de los primeros lenguajes.}
+
+\newcommand{\UNOxTRESxSIETExDOS}{Evolución de los lenguajes procedurales.}
+
+\newcommand{\UNOxTRESxSIETExTRES}{Evolución de los lenguajes no procedurales.}
+
+\newcommand{\UNOxTRESxSIETExCUATRO}{Computadores virtuales.}
+
+\newcommand{\UNOxTRESxSIETExCINCO}{Tipos de datos elementales y estructurados.}
+
+\newcommand{\UNOxTRESxSIETExSEIS}{Creación y aplicación de tipos de datos definidos por el usuario.}
+
+\newcommand{\UNOxTRESxSIETExSIETE}{Expresiones, orden de evaluación y efectos secundarios.}
+
+\newcommand{\UNOxTRESxSIETExOCHO}{Subproigramas y corutinas como abstracciones de expresiones y declaraciones.}
+
+\newcommand{\UNOxTRESxSIETExNUEVE}{Manejo de excepciones.}
+
+\newcommand{\UNOxTRESxSIETExUNOCERO}{Mecanismos para compartir y restringir el acceso a datos.}
+
+\newcommand{\UNOxTRESxSIETExUNOUNO}{Ámbito estático vs. dinámico, timepo de vida, visibilidad.}
+
+\newcommand{\UNOxTRESxSIETExUNODOS}{Mecanismos de paso de parámetros; referencia, valor, nombre, resultado, etc.}
+
+\newcommand{\UNOxTRESxSIETExUNOTRES}{Variedades de disciplinas de prueba de tipos y sus mecanismos.}
+
+\newcommand{\UNOxTRESxSIETExUNOCUATRO}{Aplicación de almacenamiento basado en pilas.}
+
+\newcommand{\UNOxTRESxSIETExUNOCINCO}{Aplicación de almacenamiento basado en \textit{heaps}.}
+
+\newcommand{\UNOxTRESxSIETExUNOSEIS}{Autómatas de estado finito para modelos restringidos de computación.}
+
+\newcommand{\UNOxTRESxSIETExUNOSIETE}{Aplicación de expresiones regulares al análisis de lenguajes de programación.}
+
+\newcommand{\UNOxTRESxSIETExUNOOCHO}{Uso de gramáticas libres de contexto y de autómatas de pila.}
+
+\newcommand{\UNOxTRESxSIETExUNONUEVE}{Equivalencia entre gramáticas libres de contexto y autómatas de pila.}
+
+\newcommand{\UNOxTRESxSIETExDOSCERO}{Uso de autómatas de pila en el \textit{parsing} de lenguajes de programación.}
+
+\newcommand{\UNOxTRESxSIETExDOSUNO}{Proceso de traducción de lenguajes, compiladores a interpretadores.}
+
+\newcommand{\UNOxTRESxSIETExDOSDOS}{Semántica de los lenguajes de programación.}
+
+\newcommand{\UNOxTRESxSIETExDOSTRES}{Paradigmas y lenguajes de programación funcional.}
+
+\newcommand{\UNOxTRESxSIETExDOSCUATRO}{Construcciones programación paralela.}
+
+\newcommand{\UNOxTRESxSIETExDOSCINCO}{Lenguajes procedurales: problemas de implementación; mejora del rendimiento.}
+
+\newcommand{\UNOxTRESxSIETExDOSSEIS}{Compiladores y traductores.}
+
+\newcommand{\UNOxTRESxSIETExDOSSIETE}{Lenguajes de muy alto nivel: SQL, lenguajes de cuarta generación.}
+
+\newcommand{\UNOxTRESxSIETExDOSOCHO}{Diseño orientado a objetos, lenguajes y programación.}
+
+\newcommand{\UNOxTRESxSIETExDOSNUEVE}{Lenguajes de programación lógica: LISP, PROLOG; programación orientada a lógica.}
+
+\newcommand{\UNOxTRESxSIETExTRESCERO}{Generadores de código.}
+
+\newcommand{\UNOxTRESxSIETExTRESUNO}{Shells de sistemas expertos.}
+
+\newcommand{\UNOxTRESxSIETExTRESDOS}{Lenguajes de diseño de software.}
+
+\newcommand{\UNOxCUATROxUNO}{Arquitectura, objetivos y estructura de un sistema operativo; métodos de estructuración, modelos por capas.}
+
+\newcommand{\UNOxCUATROxDOS}{Interacción del sistema operativo con la arquitectura de hardware.}
+
+\newcommand{\UNOxCUATROxTRES}{Administración de procesos: procesos concurrentes, sincronización.}
+
+\newcommand{\UNOxCUATROxTRESxUNO}{Tareas, procesos, interrupciones.}
+
+\newcommand{\UNOxCUATROxTRESxDOS}{Estructuras, listas de espera, bloques de control de procesos.}
+
+\newcommand{\UNOxCUATROxTRESxTRES}{Ejecución concurrente de procesos.}
+
+\newcommand{\UNOxCUATROxTRESxCUATRO}{Acceso compartido, condiciones de ejecución.}
+
+\newcommand{\UNOxCUATROxTRESxCINCO}{\textit{Deadlock}; causas, condiciones, prevención.}
+
+\newcommand{\UNOxCUATROxTRESxSEIS}{Modelos y mecanismos (p.e., \textit{busy waiting}, \textit{spin locks}, algoritmo de Deker).}
+
+\newcommand{\UNOxCUATROxTRESxSIETE}{\textit{Switching} preferente y no preferente.}
+
+\newcommand{\UNOxCUATROxTRESxOCHO}{\textit{Schedulers} y políticas de \textit{scheduling}.}
+
+\newcommand{\UNOxCUATROxCUATRO}{Administración de memoria.}
+
+\newcommand{\UNOxCUATROxCUATROxUNO}{Memoria física y registros.}
+
+\newcommand{\UNOxCUATROxCUATROxDOS}{\textit{Overlays}, \textit{swapping}, particiones.}
+
+\newcommand{\UNOxCUATROxCUATROxTRES}{Páginas y segmentos.}
+
+\newcommand{\UNOxCUATROxCUATROxCUATRO}{Política de posicionamiento y reposicionamiento.}
+
+\newcommand{\UNOxCUATROxCUATROxCINCO}{\textit{Thrashing}, \textit{working sets}.}
+
+\newcommand{\UNOxCUATROxCUATROxSEIS}{Listas libres, \textit{layout}; servidores, interrupciones; recuperación de fallos.}
+
+\newcommand{\UNOxCUATROxCUATROxSIETE}{Protección de memoria, administración de la recuperación.}
+
+\newcommand{\UNOxCUATROxCINCO}{Asignación y programación de recursos.}
+
+\newcommand{\UNOxCUATROxCINCOxUNO}{\textit{Suites} de protocolos (comuniación y redes); \textit{streams} y datagramas.}
+
+\newcommand{\UNOxCUATROxCINCOxDOS}{Internet \textit{working} y \textit{routing}; servidores y servicios.}
+
+\newcommand{\UNOxCUATROxCINCOxTRES}{Tipos de sistemas operativos: de usuario simple, multi-usuario, de red.}
+
+\newcommand{\UNOxCUATROxCINCOxCUATRO}{Sincronización y temporización en sistemas distribuidos y de tiempo real.}
+
+\newcommand{\UNOxCUATROxCINCOxCINCO}{Consideraciones especiales en sistemas de tiempo real; fallas, riesgos y recuperación.}
+
+\newcommand{\UNOxCUATROxCINCOxSEIS}{Utilidades de sistemas operativos.}
+
+\newcommand{\UNOxCUATROxCINCOxSIETE}{Evolución del hardware; fuerzas y restricciones económicas.}
+
+\newcommand{\UNOxCUATROxCINCOxOCHO}{Arquitectura de los sistemas de tiempo real y sistemas empotrados.}
+
+\newcommand{\UNOxCUATROxCINCOxNUEVE}{Consideraciones especiales en sistemas de tiempo real empotrados: requerimientos \textit{hard-timing}..}
+
+\newcommand{\UNOxCUATROxSEIS}{Administración de almacenamiento secundario.}
+
+\newcommand{\UNOxCUATROxSIETE}{Sistemas de archivos y de directorios.}
+
+\newcommand{\UNOxCUATROxOCHO}{Protección y seguridad.}
+
+\newcommand{\UNOxCUATROxNUEVE}{Sistemas operativos distribuidos.}
+
+\newcommand{\UNOxCUATROxUNOCERO}{Soporte del sistema operativo para interacción humano-computador: p.e., GUI, video interactivo.}
+
+\newcommand{\UNOxCUATROxUNOUNO}{Interoperatividad y compatibilidad de sistemas operativos: p.e., sistemas abiertos.}
+
+\newcommand{\UNOxCUATROxUNODOS}{Utilidades de los sistemas operativos, herramientas, comandos y programación \textit{shell}.}
+
+\newcommand{\UNOxCUATROxUNOTRES}{Administración y gerenciamiento de sistemas.}
+
+\newcommand{\UNOxCUATROxUNOTRESxUNO}{\textit{Bootstrapping} del sistema/carga inicial de programa.}
+
+\newcommand{\UNOxCUATROxUNOTRESxDOS}{Generación del sistema.}
+
+\newcommand{\UNOxCUATROxUNOTRESxTRES}{Configuración del sistema.}
+
+\newcommand{\UNOxCUATROxUNOTRESxCUATRO}{Análisis, evaluación y monitoreo de rendimiento.}
+
+\newcommand{\UNOxCUATROxUNOTRESxCINCO}{Optimización y \textit{tuning} del sistema.}
+
+\newcommand{\UNOxCUATROxUNOTRESxSEIS}{Funciones de administración del sistema: copias de seguridad, securidad y protección.}
+
+\newcommand{\UNOxCINCOxUNO}{Estándares, modelos y tendencias internacionales en telecomunicaciones.}
+
+\newcommand{\UNOxCINCOxUNOxUNO}{Redes de computadoras y control: topologías, portadores comunes, equipos.}
+
+\newcommand{\UNOxCINCOxUNOxDOS}{Diseño y administración de redes: arquitecturas de red (ISO, SNA, DNA).}
+
+\newcommand{\UNOxCINCOxDOS}{Transmisión de datos: media, técnicas de señalización, impedimento de transmisión, codificación, error.}
+
+\newcommand{\UNOxCINCOxDOSxUNO}{Tecnologías de sistemas de comunicaciones: medios de transmisión, analógico-digital.}
+
+\newcommand{\UNOxCINCOxTRES}{Configuración de línea: control de rror, control de flujo, multiplexado.}
+
+\newcommand{\UNOxCINCOxCUATRO}{Redes de área local.}
+
+\newcommand{\UNOxCINCOxCUATROxUNO}{Topologías, control de acceso al medio, multiplexado.}
+
+\newcommand{\UNOxCINCOxCUATROxDOS}{Redes de área local y WANs: topología, \textit{gateways}, usos (funciones y oficina).}
+
+\newcommand{\UNOxCINCOxCUATROxTRES}{Determinación de requerimientos, monitoreo y control del rendimiento, aspectos económicos.}
+
+\newcommand{\UNOxCINCOxCUATROxCUATRO}{Arquitectura de los sistemas distribuidos.}
+
+\newcommand{\UNOxCINCOxCUATROxCINCO}{Aspectos de hardware de los sitemas distribuidos.}
+
+\newcommand{\UNOxCINCOxCINCO}{Redes de área amplia: técnicas de \textit{switching}, de \textit{broadcast}, \textit{routing}.}
+
+\newcommand{\UNOxCINCOxSEIS}{Arquitecturas y protocolos de redes.}
+
+\newcommand{\UNOxCINCOxSIETE}{\textit{Internetworking}}
+
+\newcommand{\UNOxCINCOxOCHO}{Configuración de redes, análisis y monitoreo de rendimiento.}
+
+\newcommand{\UNOxCINCOxNUEVE}{Seguridad de redes: encriptación, firmas digitales, autenticación.}
+
+\newcommand{\UNOxCINCOxUNOCERO}{Redes de alta velocidad: p.e. ISDN, SMDS, ATM, FDDI de banda ancha.}
+
+\newcommand{\UNOxCINCOxUNOUNO}{Tecnologías emergentes: ATM, ISDN, redes de satélites, redes ópticas, etc., voz, datos y videos integrados.}
+
+\newcommand{\UNOxCINCOxUNODOS}{Aplicación: p.e., cliente-servidor, EDI, EFT, redes de teléfonos, e-mail, multimedia, video.}
+
+\newcommand{\UNOxCINCOxUNODOSxUNO}{Métodos y transmisión de información gráfica y de video.}
+
+\newcommand{\UNOxCINCOxUNOTRES}{Protocolos de sistemas abiertos.}
+
+\newcommand{\UNOxCINCOxUNOTRESxUNO}{Protocolos de transporte.}
+
+\newcommand{\UNOxCINCOxUNOTRESxDOS}{Protocolos de soporte de aplicaciones: encriptación; compromiso, concurrencia.}
+
+\newcommand{\UNOxCINCOxUNOCUATRO}{Distribución de información.}
+
+\newcommand{\UNOxCINCOxUNOCUATROxUNO}{Structura de redes.}
+
+\newcommand{\UNOxCINCOxUNOCUATROxDOS}{Tecnología cliente-servidor/cliente-servidor delgada.}
+
+\newcommand{\UNOxCINCOxUNOCUATROxTRES}{Redes, \textit{routing}, análisis de desempeño.}
+
+\newcommand{\UNOxCINCOxUNOCUATROxCUATRO}{Sistemas de comunicaciones.}
+
+\newcommand{\UNOxSEISxUNO}{DBMS: características, funciones y arquitectura.}
+
+\newcommand{\UNOxSEISxUNOxUNO}{DBMS (características, funciones, arquitectura); componentes de un sistema de bases de datos.}
+
+\newcommand{\UNOxSEISxUNOxDOS}{DBMS: vista general de álgebra relacional.}
+
+\newcommand{\UNOxSEISxUNOxTRES}{Diseño lógico (diseño independiente de DBMS): ER, orientado a objetos.}
+
+\newcommand{\UNOxSEISxDOS}{Modelos de datos: relacional, jerárquico, de red, de objetos, de objetos semánticos.}
+
+\newcommand{\UNOxSEISxDOSxUNO}{Teminología de modelado de datos relacional.}
+
+\newcommand{\UNOxSEISxDOSxDOS}{Modelado conceptual (p.e., entidad-relación, orientado a objtos).}
+
+\newcommand{\UNOxSEISxDOSxTRES}{Interconversión entre tipos de modelos (p.e. jerárquico a relacional).}
+
+\newcommand{\UNOxSEISxTRES}{Normalización}
+
+\newcommand{\UNOxSEISxCUATRO}{Integridad (referencial, de item de datos, de intra-relaciones): representación de relaciones; de entidad y referencial.}
+
+\newcommand{\UNOxSEISxCINCO}{Lenguajes de definición de datos (lenguajes de definición de esquemas, herramientas de desarrollo gráficas).}
+
+\newcommand{\UNOxSEISxSEIS}{Interfaz de aplicaciones.}
+
+\newcommand{\UNOxSEISxSEISxUNO}{Función soportada por sistemas de bases de datos típicos; métodos de acceso, seguridad.}
+
+\newcommand{\UNOxSEISxSEISxDOS}{DML, consulta, QBE, SQL, etc.: lenguaje de consultas de bases de datos; definitción de datos, consulta.}
+
+\newcommand{\UNOxSEISxSEISxTRES}{Interfaces de aplicación y de usuario (DML, consulta, QBE, SQL).}
+
+\newcommand{\UNOxSEISxSEISxCUATRO}{Objetos de pantalla basados en eventos (botones, listas, etc.)}
+
+\newcommand{\UNOxSEISxSEISxCINCO}{Procesamiento físico de transacciones; consideraciones cliente-servidor.}
+
+\newcommand{\UNOxSEISxSEISxSEIS}{Distribución de consideraciones de procesamiento del cliente y del servidor.}
+
+\newcommand{\UNOxSEISxSIETE}{Procesadores inteligentes de consultas y organización de consultas, herramientas OLAP.}
+
+\newcommand{\UNOxSEISxOCHO}{Bases de datos distribuidas, repositorios y \textit{warehouses}}
+
+\newcommand{\UNOxSEISxNUEVE}{Productos DBMS: desarrollos recientes en sistemas de bases de datos (p.e., hipertexto, hipermedia, ópticos).}
+
+\newcommand{\UNOxSEISxUNOCERO}{Máquinas y servidores de bases de datos.}
+
+\newcommand{\UNOxSEISxUNOUNO}{Administración de datos y bases de datos.}
+
+\newcommand{\UNOxSEISxUNOUNOxUNO}{Administración de datos.}
+
+\newcommand{\UNOxSEISxUNOUNOxDOS}{Administración de bases de datos: impacto social de las bases de datos; seguridad y privacidad.}
+
+\newcommand{\UNOxSEISxUNOUNOxTRES}{Propiedad y controles de acceso para sistema de datos y de aplicaciones.}
+
+\newcommand{\UNOxSEISxUNOUNOxCUATRO}{Modelos de acceso basados en roles y capacidades.}
+
+\newcommand{\UNOxSEISxUNOUNOxCINCO}{Replicación.}
+
+\newcommand{\UNOxSEISxUNOUNOxSEIS}{Planeamiento de la capacidad del sistema.}
+
+\newcommand{\UNOxSEISxUNOUNOxSIETE}{Planeamiento y administración de redundancia, seguridad y copias de seguridad.}
+
+\newcommand{\UNOxSEISxUNODOS}{Diccionarios, enciclopedias y repositorios de datos.}
+
+\newcommand{\UNOxSEISxUNOTRES}{Recuperación de información: p.e. herramientas de Internet, procesamiento de imágenes, hipermedia.}
+
+\newcommand{\UNOxSIETExUNO}{Representación del conocimiento.}
+
+\newcommand{\UNOxSIETExUNOxUNO}{Historia, contexto y límites de la inteligencia artificial; el test de Turing.}
+
+\newcommand{\UNOxSIETExDOS}{Ingeniería del conocimiento.}
+
+\newcommand{\UNOxSIETExTRES}{Proceso de inferencia.}
+
+\newcommand{\UNOxSIETExTRESxUNO}{Estrategias de control básicas (p.e., por profundidad y por amplitud).}
+
+\newcommand{\UNOxSIETExTRESxDOS}{Razonamiento hacia adelante y hacia atrás.}
+
+\newcommand{\UNOxSIETExTRESxTRES}{Búsqueda heurística.}
+
+\newcommand{\UNOxSIETExTRESxCUATRO}{Sistemas expertos.}
+
+\newcommand{\UNOxSIETExCUATRO}{Otras técnicas: lógica difusa, razonamiento basado en casos, lenguaje natural y reconocimiento del habla.}
+
+\newcommand{\UNOxSIETExCINCO}{Sistemas basados en conocimiento.}
+
+\newcommand{\UNOxSIETExCINCOxUNO}{Lenguaje natural, habla y visión.}
+
+\newcommand{\UNOxSIETExCINCOxDOS}{Reconocimiento de patrones.}
+
+\newcommand{\UNOxSIETExCINCOxTRES}{Aprendizaje de máquina.}
+
+\newcommand{\UNOxSIETExCINCOxCUATRO}{Robótica.}
+
+\newcommand{\UNOxSIETExCINCOxCINCO}{Redes neuronales.}
+
+\newcommand{\DOSxUNOxUNO}{Modelos organizacionales jerárquicos y de flujo.}
+
+\newcommand{\DOSxUNOxDOS}{Grupos de trabajo organizacionales.}
+
+\newcommand{\DOSxUNOxTRES}{Envergadura organizacional: usuario simple, grupo de trabajo, equipo, empresa, global.}
+
+\newcommand{\DOSxUNOxCUATRO}{Rol de Sistemas de Información dentro de la empresa: estratégico, táctico y operativo.}
+
+\newcommand{\DOSxUNOxCINCO}{Efecto de Sistemas de Información en la estructura organizacional; Sistemas de Información y mejora continua.}
+
+\newcommand{\DOSxUNOxSEIS}{Estructura organizacional: centralizada, descentralizada, matriz.}
+
+\newcommand{\DOSxUNOxSIETE}{Aspectos organizacionales para el uso de sistemas de software en organizaciones.}
+
+\newcommand{\DOSxUNOxOCHO}{Procesos en la organización.}
+
+\newcommand{\DOSxUNOxOCHOxUNO}{Vista estratégica de los procesos organizacionales; conceptos de eficiencia y efectividad organizacional.}
+
+\newcommand{\DOSxUNOxOCHOxDOS}{Integración de las áreas funcionales de la organización.}
+
+\newcommand{\DOSxUNOxOCHOxTRES}{Procesos relacionados a los objetivos financieros, usuario final y orientados al producto.}
+
+\newcommand{\DOSxUNOxOCHOxCUATRO}{Innovación de procesos: análisis, modelado y simulación. }
+
+\newcommand{\DOSxUNOxNUEVE}{Modelado y simulación de procesos de negocio.}
+
+\newcommand{\DOSxUNOxNUEVExUNO}{Automatización del proceso de negocios.}
+
+\newcommand{\DOSxUNOxNUEVExDOS}{Utilización de diagramas de actividad y de la Notación de Modelado de Procesos de Negocio (\emph{Business Process Modeling Notation} - BPMN - ) para el modelado del proceso de negocio.}
+
+\newcommand{\DOSxUNOxNUEVExTRES}{Herramientas para el modelado del proceso de negocio.}
+
+\newcommand{\DOSxUNOxNUEVExCUATRO}{Rediseño de tareas; impacto de la automatización en las prácticas de trabajo.}
+
+\newcommand{\DOSxUNOxNUEVExCINCO}{Alcanzando seguridad y conformidad del proceso.}
+
+\newcommand{\DOSxUNOxNUEVExSEIS}{Monitoreo y control de procesos.}
+
+\newcommand{\DOSxUNOxNUEVExSIETE}{Administración de la cadena de abastecimiento (\emph{Supply Chain Management} - SCM). }
+
+\newcommand{\DOSxUNOxNUEVExOCHO}{Administración de la relación con los clientes (\emph{Customer Relationship Management} - CRM).}
+
+\newcommand{\DOSxUNOxNUEVExNUEVE}{Sistemas de gerenciamiento empresarial (\emph{Enterprise Management Systems} - ERP).}
+
+\newcommand{\DOSxUNOxNUEVExUNOCERO}{El proceso continuo: de procesos estructurados a no estructurados.}
+
+\newcommand{\DOSxUNOxUNOCERO}{Una vista integral de la firma y su relación con proveedores y clientes.}
+
+\newcommand{\DOSxDOSxUNO}{Planeamiento de Sistemas de Información.}
+
+\newcommand{\DOSxDOSxUNOxUNO}{Alineamiento del planeamiento de Sistemas de Información con el planeamiento empresarial.}
+
+\newcommand{\DOSxDOSxUNOxDOS}{Planeamiento estratégico de Sistemas de Información.}
+
+\newcommand{\DOSxDOSxUNOxTRES}{Paneamiento de corto alcance de Sistemas de Información.}
+
+\newcommand{\DOSxDOSxUNOxCUATRO}{Reingeniería.}
+
+\newcommand{\DOSxDOSxUNOxCINCO}{Mejora continua.}
+
+\newcommand{\DOSxDOSxDOS}{Control de la función de Sistemas de Información: p.e., auditoría, \textit{outsourcing}.}
+
+\newcommand{\DOSxDOSxTRES}{Administración y contratación de recursos humanos.}
+
+\newcommand{\DOSxDOSxTRESxUNO}{Planeamiento de habilidades.}
+
+\newcommand{\DOSxDOSxTRESxDOS}{Administración del rendimiento del personal.}
+
+\newcommand{\DOSxDOSxTRESxTRES}{Educación y entrenamiento.}
+
+\newcommand{\DOSxDOSxTRESxCUATRO}{Estructuras de competencia, cooperación y premios.}
+
+\newcommand{\DOSxDOSxCUATRO}{Estructuras funcionales de Sistemas de Información -- internas vs. \textit{outsourcing}.}
+
+\newcommand{\DOSxDOSxCINCO}{Determinación de las metas y objetivos de la organización de Sistemas de Información.}
+
+\newcommand{\DOSxDOSxSEIS}{Administración de Sistema de Información como un negocio: p.e., definición del cliente, definición de la misión de Sistemas de Información, aspectos críticos del éxito de Sitemas de Información.}
+
+\newcommand{\DOSxDOSxSIETE}{Oficial de Información en Jefe (\emph{Chief Information Officer} - CIO) y funciones del personal.}
+
+\newcommand{\DOSxDOSxOCHO}{Sistemas de Información como una función de servicio: evaluación del desempeño -- externo e interno, \textit{marketing} de servicios.}
+
+\newcommand{\DOSxDOSxNUEVE}{Administración financiera de Sistemas de Información.}
+
+\newcommand{\DOSxDOSxUNOCERO}{Uso estratégico de Sistemas de Información: p.e., ventajas competitivas y Sistemas de Información, proceso de reingeniería, Sistemas de Información y calidad.}
+
+\newcommand{\DOSxDOSxUNOUNO}{Trabajo del conocimiento, computación de usuario final: soporte, roles, productividad y actividades.}
+
+\newcommand{\DOSxDOSxUNODOS}{Política de Sistemas de Inf
