@@ -1,16 +1,16 @@
-CB111->rlinares@ucsp.edu.pe:T, wasucasaire@ucsp.edu.pe:L		
-CB309->ydyari@ucsp.edu.pe:T		
+CB111->rlinares@ucsp.edu.pe:T, wasucasaire@ucsp.edu.pe:T		
+CB309->ytupac@ucsp.edu.pe:T		
 CS1D1->glmunoz@ucsp.edu.pe:T, kvizconde@ucsp.edu.pe:T, mquispec@ucsp.edu.pe:T		
 CS1D2->dgutierrezp@ucsp.edu.pe:T, ldiaz@ucsp.edu.pe:T		
 CS1D3->saquise@ucsp.edu.pe:T		
-CS100->ecuadros@ucsp.edu.pe:T	
-CS111->gmezal@ucsp.edu.pe:T, kvizconde@ucsp.edu.pe:T, ydyari@ucsp.edu.pe:L		
+CS100->ecuadros@ucsp.edu.pe:T		
+CS111->kvizconde@ucsp.edu.pe:T, ydyari@ucsp.edu.pe:T		
 CS112->ahmamani@ucsp.edu.pe:T, meloaiza@ucsp.edu.pe:T		
 CS113->cjdelgado@ucsp.edu.pe:T, ggdelgado@ucsp.edu.pe:T		
-CS2B1->erperalta@ucsp.edu.pe:T		
-CS2H1->meloaiza@ucsp.edu.pe:T	
+CS2B1->rmedina@ucsp.edu.pe:T		
+CS2H1->meloaiza@ucsp.edu.pe:T		
 CS2S1->jsantisteban@ucsp.edu.pe:T		
-CS210->acuadros@ucsp.edu.pe:T, ggdelgado@ucsp.edu.pe:L		
+CS210->acuadros@ucsp.edu.pe:T, ggdelgado@ucsp.edu.pe:T		
 CS211->mquispec@ucsp.edu.pe:T		
 CS212->jcgutierrezc@ucsp.edu.pe:T		
 CS221->ytupac@ucsp.edu.pe:T		
@@ -26,46 +26,23 @@ CS3I1->jsantisteban@ucsp.edu.pe:T
 CS3P1->ahmamani@ucsp.edu.pe:T		
 CS3P2->ahmamani@ucsp.edu.pe:T		
 CS311->jcgutierrezc@ucsp.edu.pe:T		
-CS312->emgomez@ucsp.edu.pe:T, erperalta@ucsp.edu.pe:L		
+CS312->emgomez@ucsp.edu.pe:T, rypaccotaya@ucsp.edu.pe:T		
 CS341->ydyari@ucsp.edu.pe:T		
 CS342->glmunoz@ucsp.edu.pe:T		
-CS351->emgomez@ucsp.edu.pe:T		
+CS351->emgomez@ucsp.edu.pe:T, rypaccotaya@ucsp.edu.pe:T		
 CS361->jeochoa@ucsp.edu.pe:T, ydyari@ucsp.edu.pe:T		
 CS362->ytupac@ucsp.edu.pe:T		
 CS370->ahmamani@ucsp.edu.pe:T		
 CS391->ggdelgado@ucsp.edu.pe:T		
 CS392->ggdelgado@ucsp.edu.pe:T		
-CS401->ecuadros@ucsp.edu.pe:T, nmenejes@ucsp.edu.pe:T, ytupac@ucsp.edu.pe:T		
-CS402->dgutierrezp@ucsp.edu.pe:T, ejcayllahua@ucsp.edu.pe:T, glmunoz@ucsp.edu.pe:T, ydyari@ucsp.edu.pe:T		
-CS403->cjdelgado@ucsp.edu.pe:T, gmezal@ucsp.edu.pe:T, jcgutierrezc@ucsp.edu.pe:T, meloaiza@ucsp.edu.pe:T		
-CS404->acuadros@ucsp.edu.pe:T, emgomez@ucsp.edu.pe:T, jcgutierrezc@ucsp.edu.pe:T, jeochoa@ucsp.edu.pe:T		
+CS401->cjdelgado@ucsp.edu.pe:T, emgomez@ucsp.edu.pe:T, glmunoz@ucsp.edu.pe:T, rypaccotaya@ucsp.edu.pe:T			
+CS402->glmunoz@ucsp.edu.pe:T, gmezal@ucsp.edu.pe:T, meloaiza@ucsp.edu.pe:T, nmenejes@ucsp.edu.pe:T		
+CS403->ejcayllahua@ucsp.edu.pe:T, jcgutierrezc@ucsp.edu.pe:T, ydyari@ucsp.edu.pe:T, ytupac@ucsp.edu.pe:T		
+CS404->acuadros@ucsp.edu.pe:T, ejcayllahua@ucsp.edu.pe:T, jcgutierrezc@ucsp.edu.pe:T, jeochoa@ucsp.edu.pe:T		
 ET201->jeochoa@ucsp.edu.pe:T		
 ET301->jeochoa@ucsp.edu.pe:T		
-FG101->adrodriguez@ucsp.edu.pe:T, dnzegarra@ucsp.edu.pe:T		
-FG102->cjdelgado@ucsp.edu.pe:T, lortega@ucsp.edu.pe:T		
-FG103->lmoscoso@ucsp.edu.pe:T		
-FG104->hhuaman@ucsp.edu.pe:T		
-FG105->jlovonc@ucsp.edu.pe:T		
-FG106->jsarda@ucsp.edu.pe:T		
-FG107->pvela@ucsp.edu.pe:T		
-FG112->cmdianderas@ucsp.edu.pe:T		
-FG201->ggmamani@ucsp.edu.pe:T		
-FG202->mlrodriguez@ucsp.edu.pe:T		
-FG203->mlrodriguez@ucsp.edu.pe:T		
-FG204->jilopez@ucsp.edu.pe:T		
-FG205->gjpresbitero@ucsp.edu.pe:T		
-FG210->ajalvarez@ucsp.edu.pe:T		
-FG211->kgloayza@ucsp.edu.pe:T		
-FG220->gmedina@ucsp.edu.pe:T		
-FG221->jeromero@ucsp.edu.pe:T		
-FG301->mugartec@ucsp.edu.pe:T		
-FG350->cmcalisaya@ucsp.edu.pe:T		
+FG102->cjdelgado@ucsp.edu.pe:T, sromani@ucsp.edu.pe:T	
 ID101->jsantisteban@ucsp.edu.pe:T		
-MA100->jticonay@ucsp.edu.pe:T, nureb@ucsp.edu.pe:T, vmbolanos@ucsp.edu.pe:T		
-MA101->ychirinos@ucsp.edu.pe:T		
-MA102->acanom@ucsp.edu.pe:T		
-MA201->raroque@ucsp.edu.pe:T		
 MA203->ldiaz@ucsp.edu.pe:T		
-MA306->flromero@ucsp.edu.pe:T, ldiaz@ucsp.edu.pe:T		
-MA307->jticonay@ucsp.edu.pe:T, raroque@ucsp.edu.pe:T	
+MA307->dgutierrezp@ucsp.edu.pe:T
 CS393->gcalderon@ucsp.edu.pe:T
